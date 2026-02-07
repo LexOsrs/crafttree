@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "Bash(python3:*)",
+      "Bash(ls:*)",
+      "Bash(npm create vite:*)",
+      "Bash(npm create:*)",
+      "Bash(npm install:*)",
+      "Bash(npx tsc:*)",
+      "Bash(npm run build:*)",
+      "Bash(npm run dev:*)",
+      "mcp__ide__getDiagnostics",
+      "Bash(node -e:*)",
+      "Bash(npm uninstall:*)",
+      "Bash(du:*)",
+      "Bash(sips -g pixelWidth -g pixelHeight:*)"
+    ]
+  }
+}

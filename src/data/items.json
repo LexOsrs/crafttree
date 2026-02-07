@@ -1,0 +1,2635 @@
+[
+    {
+        "name": "Acorn",
+        "id": "acorn",
+        "recipe": {}
+    },
+    {
+        "name": "Acorn Butter",
+        "id": "acorn-butter",
+        "recipe": {
+            "Acorn": 75,
+            "Glass Bottle": 1
+        }
+    },
+    {
+        "name": "Amber",
+        "id": "amber",
+        "recipe": {}
+    },
+    {
+        "name": "Amber Cane",
+        "id": "amber-cane",
+        "recipe": {
+            "Amber": 1,
+            "Bone": 1,
+            "Iron Ring": 2,
+            "Mushroom Paste": 1,
+            "Oak": 1,
+            "Sand": 3
+        }
+    },
+    {
+        "name": "Amethyst",
+        "id": "amethyst",
+        "recipe": {}
+    },
+    {
+        "name": "Amethyst Necklace",
+        "id": "amethyst-necklace",
+        "recipe": {
+            "Iron Ring": 2,
+            "Amethyst": 1
+        }
+    },
+    {
+        "name": "Antler",
+        "id": "antler",
+        "recipe": {}
+    },
+    {
+        "name": "Apple",
+        "id": "apple",
+        "recipe": {}
+    },
+    {
+        "name": "Apple Cider",
+        "id": "apple-cider",
+        "recipe": {
+            "Apple": 40,
+            "Glass Bottle": 1,
+            "Orange": 1
+        }
+    },
+    {
+        "name": "Aquacite",
+        "id": "aquacite",
+        "recipe": {
+            "Unpolished Aquacite": 2
+        }
+    },
+    {
+        "name": "Aquamarine",
+        "id": "aquamarine",
+        "recipe": {}
+    },
+    {
+        "name": "Aquamarine Ring",
+        "id": "aquamarine-ring",
+        "recipe": {
+            "Aquamarine": 1,
+            "Mushroom Paste": 1,
+            "Iron Ring": 1
+        }
+    },
+    {
+        "name": "Arnold Palmer",
+        "id": "arnold-palmer",
+        "recipe": {
+            "Lemonade": 20,
+            "Iced Tea": 1
+        }
+    },
+    {
+        "name": "Arrowhead",
+        "id": "arrowhead",
+        "recipe": {}
+    },
+    {
+        "name": "Awl",
+        "id": "awl",
+        "recipe": {
+            "Iron": 1,
+            "Wood": 1,
+            "Iron Ring": 2
+        }
+    },
+    {
+        "name": "Axe",
+        "id": "axe",
+        "recipe": {
+            "Iron": 1,
+            "Nails": 2,
+            "Board": 1,
+            "Stone": 1,
+            "Mushroom Paste": 1
+        }
+    },
+    {
+        "name": "Barbed Wire",
+        "id": "barbed-wire",
+        "recipe": {
+            "Thorns": 5,
+            "Steel Wire": 1
+        }
+    },
+    {
+        "name": "Beet",
+        "id": "beet",
+        "recipe": {}
+    },
+    {
+        "name": "Belt Drive",
+        "id": "belt-drive",
+        "recipe": {
+            "Purple Dye": 1,
+            "Rope": 1,
+            "Pulley": 2
+        }
+    },
+    {
+        "name": "Black Powder",
+        "id": "black-powder",
+        "recipe": {
+            "Coal": 3
+        }
+    },
+    {
+        "name": "Block of Wood",
+        "id": "block-of-wood",
+        "recipe": {
+            "Axe": 1,
+            "Pine Tree": 1,
+            "Handsaw": 1
+        }
+    },
+    {
+        "name": "Blue Butterfly",
+        "id": "blue-butterfly",
+        "recipe": {
+            "Wood": 1,
+            "Caterpillar": 1,
+            "Blue Dye": 1,
+            "Silk": 3
+        }
+    },
+    {
+        "name": "Blue Diary",
+        "id": "blue-diary",
+        "recipe": {
+            "White Parchment": 1,
+            "Blue Parchment": 1,
+            "Mushroom Paste": 1
+        }
+    },
+    {
+        "name": "Blue Dye",
+        "id": "blue-dye",
+        "recipe": {
+            "Glass Bottle": 1,
+            "Blue Feathers": 3
+        }
+    },
+    {
+        "name": "Blue Feathers",
+        "id": "blue-feathers",
+        "recipe": {}
+    },
+    {
+        "name": "Blue Flowers",
+        "id": "blue-flowers",
+        "recipe": {}
+    },
+    {
+        "name": "Blue Gel",
+        "id": "blue-gel",
+        "recipe": {}
+    },
+    {
+        "name": "Blue Parchment",
+        "id": "blue-parchment",
+        "recipe": {
+            "Blue Feathers": 3
+        }
+    },
+    {
+        "name": "Blue Purse",
+        "id": "blue-purse",
+        "recipe": {
+            "Blue Dye": 1,
+            "Coin Purse": 1
+        }
+    },
+    {
+        "name": "Blue Shell",
+        "id": "blue-shell",
+        "recipe": {}
+    },
+    {
+        "name": "Blue Twine",
+        "id": "blue-twine",
+        "recipe": {
+            "Twine": 1,
+            "Blue Dye": 1
+        }
+    },
+    {
+        "name": "Board",
+        "id": "board",
+        "recipe": {
+            "Wood": 5
+        }
+    },
+    {
+        "name": "Bone",
+        "id": "bone",
+        "recipe": {}
+    },
+    {
+        "name": "Bone Pickaxe",
+        "id": "bone-pickaxe",
+        "recipe": {
+            "Mushroom Paste": 1,
+            "Bone": 1,
+            "Pickaxe": 1
+        }
+    },
+    {
+        "name": "Bottle Rocket",
+        "id": "bottle-rocket",
+        "recipe": {
+            "Black Powder": 1,
+            "Wood": 3,
+            "Feathers": 2
+        }
+    },
+    {
+        "name": "Bouquet of Flowers",
+        "id": "bouquet-of-flowers",
+        "recipe": {
+            "Red Flowers": 2,
+            "White Parchment": 1,
+            "Yellow Flowers": 2,
+            "Blue Flowers": 2,
+            "Orange Flowers": 2,
+            "Twine": 1,
+            "White Flowers": 2
+        }
+    },
+    {
+        "name": "Broken Pipe",
+        "id": "broken-pipe",
+        "recipe": {}
+    },
+    {
+        "name": "Broom",
+        "id": "broom",
+        "recipe": {
+            "Board": 1,
+            "Straw": 1
+        }
+    },
+    {
+        "name": "Bucket",
+        "id": "bucket",
+        "recipe": {
+            "Board": 5,
+            "Iron": 1
+        }
+    },
+    {
+        "name": "Butter",
+        "id": "butter",
+        "recipe": {
+            "Milk": 25,
+            "Salt": 1,
+            "Butter Churn": 1
+        }
+    },
+    {
+        "name": "Butter Churn",
+        "id": "butter-churn",
+        "recipe": {
+            "Board": 1,
+            "Wooden Barrel": 1
+        }
+    },
+    {
+        "name": "Cannon",
+        "id": "cannon",
+        "recipe": {
+            "Board": 12,
+            "Black Powder": 10,
+            "Steel": 25,
+            "Machine Part": 6,
+            "Scrap Metal": 25,
+            "Emberstone": 10,
+            "Wagon Wheel": 4
+        }
+    },
+    {
+        "name": "Canoe",
+        "id": "canoe",
+        "recipe": {
+            "Blue Gel": 10,
+            "Board": 4,
+            "Mushroom Paste": 5,
+            "Nails": 10,
+            "Rope": 2,
+            "Oak": 100
+        }
+    },
+    {
+        "name": "Carbon Sphere",
+        "id": "carbon-sphere",
+        "recipe": {}
+    },
+    {
+        "name": "Carrot",
+        "id": "carrot",
+        "recipe": {}
+    },
+    {
+        "name": "Caterpillar",
+        "id": "caterpillar",
+        "recipe": {}
+    },
+    {
+        "name": "Chum",
+        "id": "chum",
+        "recipe": {
+            "Minnows": 4,
+            "Worms": 10,
+            "Bucket": 1,
+            "Grubs": 7
+        }
+    },
+    {
+        "name": "Clam Shell",
+        "id": "clam-shell",
+        "recipe": {}
+    },
+    {
+        "name": "Coal",
+        "id": "coal",
+        "recipe": {}
+    },
+    {
+        "name": "Cogwheel",
+        "id": "cogwheel",
+        "recipe": {}
+    },
+    {
+        "name": "Coin Purse",
+        "id": "coin-purse",
+        "recipe": {
+            "Iron Ring": 1,
+            "Leather": 2
+        }
+    },
+    {
+        "name": "Compass",
+        "id": "compass",
+        "recipe": {
+            "Ruby": 1,
+            "Aquamarine": 1,
+            "Iron Ring": 1,
+            "Twine": 1,
+            "Small Screw": 4,
+            "Magna Core": 1,
+            "Wood": 2,
+            "Glass Orb": 1
+        }
+    },
+    {
+        "name": "Conch Shell",
+        "id": "conch-shell",
+        "recipe": {}
+    },
+    {
+        "name": "Control Box",
+        "id": "control-box",
+        "recipe": {
+            "Small Screw": 2,
+            "Steel Plate": 2,
+            "Small Spring": 3,
+            "Broken Pipe": 3,
+            "Machine Part": 10,
+            "Moonstone": 3
+        }
+    },
+    {
+        "name": "Cooking Pot",
+        "id": "cooking-pot",
+        "recipe": {
+            "Moonstone": 1,
+            "Iron": 25,
+            "Emberstone": 25
+        }
+    },
+    {
+        "name": "Copper Wire",
+        "id": "copper-wire",
+        "recipe": {}
+    },
+    {
+        "name": "Corn",
+        "id": "corn",
+        "recipe": {}
+    },
+    {
+        "name": "Corn Husk Doll",
+        "id": "corn-husk-doll",
+        "recipe": {
+            "Corn": 3,
+            "Red Twine": 5,
+            "Wooden Button": 2
+        }
+    },
+    {
+        "name": "Corn Oil",
+        "id": "corn-oil",
+        "recipe": {
+            "Corn": 8,
+            "Machine Press": 1,
+            "Glass Bottle": 1
+        }
+    },
+    {
+        "name": "Cotton",
+        "id": "cotton",
+        "recipe": {}
+    },
+    {
+        "name": "Crossbow",
+        "id": "crossbow",
+        "recipe": {
+            "Arrowhead": 1,
+            "Iron": 2,
+            "Iron Ring": 2,
+            "Steel Wire": 2,
+            "Oak": 3
+        }
+    },
+    {
+        "name": "Crystal Pickaxe",
+        "id": "crystal-pickaxe",
+        "recipe": {
+            "Stone": 1,
+            "Mushroom Paste": 1,
+            "Pickaxe": 1,
+            "Fairy Crystal": 1,
+            "Lapis Lazuli": 1
+        }
+    },
+    {
+        "name": "Cucumber",
+        "id": "cucumber",
+        "recipe": {}
+    },
+    {
+        "name": "Eggplant",
+        "id": "eggplant",
+        "recipe": {}
+    },
+    {
+        "name": "Eggs",
+        "id": "eggs",
+        "recipe": {}
+    },
+    {
+        "name": "Emberstone",
+        "id": "emberstone",
+        "recipe": {}
+    },
+    {
+        "name": "Emerald",
+        "id": "emerald",
+        "recipe": {
+            "Stone": 2,
+            "Unpolished Emerald": 2
+        }
+    },
+    {
+        "name": "Emerald Ring",
+        "id": "emerald-ring",
+        "recipe": {
+            "Iron Ring": 1,
+            "Mushroom Paste": 1,
+            "Emerald": 1
+        }
+    },
+    {
+        "name": "Energy Coil",
+        "id": "energy-coil",
+        "recipe": {
+            "Transistor": 25,
+            "Glass Orb": 1,
+            "Steel": 2,
+            "Wrench": 1,
+            "Scrap Wire": 8,
+            "Spool of Copper": 1
+        }
+    },
+    {
+        "name": "Engine",
+        "id": "engine",
+        "recipe": {
+            "Belt Drive": 1,
+            "Magicite": 1,
+            "Energy Coil": 1,
+            "Pear Grease": 1,
+            "Kill Switch": 1,
+            "Power Monitor": 1,
+            "Steel Plate": 1,
+            "Control Box": 1,
+            "Flywheel": 1,
+            "Steel Wire": 50,
+            "Transistor": 12,
+            "Steel": 20
+        }
+    },
+    {
+        "name": "Essence of Slime",
+        "id": "essence-of-slime",
+        "recipe": {
+            "Glass Orb": 1,
+            "Slimestone": 2,
+            "Iron Ring": 1,
+            "Hammer": 1
+        }
+    },
+    {
+        "name": "Explosive",
+        "id": "explosive",
+        "recipe": {
+            "Board": 3,
+            "Nails": 6,
+            "Feathers": 1,
+            "Black Powder": 2
+        }
+    },
+    {
+        "name": "Fairy Crystal",
+        "id": "fairy-crystal",
+        "recipe": {}
+    },
+    {
+        "name": "Fancy Chair",
+        "id": "fancy-chair",
+        "recipe": {
+            "Leather": 4,
+            "Red Dye": 1,
+            "Nails": 8,
+            "Twine": 8,
+            "Green Dye": 1,
+            "Cotton": 6,
+            "Oak": 50
+        }
+    },
+    {
+        "name": "Fancy Clock",
+        "id": "fancy-clock",
+        "recipe": {
+            "Oak": 12,
+            "Small Gear": 4,
+            "Steel Wire": 8,
+            "Scrap Metal": 4,
+            "Cogwheel": 2,
+            "Glass Orb": 4,
+            "Pocket Watch": 1
+        }
+    },
+    {
+        "name": "Fancy Drum",
+        "id": "fancy-drum",
+        "recipe": {
+            "Yarn": 4,
+            "Mushroom Paste": 2,
+            "Leather": 2,
+            "Oak": 15
+        }
+    },
+    {
+        "name": "Fancy Guitar",
+        "id": "fancy-guitar",
+        "recipe": {
+            "Oak": 5,
+            "Iron": 4,
+            "Mushroom Paste": 3,
+            "Steel Wire": 6
+        }
+    },
+    {
+        "name": "Fancy Pan Flute",
+        "id": "fancy-pan-flute",
+        "recipe": {
+            "Blue Dye": 1,
+            "Leather": 1,
+            "Twine": 5,
+            "Wood": 9
+        }
+    },
+    {
+        "name": "Fancy Pipe",
+        "id": "fancy-pipe",
+        "recipe": {
+            "Wood": 2,
+            "Iron Ring": 3,
+            "Iron": 1
+        }
+    },
+    {
+        "name": "Fancy Sword",
+        "id": "fancy-sword",
+        "recipe": {
+            "Mushroom Paste": 2,
+            "Lemon Quartz": 2,
+            "Steel Wire": 4,
+            "Gold Leaf": 2,
+            "Sturdy Sword": 1
+        }
+    },
+    {
+        "name": "Fancy Table",
+        "id": "fancy-table",
+        "recipe": {
+            "Corn Oil": 1,
+            "Glass Orb": 8,
+            "Nails": 32,
+            "Oak": 80,
+            "Steel Vise": 1
+        }
+    },
+    {
+        "name": "Fancy Violin",
+        "id": "fancy-violin",
+        "recipe": {
+            "Mushroom Paste": 8,
+            "Steel": 4,
+            "Moonstone": 4,
+            "Steel Wire": 4,
+            "Purple Dye": 3,
+            "Steel Plate": 1,
+            "Pine Board": 5
+        }
+    },
+    {
+        "name": "Feathers",
+        "id": "feathers",
+        "recipe": {}
+    },
+    {
+        "name": "Fern Leaf",
+        "id": "fern-leaf",
+        "recipe": {}
+    },
+    {
+        "name": "Fire Ant",
+        "id": "fire-ant",
+        "recipe": {}
+    },
+    {
+        "name": "Fire Ant Farm",
+        "id": "fire-ant-farm",
+        "recipe": {
+            "Board": 4,
+            "Nails": 4,
+            "Glass Orb": 3,
+            "Fire Ant": 25,
+            "Sand": 5
+        }
+    },
+    {
+        "name": "Fish Bones",
+        "id": "fish-bones",
+        "recipe": {}
+    },
+    {
+        "name": "Fishing Net",
+        "id": "fishing-net",
+        "recipe": {
+            "Antler": 1,
+            "Iron": 4,
+            "Rope": 2
+        }
+    },
+    {
+        "name": "Flarite",
+        "id": "flarite",
+        "recipe": {
+            "Unpolished Flarite": 2
+        }
+    },
+    {
+        "name": "Flying Machine",
+        "id": "flying-machine",
+        "recipe": {
+            "Rope": 10,
+            "Power Monitor": 1,
+            "Magna Quartz": 4,
+            "Steel Wire": 10,
+            "Small Gear": 4,
+            "Leather": 10,
+            "Nailed Board": 10,
+            "Steel Buckle": 2,
+            "Small Spring": 6,
+            "Pulley": 4
+        }
+    },
+    {
+        "name": "Flywheel",
+        "id": "flywheel",
+        "recipe": {
+            "Small Screw": 7,
+            "Steel": 20,
+            "Small Gear": 1
+        }
+    },
+    {
+        "name": "Frost Shield",
+        "id": "frost-shield",
+        "recipe": {
+            "Hammer": 1,
+            "Nails": 3,
+            "Blue Gel": 3,
+            "Red Shield": 1,
+            "Frost Snapper Shell": 1
+        }
+    },
+    {
+        "name": "Frost Snapper Shell",
+        "id": "frost-snapper-shell",
+        "recipe": {}
+    },
+    {
+        "name": "Fruit Punch",
+        "id": "fruit-punch",
+        "recipe": {
+            "Apple": 25,
+            "Peach": 5,
+            "Orange": 25,
+            "Lemon": 25,
+            "Glass Bottle": 1,
+            "Grapes": 25
+        }
+    },
+    {
+        "name": "Gainite",
+        "id": "gainite",
+        "recipe": {
+            "Stone": 2000,
+            "Mushroom Paste": 2000,
+            "Steel": 2000,
+            "Green Dye": 500,
+            "Painite": 5
+        }
+    },
+    {
+        "name": "Garnet",
+        "id": "garnet",
+        "recipe": {
+            "Unpolished Garnet": 2,
+            "Stone": 1
+        }
+    },
+    {
+        "name": "Garnet Ring",
+        "id": "garnet-ring",
+        "recipe": {
+            "Garnet": 1,
+            "Mushroom Paste": 1,
+            "Iron Ring": 1
+        }
+    },
+    {
+        "name": "Glass Bottle",
+        "id": "glass-bottle",
+        "recipe": {
+            "Stone": 1,
+            "Glass Orb": 1
+        }
+    },
+    {
+        "name": "Glass Jar",
+        "id": "glass-jar",
+        "recipe": {
+            "Glass Orb": 3,
+            "Shimmer Quartz": 1,
+            "Steel": 1
+        }
+    },
+    {
+        "name": "Glass Orb",
+        "id": "glass-orb",
+        "recipe": {
+            "Shimmer Stone": 2,
+            "Stone": 1
+        }
+    },
+    {
+        "name": "Gold Boot",
+        "id": "gold-boot",
+        "recipe": {}
+    },
+    {
+        "name": "Gold Leaf",
+        "id": "gold-leaf",
+        "recipe": {}
+    },
+    {
+        "name": "Grand Piano",
+        "id": "grand-piano",
+        "recipe": {
+            "White Parchment": 10,
+            "Hammer": 1,
+            "Green Dye": 5,
+            "Block of Wood": 8,
+            "Handsaw": 1,
+            "Wood": 88,
+            "Horn": 88,
+            "Steel Wire": 88,
+            "Fancy Chair": 1,
+            "Steel": 10,
+            "Wooden Plank": 11
+        }
+    },
+    {
+        "name": "Grape Juice",
+        "id": "grape-juice",
+        "recipe": {
+            "Glass Bottle": 1,
+            "Grapes": 200
+        }
+    },
+    {
+        "name": "Grapes",
+        "id": "grapes",
+        "recipe": {}
+    },
+    {
+        "name": "Green Butterfly",
+        "id": "green-butterfly",
+        "recipe": {
+            "Wood": 1,
+            "Green Dye": 1,
+            "Caterpillar": 1,
+            "Silk": 3
+        }
+    },
+    {
+        "name": "Green Cloak",
+        "id": "green-cloak",
+        "recipe": {
+            "Green Dye": 10,
+            "Cotton": 1,
+            "Leather": 5,
+            "Twine": 10
+        }
+    },
+    {
+        "name": "Green Diary",
+        "id": "green-diary",
+        "recipe": {
+            "White Parchment": 1,
+            "Mushroom Paste": 1,
+            "Green Parchment": 1
+        }
+    },
+    {
+        "name": "Green Dye",
+        "id": "green-dye",
+        "recipe": {
+            "Fern Leaf": 6,
+            "Glass Bottle": 1
+        }
+    },
+    {
+        "name": "Green Parchment",
+        "id": "green-parchment",
+        "recipe": {
+            "Fern Leaf": 3
+        }
+    },
+    {
+        "name": "Green Scarf",
+        "id": "green-scarf",
+        "recipe": {
+            "Yarn": 2,
+            "Green Dye": 1
+        }
+    },
+    {
+        "name": "Green Shield",
+        "id": "green-shield",
+        "recipe": {
+            "Green Dye": 1,
+            "Wooden Shield": 1,
+            "Iron": 3
+        }
+    },
+    {
+        "name": "Green Twine",
+        "id": "green-twine",
+        "recipe": {
+            "Twine": 1,
+            "Green Dye": 1
+        }
+    },
+    {
+        "name": "Grubs",
+        "id": "grubs",
+        "recipe": {}
+    },
+    {
+        "name": "Hammer",
+        "id": "hammer",
+        "recipe": {
+            "Iron": 1,
+            "Board": 1,
+            "Mushroom Paste": 1
+        }
+    },
+    {
+        "name": "Handsaw",
+        "id": "handsaw",
+        "recipe": {
+            "Wooden Plank": 1,
+            "Mushroom Paste": 2,
+            "Steel": 2,
+            "Hammer": 1,
+            "Awl": 1
+        }
+    },
+    {
+        "name": "Heart Container",
+        "id": "heart-container",
+        "recipe": {
+            "Piece of Heart": 4
+        }
+    },
+    {
+        "name": "Heart Necklace",
+        "id": "heart-necklace",
+        "recipe": {
+            "Steel Wire": 1,
+            "Heart Necklace Left Piece": 1,
+            "Heart Necklace Right Piece": 1
+        }
+    },
+    {
+        "name": "Heart Necklace Left Piece",
+        "id": "heart-necklace-left-piece",
+        "recipe": {}
+    },
+    {
+        "name": "Heart Necklace Right Piece",
+        "id": "heart-necklace-right-piece",
+        "recipe": {}
+    },
+    {
+        "name": "Hide",
+        "id": "hide",
+        "recipe": {}
+    },
+    {
+        "name": "Horn",
+        "id": "horn",
+        "recipe": {}
+    },
+    {
+        "name": "Horn Canteen",
+        "id": "horn-canteen",
+        "recipe": {
+            "Iron Ring": 2,
+            "Twine": 1,
+            "Wood": 1,
+            "Horn": 1
+        }
+    },
+    {
+        "name": "Horseshoe",
+        "id": "horseshoe",
+        "recipe": {
+            "Iron": 5,
+            "Nails": 7,
+            "Stone": 2
+        }
+    },
+    {
+        "name": "Hourglass",
+        "id": "hourglass",
+        "recipe": {
+            "Wood": 6,
+            "Glass Bottle": 2,
+            "Sand": 1,
+            "Mushroom Paste": 2
+        }
+    },
+    {
+        "name": "Iced Tea",
+        "id": "iced-tea",
+        "recipe": {
+            "Glass Bottle": 1,
+            "Tea Leaves": 3
+        }
+    },
+    {
+        "name": "Inferno Sphere",
+        "id": "inferno-sphere",
+        "recipe": {
+            "Runestone 04": 1,
+            "Runestone 09": 1,
+            "Runestone 05": 1,
+            "Runestone 10": 1,
+            "Runestone 08": 1,
+            "Runestone 07": 1,
+            "Runestone 01": 1,
+            "Runestone 06": 1,
+            "Runestone 03": 1,
+            "Runestone 02": 1
+        }
+    },
+    {
+        "name": "Iron",
+        "id": "iron",
+        "recipe": {}
+    },
+    {
+        "name": "Iron Cup",
+        "id": "iron-cup",
+        "recipe": {
+            "Iron": 3,
+            "Stone": 1
+        }
+    },
+    {
+        "name": "Iron Ring",
+        "id": "iron-ring",
+        "recipe": {
+            "Iron": 2,
+            "Stone": 1
+        }
+    },
+    {
+        "name": "Jade",
+        "id": "jade",
+        "recipe": {}
+    },
+    {
+        "name": "Jade Charm",
+        "id": "jade-charm",
+        "recipe": {
+            "Stone": 6,
+            "Iron Ring": 1,
+            "Steel": 2,
+            "Jade": 1
+        }
+    },
+    {
+        "name": "Kill Switch",
+        "id": "kill-switch",
+        "recipe": {
+            "Broken Pipe": 1,
+            "Scrap Wire": 2,
+            "Scrap Metal": 5,
+            "Red Dye": 1,
+            "Emberstone": 3
+        }
+    },
+    {
+        "name": "Ladder",
+        "id": "ladder",
+        "recipe": {
+            "Board": 6,
+            "Nails": 8
+        }
+    },
+    {
+        "name": "Lantern",
+        "id": "lantern",
+        "recipe": {
+            "Coal": 1,
+            "Twine": 2,
+            "Glass Bottle": 1,
+            "Iron": 3,
+            "Iron Ring": 1
+        }
+    },
+    {
+        "name": "Lapis Lazuli",
+        "id": "lapis-lazuli",
+        "recipe": {}
+    },
+    {
+        "name": "Large Net",
+        "id": "large-net",
+        "recipe": {
+            "Iron Ring": 25,
+            "Fishing Net": 25
+        }
+    },
+    {
+        "name": "Lava Sphere",
+        "id": "lava-sphere",
+        "recipe": {
+            "Runestone 17": 1,
+            "Runestone 16": 1,
+            "Runestone 11": 1,
+            "Runestone 14": 1,
+            "Runestone 18": 1,
+            "Runestone 13": 1,
+            "Runestone 15": 1,
+            "Runestone 12": 1,
+            "Runestone 19": 1,
+            "Runestone 20": 1
+        }
+    },
+    {
+        "name": "Leather",
+        "id": "leather",
+        "recipe": {
+            "Hide": 2
+        }
+    },
+    {
+        "name": "Leather Bag",
+        "id": "leather-bag",
+        "recipe": {
+            "Twine": 2,
+            "Leather": 2,
+            "Iron Ring": 4
+        }
+    },
+    {
+        "name": "Leather Belt",
+        "id": "leather-belt",
+        "recipe": {
+            "Steel Buckle": 1,
+            "Awl": 1,
+            "Leather": 3
+        }
+    },
+    {
+        "name": "Leather Diary",
+        "id": "leather-diary",
+        "recipe": {
+            "Mushroom Paste": 1,
+            "White Parchment": 1,
+            "Leather": 1
+        }
+    },
+    {
+        "name": "Leather Helmet",
+        "id": "leather-helmet",
+        "recipe": {
+            "Mushroom Paste": 1,
+            "Hide": 2,
+            "Steel Buckle": 1,
+            "Wooden Button": 2,
+            "Leather": 3
+        }
+    },
+    {
+        "name": "Leather Waterskin",
+        "id": "leather-waterskin",
+        "recipe": {
+            "Iron Ring": 1,
+            "Leather": 2,
+            "Twine": 2
+        }
+    },
+    {
+        "name": "Lemon",
+        "id": "lemon",
+        "recipe": {}
+    },
+    {
+        "name": "Lemon Quartz",
+        "id": "lemon-quartz",
+        "recipe": {}
+    },
+    {
+        "name": "Lemon Quartz Ring",
+        "id": "lemon-quartz-ring",
+        "recipe": {
+            "Mushroom Paste": 1,
+            "Lemon Quartz": 1,
+            "Iron Ring": 1
+        }
+    },
+    {
+        "name": "Lemonade",
+        "id": "lemonade",
+        "recipe": {
+            "Lemon": 6,
+            "Glass Bottle": 1
+        }
+    },
+    {
+        "name": "Linked Lantern",
+        "id": "linked-lantern",
+        "recipe": {
+            "Aquamarine": 1,
+            "Amethyst": 1,
+            "Ruby": 1,
+            "Magicite": 1,
+            "Lantern": 1
+        }
+    },
+    {
+        "name": "Looking Glass",
+        "id": "looking-glass",
+        "recipe": {
+            "Glass Orb": 1,
+            "Board": 3,
+            "Iron": 1
+        }
+    },
+    {
+        "name": "Machine Part",
+        "id": "machine-part",
+        "recipe": {}
+    },
+    {
+        "name": "Machine Press",
+        "id": "machine-press",
+        "recipe": {
+            "Machine Part": 6,
+            "Steel Plate": 1,
+            "Board": 10,
+            "Nails": 5,
+            "Bucket": 1
+        }
+    },
+    {
+        "name": "Magicite",
+        "id": "magicite",
+        "recipe": {
+            "Prism Shard": 3
+        }
+    },
+    {
+        "name": "Magna Core",
+        "id": "magna-core",
+        "recipe": {
+            "Cogwheel": 3,
+            "Flywheel": 2,
+            "Magna Quartz": 25,
+            "Small Spring": 5,
+            "Small Screw": 10,
+            "Seeing Stone": 1,
+            "Steel": 40
+        }
+    },
+    {
+        "name": "Magna Quartz",
+        "id": "magna-quartz",
+        "recipe": {}
+    },
+    {
+        "name": "Magnifying Glass",
+        "id": "magnifying-glass",
+        "recipe": {
+            "Glass Orb": 1,
+            "Iron Ring": 1,
+            "Board": 1,
+            "Iron": 3
+        }
+    },
+    {
+        "name": "Magus Hat",
+        "id": "magus-hat",
+        "recipe": {
+            "Leather": 2,
+            "Twine": 3,
+            "Blue Feathers": 10,
+            "Gold Leaf": 1
+        }
+    },
+    {
+        "name": "Mayonnaise",
+        "id": "mayonnaise",
+        "recipe": {
+            "Sour Root": 1,
+            "Corn Oil": 1,
+            "Glass Jar": 1,
+            "Eggs": 25
+        }
+    },
+    {
+        "name": "Metal Spool",
+        "id": "metal-spool",
+        "recipe": {
+            "Nails": 2,
+            "Coal": 5,
+            "Broken Pipe": 1,
+            "Scrap Metal": 12
+        }
+    },
+    {
+        "name": "Milk",
+        "id": "milk",
+        "recipe": {}
+    },
+    {
+        "name": "Minnows",
+        "id": "minnows",
+        "recipe": {}
+    },
+    {
+        "name": "Model Ship",
+        "id": "model-ship",
+        "recipe": {}
+    },
+    {
+        "name": "Monster Skull",
+        "id": "monster-skull",
+        "recipe": {}
+    },
+    {
+        "name": "Moonstone",
+        "id": "moonstone",
+        "recipe": {}
+    },
+    {
+        "name": "Mushroom",
+        "id": "mushroom",
+        "recipe": {}
+    },
+    {
+        "name": "Mushroom Paste",
+        "id": "mushroom-paste",
+        "recipe": {
+            "Mushroom": 3
+        }
+    },
+    {
+        "name": "Mystic Ring",
+        "id": "mystic-ring",
+        "recipe": {
+            "Mushroom Paste": 3,
+            "Stone": 1,
+            "Aquamarine": 1,
+            "Iron Ring": 1,
+            "Emerald": 2
+        }
+    },
+    {
+        "name": "Nailed Board",
+        "id": "nailed-board",
+        "recipe": {
+            "Board": 1,
+            "Nails": 1
+        }
+    },
+    {
+        "name": "Nails",
+        "id": "nails",
+        "recipe": {}
+    },
+    {
+        "name": "Oak",
+        "id": "oak",
+        "recipe": {}
+    },
+    {
+        "name": "Old Boot",
+        "id": "old-boot",
+        "recipe": {}
+    },
+    {
+        "name": "Onyx Scorpion",
+        "id": "onyx-scorpion",
+        "recipe": {}
+    },
+    {
+        "name": "Orange",
+        "id": "orange",
+        "recipe": {}
+    },
+    {
+        "name": "Orange Flowers",
+        "id": "orange-flowers",
+        "recipe": {}
+    },
+    {
+        "name": "Orange Juice",
+        "id": "orange-juice",
+        "recipe": {
+            "Glass Bottle": 1,
+            "Orange": 6
+        }
+    },
+    {
+        "name": "Painite",
+        "id": "painite",
+        "recipe": {}
+    },
+    {
+        "name": "Pair of Boots",
+        "id": "pair-of-boots",
+        "recipe": {
+            "Polished Boot": 2
+        }
+    },
+    {
+        "name": "Pair of Gold Boots",
+        "id": "pair-of-gold-boots",
+        "recipe": {
+            "Gold Boot": 2
+        }
+    },
+    {
+        "name": "Peach",
+        "id": "peach",
+        "recipe": {}
+    },
+    {
+        "name": "Peach Juice",
+        "id": "peach-juice",
+        "recipe": {
+            "Glass Bottle": 1,
+            "Peach": 10
+        }
+    },
+    {
+        "name": "Pear Grease",
+        "id": "pear-grease",
+        "recipe": {
+            "Glass Bottle": 1,
+            "Blue Gel": 5,
+            "Prickly Pear": 30
+        }
+    },
+    {
+        "name": "Pearl",
+        "id": "pearl",
+        "recipe": {}
+    },
+    {
+        "name": "Pearl Necklace",
+        "id": "pearl-necklace",
+        "recipe": {
+            "Pearl": 1,
+            "Iron Ring": 1,
+            "Twine": 1
+        }
+    },
+    {
+        "name": "Peas",
+        "id": "peas",
+        "recipe": {}
+    },
+    {
+        "name": "Peppers",
+        "id": "peppers",
+        "recipe": {}
+    },
+    {
+        "name": "Pickaxe",
+        "id": "pickaxe",
+        "recipe": {
+            "Board": 1,
+            "Iron": 2,
+            "Stone": 1,
+            "Mushroom Paste": 1
+        }
+    },
+    {
+        "name": "Pie Pan",
+        "id": "pie-pan",
+        "recipe": {
+            "Steel": 10,
+            "Moonstone": 2,
+            "Emberstone": 25
+        }
+    },
+    {
+        "name": "Piece 01",
+        "id": "piece-01",
+        "recipe": {}
+    },
+    {
+        "name": "Piece 03",
+        "id": "piece-03",
+        "recipe": {}
+    },
+    {
+        "name": "Piece 04",
+        "id": "piece-04",
+        "recipe": {}
+    },
+    {
+        "name": "Piece 09",
+        "id": "piece-09",
+        "recipe": {}
+    },
+    {
+        "name": "Piece 11",
+        "id": "piece-11",
+        "recipe": {}
+    },
+    {
+        "name": "Piece 15",
+        "id": "piece-15",
+        "recipe": {}
+    },
+    {
+        "name": "Piece 18",
+        "id": "piece-18",
+        "recipe": {}
+    },
+    {
+        "name": "Piece 22",
+        "id": "piece-22",
+        "recipe": {}
+    },
+    {
+        "name": "Piece 23",
+        "id": "piece-23",
+        "recipe": {}
+    },
+    {
+        "name": "Piece 24",
+        "id": "piece-24",
+        "recipe": {}
+    },
+    {
+        "name": "Piece 26",
+        "id": "piece-26",
+        "recipe": {}
+    },
+    {
+        "name": "Piece 30",
+        "id": "piece-30",
+        "recipe": {}
+    },
+    {
+        "name": "Piece of Heart",
+        "id": "piece-of-heart",
+        "recipe": {}
+    },
+    {
+        "name": "Pine Board",
+        "id": "pine-board",
+        "recipe": {}
+    },
+    {
+        "name": "Pine Shelf",
+        "id": "pine-shelf",
+        "recipe": {
+            "Steel": 2,
+            "Small Bolt": 4,
+            "Pine Board": 1
+        }
+    },
+    {
+        "name": "Pine Tree",
+        "id": "pine-tree",
+        "recipe": {}
+    },
+    {
+        "name": "Pitchfork",
+        "id": "pitchfork",
+        "recipe": {
+            "Board": 1,
+            "Emberstone": 1,
+            "Mushroom Paste": 1,
+            "Iron Ring": 1,
+            "Steel": 2
+        }
+    },
+    {
+        "name": "Pocket Watch",
+        "id": "pocket-watch",
+        "recipe": {}
+    },
+    {
+        "name": "Polished Boot",
+        "id": "polished-boot",
+        "recipe": {
+            "Corn Oil": 1,
+            "Old Boot": 1
+        }
+    },
+    {
+        "name": "Potato",
+        "id": "potato",
+        "recipe": {}
+    },
+    {
+        "name": "Potato Battery",
+        "id": "potato-battery",
+        "recipe": {
+            "Steel Wire": 4,
+            "Nails": 4,
+            "Potato": 8,
+            "Spool of Copper": 1,
+            "Transistor": 8
+        }
+    },
+    {
+        "name": "Power Monitor",
+        "id": "power-monitor",
+        "recipe": {
+            "Pocket Watch": 1,
+            "Copper Wire": 1,
+            "Broken Pipe": 1,
+            "Transistor": 5,
+            "Iron": 10
+        }
+    },
+    {
+        "name": "Prickly Pear",
+        "id": "prickly-pear",
+        "recipe": {}
+    },
+    {
+        "name": "Prism Shard",
+        "id": "prism-shard",
+        "recipe": {}
+    },
+    {
+        "name": "Pulley",
+        "id": "pulley",
+        "recipe": {}
+    },
+    {
+        "name": "Purple Bag",
+        "id": "purple-bag",
+        "recipe": {
+            "Leather Bag": 1,
+            "Purple Dye": 1
+        }
+    },
+    {
+        "name": "Purple Butterfly",
+        "id": "purple-butterfly",
+        "recipe": {
+            "Wood": 1,
+            "Caterpillar": 1,
+            "Purple Dye": 1,
+            "Silk": 3
+        }
+    },
+    {
+        "name": "Purple Diary",
+        "id": "purple-diary",
+        "recipe": {
+            "Purple Parchment": 1,
+            "Mushroom Paste": 1,
+            "White Parchment": 1
+        }
+    },
+    {
+        "name": "Purple Dye",
+        "id": "purple-dye",
+        "recipe": {
+            "Purple Flower": 10,
+            "Glass Bottle": 1
+        }
+    },
+    {
+        "name": "Purple Flower",
+        "id": "purple-flower",
+        "recipe": {}
+    },
+    {
+        "name": "Purple Parchment",
+        "id": "purple-parchment",
+        "recipe": {
+            "Purple Flower": 3
+        }
+    },
+    {
+        "name": "Purple Twine",
+        "id": "purple-twine",
+        "recipe": {
+            "Twine": 1,
+            "Purple Dye": 1
+        }
+    },
+    {
+        "name": "Pyrite",
+        "id": "pyrite",
+        "recipe": {
+            "Unpolished Pyrite": 2
+        }
+    },
+    {
+        "name": "Re'taw",
+        "id": "re-taw",
+        "recipe": {}
+    },
+    {
+        "name": "Re'taw Pail",
+        "id": "re-taw-pail",
+        "recipe": {
+            "Bucket": 1,
+            "Mushroom Paste": 4,
+            "Re'taw": 5
+        }
+    },
+    {
+        "name": "Red Brick",
+        "id": "red-brick",
+        "recipe": {
+            "Straw": 50,
+            "Sand": 50,
+            "Red Dye": 5,
+            "Bucket": 5,
+            "Mushroom Paste": 3
+        }
+    },
+    {
+        "name": "Red Butterfly",
+        "id": "red-butterfly",
+        "recipe": {
+            "Wood": 1,
+            "Caterpillar": 1,
+            "Red Dye": 1,
+            "Silk": 3
+        }
+    },
+    {
+        "name": "Red Diary",
+        "id": "red-diary",
+        "recipe": {
+            "Mushroom Paste": 1,
+            "Red Parchment": 1,
+            "White Parchment": 1
+        }
+    },
+    {
+        "name": "Red Dye",
+        "id": "red-dye",
+        "recipe": {
+            "Glass Bottle": 1,
+            "Striped Feather": 2
+        }
+    },
+    {
+        "name": "Red Flowers",
+        "id": "red-flowers",
+        "recipe": {}
+    },
+    {
+        "name": "Red Parchment",
+        "id": "red-parchment",
+        "recipe": {
+            "Striped Feather": 3
+        }
+    },
+    {
+        "name": "Red Scarf",
+        "id": "red-scarf",
+        "recipe": {
+            "Yarn": 2,
+            "Red Dye": 1
+        }
+    },
+    {
+        "name": "Red Shield",
+        "id": "red-shield",
+        "recipe": {
+            "Red Dye": 1,
+            "Steel": 3,
+            "Wooden Shield": 1
+        }
+    },
+    {
+        "name": "Red Trunk",
+        "id": "red-trunk",
+        "recipe": {
+            "Leather": 3,
+            "Nails": 16,
+            "Red Dye": 4,
+            "Wooden Plank": 6,
+            "Steel": 8
+        }
+    },
+    {
+        "name": "Red Twine",
+        "id": "red-twine",
+        "recipe": {
+            "Red Dye": 1,
+            "Twine": 1
+        }
+    },
+    {
+        "name": "Reinforced Helmet",
+        "id": "reinforced-helmet",
+        "recipe": {
+            "Hide": 4,
+            "Steel": 4,
+            "Leather Helmet": 1
+        }
+    },
+    {
+        "name": "Rope",
+        "id": "rope",
+        "recipe": {
+            "Twine": 3
+        }
+    },
+    {
+        "name": "Ruby",
+        "id": "ruby",
+        "recipe": {
+            "Stone": 1,
+            "Unpolished Ruby": 2
+        }
+    },
+    {
+        "name": "Ruby Ring",
+        "id": "ruby-ring",
+        "recipe": {
+            "Mushroom Paste": 1,
+            "Ruby": 1,
+            "Iron Ring": 1
+        }
+    },
+    {
+        "name": "Rucksack",
+        "id": "rucksack",
+        "recipe": {
+            "Horn Canteen": 2,
+            "Scissors": 1,
+            "Glass Jar": 3,
+            "Blue Twine": 4,
+            "Green Twine": 4,
+            "Red Twine": 4,
+            "Leather": 8,
+            "Awl": 2,
+            "Wooden Button": 4,
+            "Steel Buckle": 1
+        }
+    },
+    {
+        "name": "Runestone 01",
+        "id": "runestone-01",
+        "recipe": {}
+    },
+    {
+        "name": "Runestone 02",
+        "id": "runestone-02",
+        "recipe": {}
+    },
+    {
+        "name": "Runestone 03",
+        "id": "runestone-03",
+        "recipe": {}
+    },
+    {
+        "name": "Runestone 04",
+        "id": "runestone-04",
+        "recipe": {}
+    },
+    {
+        "name": "Runestone 05",
+        "id": "runestone-05",
+        "recipe": {}
+    },
+    {
+        "name": "Runestone 06",
+        "id": "runestone-06",
+        "recipe": {}
+    },
+    {
+        "name": "Runestone 07",
+        "id": "runestone-07",
+        "recipe": {}
+    },
+    {
+        "name": "Runestone 08",
+        "id": "runestone-08",
+        "recipe": {}
+    },
+    {
+        "name": "Runestone 09",
+        "id": "runestone-09",
+        "recipe": {}
+    },
+    {
+        "name": "Runestone 10",
+        "id": "runestone-10",
+        "recipe": {}
+    },
+    {
+        "name": "Runestone 11",
+        "id": "runestone-11",
+        "recipe": {}
+    },
+    {
+        "name": "Runestone 12",
+        "id": "runestone-12",
+        "recipe": {}
+    },
+    {
+        "name": "Runestone 13",
+        "id": "runestone-13",
+        "recipe": {}
+    },
+    {
+        "name": "Runestone 14",
+        "id": "runestone-14",
+        "recipe": {}
+    },
+    {
+        "name": "Runestone 15",
+        "id": "runestone-15",
+        "recipe": {}
+    },
+    {
+        "name": "Runestone 16",
+        "id": "runestone-16",
+        "recipe": {}
+    },
+    {
+        "name": "Runestone 17",
+        "id": "runestone-17",
+        "recipe": {}
+    },
+    {
+        "name": "Runestone 18",
+        "id": "runestone-18",
+        "recipe": {}
+    },
+    {
+        "name": "Runestone 19",
+        "id": "runestone-19",
+        "recipe": {}
+    },
+    {
+        "name": "Runestone 20",
+        "id": "runestone-20",
+        "recipe": {}
+    },
+    {
+        "name": "Sail Cloth",
+        "id": "sail-cloth",
+        "recipe": {
+            "Cotton": 5,
+            "Sewing Needle": 3
+        }
+    },
+    {
+        "name": "Salt",
+        "id": "salt",
+        "recipe": {
+            "Hammer": 1,
+            "Salt Rock": 50
+        }
+    },
+    {
+        "name": "Salt Rock",
+        "id": "salt-rock",
+        "recipe": {}
+    },
+    {
+        "name": "Sand",
+        "id": "sand",
+        "recipe": {
+            "Leather": 1,
+            "Sandstone": 5
+        }
+    },
+    {
+        "name": "Sandstone",
+        "id": "sandstone",
+        "recipe": {}
+    },
+    {
+        "name": "Scissors",
+        "id": "scissors",
+        "recipe": {
+            "Iron Ring": 1,
+            "Stone": 1,
+            "Wood": 2,
+            "Nails": 1,
+            "Steel": 2
+        }
+    },
+    {
+        "name": "Scrap Metal",
+        "id": "scrap-metal",
+        "recipe": {}
+    },
+    {
+        "name": "Scrap Wire",
+        "id": "scrap-wire",
+        "recipe": {}
+    },
+    {
+        "name": "Seashell Necklace",
+        "id": "seashell-necklace",
+        "recipe": {
+            "Blue Shell": 1,
+            "Clam Shell": 1,
+            "Pearl": 10,
+            "Conch Shell": 1,
+            "Jade": 2,
+            "Steel Wire": 4,
+            "Yarn": 4,
+            "Spiked Shell": 1
+        }
+    },
+    {
+        "name": "Seeing Stone",
+        "id": "seeing-stone",
+        "recipe": {}
+    },
+    {
+        "name": "Sewing Needle",
+        "id": "sewing-needle",
+        "recipe": {
+            "Bone": 1,
+            "Twine": 1,
+            "Awl": 1
+        }
+    },
+    {
+        "name": "Shimmer Quartz",
+        "id": "shimmer-quartz",
+        "recipe": {}
+    },
+    {
+        "name": "Shimmer Ring",
+        "id": "shimmer-ring",
+        "recipe": {
+            "Mushroom Paste": 1,
+            "Iron Ring": 1,
+            "Shimmer Topaz": 1
+        }
+    },
+    {
+        "name": "Shimmer Stone",
+        "id": "shimmer-stone",
+        "recipe": {
+            "Unpolished Shimmer Stone": 2
+        }
+    },
+    {
+        "name": "Shimmer Topaz",
+        "id": "shimmer-topaz",
+        "recipe": {
+            "Shimmer Quartz": 3
+        }
+    },
+    {
+        "name": "Ship in a Bottle",
+        "id": "ship-in-a-bottle",
+        "recipe": {
+            "Mushroom Paste": 3,
+            "Sand": 2,
+            "Glass Bottle": 1,
+            "Model Ship": 1,
+            "Oak": 2
+        }
+    },
+    {
+        "name": "Ship Mast",
+        "id": "ship-mast",
+        "recipe": {
+            "Board": 24,
+            "Nails": 120,
+            "Looking Glass": 1,
+            "Rope": 12,
+            "Bucket": 1,
+            "Ladder": 1,
+            "Oak": 20,
+            "Red Scarf": 4,
+            "Sail Cloth": 4,
+            "Wooden Plank": 12,
+            "Pulley": 4
+        }
+    },
+    {
+        "name": "Shovel",
+        "id": "shovel",
+        "recipe": {
+            "Stone": 1,
+            "Board": 1,
+            "Iron": 2,
+            "Mushroom Paste": 1
+        }
+    },
+    {
+        "name": "Silk",
+        "id": "silk",
+        "recipe": {
+            "Caterpillar": 3,
+            "Spider": 2,
+            "Machine Press": 1
+        }
+    },
+    {
+        "name": "Slimestone",
+        "id": "slimestone",
+        "recipe": {}
+    },
+    {
+        "name": "Small Bolt",
+        "id": "small-bolt",
+        "recipe": {}
+    },
+    {
+        "name": "Small Gear",
+        "id": "small-gear",
+        "recipe": {}
+    },
+    {
+        "name": "Small Screw",
+        "id": "small-screw",
+        "recipe": {}
+    },
+    {
+        "name": "Small Spring",
+        "id": "small-spring",
+        "recipe": {}
+    },
+    {
+        "name": "Snow Shoes",
+        "id": "snow-shoes",
+        "recipe": {
+            "Handsaw": 1,
+            "Straw": 24,
+            "Leather": 5,
+            "Yarn": 32,
+            "Oak": 20
+        }
+    },
+    {
+        "name": "Sour Root",
+        "id": "sour-root",
+        "recipe": {}
+    },
+    {
+        "name": "Spider",
+        "id": "spider",
+        "recipe": {}
+    },
+    {
+        "name": "Spiked Shell",
+        "id": "spiked-shell",
+        "recipe": {}
+    },
+    {
+        "name": "Spiky Bracelet",
+        "id": "spiky-bracelet",
+        "recipe": {
+            "Mushroom Paste": 4,
+            "Leather": 4,
+            "Onyx Scorpion": 12,
+            "Monster Skull": 6,
+            "Sewing Needle": 1
+        }
+    },
+    {
+        "name": "Spool of Copper",
+        "id": "spool-of-copper",
+        "recipe": {
+            "Copper Wire": 10,
+            "Metal Spool": 1
+        }
+    },
+    {
+        "name": "Spoon",
+        "id": "spoon",
+        "recipe": {
+            "Bone": 1,
+            "Twine": 1,
+            "Axe": 1
+        }
+    },
+    {
+        "name": "Steel",
+        "id": "steel",
+        "recipe": {
+            "Carbon Sphere": 1,
+            "Glass Orb": 1,
+            "Iron": 10
+        }
+    },
+    {
+        "name": "Steel Buckle",
+        "id": "steel-buckle",
+        "recipe": {
+            "Emberstone": 2,
+            "Steel": 1,
+            "Hammer": 1
+        }
+    },
+    {
+        "name": "Steel Pickaxe",
+        "id": "steel-pickaxe",
+        "recipe": {
+            "Steel": 5,
+            "Pickaxe": 1,
+            "Flarite": 1,
+            "Mushroom Paste": 2
+        }
+    },
+    {
+        "name": "Steel Plate",
+        "id": "steel-plate",
+        "recipe": {
+            "Small Bolt": 4,
+            "Steel": 2,
+            "Emberstone": 2
+        }
+    },
+    {
+        "name": "Steel Vise",
+        "id": "steel-vise",
+        "recipe": {
+            "Blue Dye": 2,
+            "Small Bolt": 2,
+            "Wooden Plank": 1,
+            "Broken Pipe": 1,
+            "Glass Orb": 2,
+            "Steel": 50
+        }
+    },
+    {
+        "name": "Steel Wire",
+        "id": "steel-wire",
+        "recipe": {
+            "Iron": 10,
+            "Stone": 1,
+            "Carbon Sphere": 1
+        }
+    },
+    {
+        "name": "Step Ladder",
+        "id": "step-ladder",
+        "recipe": {
+            "Ladder": 2,
+            "Small Bolt": 2,
+            "Steel Plate": 2
+        }
+    },
+    {
+        "name": "Stone",
+        "id": "stone",
+        "recipe": {}
+    },
+    {
+        "name": "Stone Shell",
+        "id": "stone-shell",
+        "recipe": {}
+    },
+    {
+        "name": "Straw",
+        "id": "straw",
+        "recipe": {}
+    },
+    {
+        "name": "Striped Feather",
+        "id": "striped-feather",
+        "recipe": {}
+    },
+    {
+        "name": "Sturdy Bow",
+        "id": "sturdy-bow",
+        "recipe": {
+            "Oak": 4,
+            "Steel": 1,
+            "Stone": 2,
+            "Twine": 2,
+            "Mushroom Paste": 2
+        }
+    },
+    {
+        "name": "Sturdy Box",
+        "id": "sturdy-box",
+        "recipe": {
+            "Iron": 2,
+            "Nails": 6,
+            "Wooden Plank": 6
+        }
+    },
+    {
+        "name": "Sturdy Pickaxe",
+        "id": "sturdy-pickaxe",
+        "recipe": {
+            "Oak": 1,
+            "Small Bolt": 1,
+            "Stone Shell": 1,
+            "Pickaxe": 1
+        }
+    },
+    {
+        "name": "Sturdy Shield",
+        "id": "sturdy-shield",
+        "recipe": {
+            "Iron": 6,
+            "Wooden Plank": 1,
+            "Nails": 6
+        }
+    },
+    {
+        "name": "Sturdy Sword",
+        "id": "sturdy-sword",
+        "recipe": {
+            "Steel": 1,
+            "Leather": 1,
+            "Iron": 2,
+            "Mushroom Paste": 1
+        }
+    },
+    {
+        "name": "Sunflower",
+        "id": "sunflower",
+        "recipe": {}
+    },
+    {
+        "name": "Sunflower Oil",
+        "id": "sunflower-oil",
+        "recipe": {
+            "Glass Bottle": 1,
+            "Twine": 1,
+            "Sunflower": 6
+        }
+    },
+    {
+        "name": "Swamp Puzzle",
+        "id": "swamp-puzzle",
+        "recipe": {
+            "Piece 01": 1,
+            "Piece 03": 1,
+            "Piece 26": 1,
+            "Piece 09": 1,
+            "Piece 24": 1,
+            "Piece 22": 1,
+            "Piece 30": 1,
+            "Piece 15": 1,
+            "Piece 23": 1,
+            "Piece 04": 1,
+            "Piece 11": 1,
+            "Piece 18": 1
+        }
+    },
+    {
+        "name": "Tea Leaves",
+        "id": "tea-leaves",
+        "recipe": {}
+    },
+    {
+        "name": "Thorns",
+        "id": "thorns",
+        "recipe": {}
+    },
+    {
+        "name": "Tomato",
+        "id": "tomato",
+        "recipe": {}
+    },
+    {
+        "name": "Transistor",
+        "id": "transistor",
+        "recipe": {}
+    },
+    {
+        "name": "Treasure Chest",
+        "id": "treasure-chest",
+        "recipe": {
+            "Iron": 12,
+            "Wooden Plank": 6,
+            "Nails": 22
+        }
+    },
+    {
+        "name": "Twine",
+        "id": "twine",
+        "recipe": {
+            "Wood": 1,
+            "Straw": 2
+        }
+    },
+    {
+        "name": "Unpolished Aquacite",
+        "id": "unpolished-aquacite",
+        "recipe": {}
+    },
+    {
+        "name": "Unpolished Emerald",
+        "id": "unpolished-emerald",
+        "recipe": {}
+    },
+    {
+        "name": "Unpolished Flarite",
+        "id": "unpolished-flarite",
+        "recipe": {}
+    },
+    {
+        "name": "Unpolished Garnet",
+        "id": "unpolished-garnet",
+        "recipe": {}
+    },
+    {
+        "name": "Unpolished Pyrite",
+        "id": "unpolished-pyrite",
+        "recipe": {}
+    },
+    {
+        "name": "Unpolished Ruby",
+        "id": "unpolished-ruby",
+        "recipe": {}
+    },
+    {
+        "name": "Unpolished Shimmer Stone",
+        "id": "unpolished-shimmer-stone",
+        "recipe": {
+            "Emberstone": 1,
+            "Sandstone": 1
+        }
+    },
+    {
+        "name": "Valentines Card",
+        "id": "valentines-card",
+        "recipe": {
+            "Feathers": 3,
+            "Fish Bones": 1,
+            "Mushroom Paste": 1,
+            "White Parchment": 2
+        }
+    },
+    {
+        "name": "Veggie Juice",
+        "id": "veggie-juice",
+        "recipe": {
+            "Peas": 7,
+            "Cucumber": 7,
+            "Tomato": 2,
+            "Eggplant": 7,
+            "Glass Bottle": 1,
+            "Carrot": 7,
+            "Beet": 15,
+            "Twine": 2,
+            "Horn": 2,
+            "Watermelon": 2,
+            "Peppers": 7
+        }
+    },
+    {
+        "name": "Wagon Wheel",
+        "id": "wagon-wheel",
+        "recipe": {
+            "Board": 12,
+            "Nails": 14
+        }
+    },
+    {
+        "name": "Watermelon",
+        "id": "watermelon",
+        "recipe": {}
+    },
+    {
+        "name": "White Flowers",
+        "id": "white-flowers",
+        "recipe": {}
+    },
+    {
+        "name": "White Parchment",
+        "id": "white-parchment",
+        "recipe": {
+            "Feathers": 3
+        }
+    },
+    {
+        "name": "Wine",
+        "id": "wine",
+        "recipe": {
+            "Glass Bottle": 1,
+            "Grapes": 100
+        }
+    },
+    {
+        "name": "Wizard Hat",
+        "id": "wizard-hat",
+        "recipe": {
+            "Purple Flower": 10,
+            "Leather": 2,
+            "Twine": 3
+        }
+    },
+    {
+        "name": "Wood",
+        "id": "wood",
+        "recipe": {}
+    },
+    {
+        "name": "Wooden Barrel",
+        "id": "wooden-barrel",
+        "recipe": {
+            "Nails": 10,
+            "Board": 10,
+            "Iron": 4
+        }
+    },
+    {
+        "name": "Wooden Bow",
+        "id": "wooden-bow",
+        "recipe": {
+            "Fern Leaf": 1,
+            "Iron": 2,
+            "Twine": 2,
+            "Wood": 4
+        }
+    },
+    {
+        "name": "Wooden Box",
+        "id": "wooden-box",
+        "recipe": {
+            "Nails": 6,
+            "Wooden Plank": 6
+        }
+    },
+    {
+        "name": "Wooden Button",
+        "id": "wooden-button",
+        "recipe": {
+            "Wood": 1,
+            "Awl": 1
+        }
+    },
+    {
+        "name": "Wooden Plank",
+        "id": "wooden-plank",
+        "recipe": {
+            "Nails": 4,
+            "Board": 4
+        }
+    },
+    {
+        "name": "Wooden Shield",
+        "id": "wooden-shield",
+        "recipe": {
+            "Iron": 1,
+            "Nails": 4,
+            "Wooden Plank": 1
+        }
+    },
+    {
+        "name": "Wooden Spear",
+        "id": "wooden-spear",
+        "recipe": {
+            "Arrowhead": 1,
+            "Wood": 1,
+            "Twine": 2
+        }
+    },
+    {
+        "name": "Wooden Sword",
+        "id": "wooden-sword",
+        "recipe": {
+            "Iron": 2,
+            "Twine": 4,
+            "Board": 1
+        }
+    },
+    {
+        "name": "Wooden Table",
+        "id": "wooden-table",
+        "recipe": {
+            "Board": 8,
+            "Nails": 12,
+            "Wooden Plank": 1
+        }
+    },
+    {
+        "name": "Worms",
+        "id": "worms",
+        "recipe": {}
+    },
+    {
+        "name": "Wrench",
+        "id": "wrench",
+        "recipe": {
+            "Emberstone": 5,
+            "Steel": 1
+        }
+    },
+    {
+        "name": "Y73841 Blueprint",
+        "id": "y73841-blueprint",
+        "recipe": {}
+    },
+    {
+        "name": "Y73841 Detector",
+        "id": "y73841-detector",
+        "recipe": {
+            "Scrap Wire": 50,
+            "Compass": 1,
+            "Pocket Watch": 1,
+            "Runestone 17": 1,
+            "Y73841 Blueprint": 1,
+            "Transistor": 50,
+            "Small Gear": 3
+        }
+    },
+    {
+        "name": "Yarn",
+        "id": "yarn",
+        "recipe": {
+            "Twine": 4
+        }
+    },
+    {
+        "name": "Yellow Flowers",
+        "id": "yellow-flowers",
+        "recipe": {}
+    }
+]
