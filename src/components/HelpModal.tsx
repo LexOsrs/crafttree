@@ -14,7 +14,7 @@ export default function HelpModal({ onClose }: HelpModalProps) {
       >
         <div className="flex items-center justify-between p-4 border-b border-gray-700">
           <span className="text-sm font-medium text-gray-100">
-            How to Use
+            CraftTree — How to Use
           </span>
           <button
             onClick={onClose}

@@ -176,7 +176,7 @@ export function buildGraph(items: CraftingItem[]): {
 
   const edges: Edge[] = [];
   for (const item of items) {
-    for (const [ingredient, qty] of Object.entries(item.recipe)) {
+    for (const [ingredient] of Object.entries(item.recipe)) {
       edges.push({
         id: `${ingredient}->${item.name}`,
         source: ingredient,

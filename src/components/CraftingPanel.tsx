@@ -7,7 +7,9 @@ interface CraftingPanelProps {
   count: number;
   onCountChange: (count: number) => void;
   onClose: () => void;
+  onNavigate: (name: string) => void;
   items: CraftingItem[];
+  resourceSaverBonus?: number;
 }
 
 function toId(name: string, items: CraftingItem[]): string {
@@ -20,15 +22,17 @@ export default function CraftingPanel({
   count,
   onCountChange,
   onClose,
+  onNavigate,
   items,
+  resourceSaverBonus = 0,
 }: CraftingPanelProps) {
   const summary = useMemo(
-    () => calculateCrafting(itemName, count, items),
-    [itemName, count, items]
+    () => calculateCrafting(itemName, count, items, resourceSaverBonus),
+    [itemName, count, items, resourceSaverBonus]
   );
 
   const itemId = toId(itemName, items);
-  const hasSteps = summary.steps.length > 1;
+  const hasSteps = summary.steps.length > 0;
 
   return (
     <div className="absolute right-0 top-0 bottom-0 w-80 z-20 bg-gray-900/95 backdrop-blur border-l border-gray-700 flex flex-col">
@@ -38,6 +42,7 @@ export default function CraftingPanel({
           src={`/images/${itemId}.png`}
           alt={itemName}
           className="w-10 h-10 object-contain"
+          onError={(e) => { e.currentTarget.style.display = "none"; }}
         />
         <div className="flex-1 min-w-0">
           <div className="text-sm font-medium text-gray-100 truncate">
@@ -54,6 +59,11 @@ export default function CraftingPanel({
               }
               className="w-16 px-1.5 py-0.5 text-xs bg-gray-800 border border-gray-600 rounded text-gray-100 text-center focus:outline-none focus:border-amber-500"
             />
+            {resourceSaverBonus > 0 && summary.steps.length > 0 && (
+              <span className="text-[10px] text-amber-400">
+                Resource Saver: {Math.round(resourceSaverBonus * 100)}%
+              </span>
+            )}
           </div>
         </div>
         <button
@@ -92,19 +102,24 @@ export default function CraftingPanel({
                       src={`/images/${step.id}.png`}
                       alt={step.name}
                       className="w-5 h-5 object-contain"
+                      onError={(e) => { e.currentTarget.style.display = "none"; }}
                     />
-                    <span className="text-xs text-gray-100 font-medium">
+                    <button
+                      onClick={() => onNavigate(step.name)}
+                      className="text-xs text-gray-100 font-medium hover:text-amber-400 transition-colors text-left"
+                    >
                       {step.quantity}x {step.name}
-                    </span>
+                    </button>
                   </div>
                   <div className="ml-6 flex flex-wrap gap-x-3 gap-y-0.5">
                     {step.ingredients.map((ing) => (
-                      <span
+                      <button
                         key={ing.name}
-                        className="text-[10px] text-gray-400"
+                        onClick={() => onNavigate(ing.name)}
+                        className="text-[10px] text-gray-400 hover:text-amber-400 transition-colors"
                       >
                         {ing.quantity} {ing.name}
-                      </span>
+                      </button>
                     ))}
                   </div>
                 </div>
@@ -121,22 +136,24 @@ export default function CraftingPanel({
           </div>
           <div className="space-y-1">
             {summary.rawMaterials.map((mat) => (
-              <div
+              <button
                 key={mat.name}
-                className="flex items-center gap-2 py-0.5"
+                onClick={() => onNavigate(mat.name)}
+                className="flex items-center gap-2 py-0.5 w-full text-left hover:bg-gray-800/50 rounded px-1 -mx-1 transition-colors group"
               >
                 <img
                   src={`/images/${mat.id}.png`}
                   alt={mat.name}
                   className="w-5 h-5 object-contain"
+                  onError={(e) => { e.currentTarget.style.display = "none"; }}
                 />
-                <span className="text-xs text-gray-300 flex-1">
+                <span className="text-xs text-gray-300 flex-1 group-hover:text-amber-400 transition-colors">
                   {mat.name}
                 </span>
                 <span className="text-xs text-gray-400 font-mono">
                   {mat.quantity.toLocaleString()}
                 </span>
-              </div>
+              </button>
             ))}
           </div>
         </div>

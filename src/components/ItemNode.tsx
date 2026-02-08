@@ -5,21 +5,19 @@ import type { ItemNodeData } from "../utils/graphBuilder";
 type ItemNodeProps = NodeProps & { data: ItemNodeData };
 
 export default function ItemNode({ data }: ItemNodeProps) {
-  const base = "flex flex-col items-center justify-center rounded-lg border px-1 pt-1.5 pb-1 w-[80px] h-[80px] transition-all duration-200 cursor-pointer overflow-hidden";
-
-  const dashed = !data.isCraftable ? " border-dashed" : "";
+  const base = "flex flex-col items-center justify-center gap-1 rounded-lg border px-0.5 py-0.5 w-[80px] h-[80px] transition-all duration-200 cursor-pointer overflow-hidden";
 
   let style: string;
   if (data.searchMatch) {
-    style = `bg-gray-700 border-amber-400 text-white shadow-[0_0_6px_rgba(251,191,36,0.4)]${dashed}`;
+    style = "bg-gray-700 border-amber-400 text-white shadow-[0_0_6px_rgba(251,191,36,0.4)]";
   } else if (data.highlight === "highlighted") {
-    style = `bg-gray-750 border-slate-400 text-gray-100 shadow-[0_0_4px_rgba(148,163,184,0.3)]${dashed}`;
+    style = "bg-gray-800 border-gray-400 text-gray-100";
   } else if (data.highlight === "dimmed") {
     style = "bg-gray-900 border-gray-700 text-gray-600 opacity-25";
   } else if (data.isCraftable) {
-    style = "bg-gray-800 border-amber-500/60 text-gray-100";
+    style = "bg-gray-800 border-gray-600 text-gray-100";
   } else {
-    style = "bg-gray-900/80 border-gray-600 border-dashed text-gray-400";
+    style = "bg-gray-900/80 border-gray-700 border-dashed text-gray-400";
   }
 
   return (
@@ -35,10 +33,11 @@ export default function ItemNode({ data }: ItemNodeProps) {
       <img
         src={`/images/${data.id}.png`}
         alt={data.label}
-        className="w-9 h-9 object-contain"
+        className="w-8 h-8 object-contain shrink-0"
         draggable={false}
+        onError={(e) => { e.currentTarget.style.display = "none"; }}
       />
-      <span className="text-[8px] leading-[1.2] text-center mt-0.5 line-clamp-3 w-full">
+      <span className="text-[10px] leading-[1.15] text-center line-clamp-2 w-full">
         {data.label}
       </span>
       {data.hasChildren && (

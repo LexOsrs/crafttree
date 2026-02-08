@@ -10,7 +10,7 @@ import type { Node, Edge } from "@xyflow/react";
 import "@xyflow/react/dist/style.css";
 import type { CraftingItem } from "../types";
 import { buildGraph, layoutNodes } from "../utils/graphBuilder";
-import type { ItemNodeData, HighlightState } from "../utils/graphBuilder";
+import type { HighlightState } from "../utils/graphBuilder";
 import ItemNode from "./ItemNode";
 
 const nodeTypes = { itemNode: ItemNode };
@@ -145,11 +145,11 @@ function CraftingGraphInner({
   const allNames = useMemo(() => allNodes.map((n) => n.id), [allNodes]);
 
   // Compute visible nodes + edges based on search, re-laid-out
-  const { layoutedNodes, layoutedEdges, matchCount } = useMemo(() => {
+  const { layoutedNodes, layoutedEdges } = useMemo(() => {
     const hasSearch = searchQuery.trim().length > 0;
 
     if (!hasSearch) {
-      return { layoutedNodes: allNodes, layoutedEdges: allEdges, matchCount: 0 };
+      return { layoutedNodes: allNodes, layoutedEdges: allEdges };
     }
 
     const matches = getMatchingNames(allNames, searchQuery);
@@ -168,7 +168,6 @@ function CraftingGraphInner({
     return {
       layoutedNodes: layoutNodes(filteredNodes, filteredEdges),
       layoutedEdges: filteredEdges,
-      matchCount: matches.size,
     };
   }, [searchQuery, allNodes, allEdges, allNames]);
 

@@ -8,12 +8,14 @@ interface SearchBarProps {
   query: string;
   onQueryChange: (query: string) => void;
   itemNames: string[];
+  children?: React.ReactNode;
 }
 
 const SearchBar = forwardRef<SearchBarHandle, SearchBarProps>(function SearchBar({
   query,
   onQueryChange,
   itemNames,
+  children,
 }, ref) {
   const [focused, setFocused] = useState(false);
   const [selected, setSelected] = useState(false);
@@ -98,6 +100,7 @@ const SearchBar = forwardRef<SearchBarHandle, SearchBarProps>(function SearchBar
 
   return (
     <div className="absolute top-0 left-0 right-0 z-10 flex items-center gap-3 px-4 py-2 bg-gray-900/90 backdrop-blur border-b border-gray-700">
+      <span className="text-sm font-semibold text-amber-400 tracking-tight select-none">CraftTree</span>
       <div ref={wrapperRef} className="relative">
         <input
           ref={inputRef}
@@ -109,10 +112,10 @@ const SearchBar = forwardRef<SearchBarHandle, SearchBarProps>(function SearchBar
           }}
           onFocus={() => setFocused(true)}
           onKeyDown={handleKeyDown}
-          placeholder="Search items... ( / )"
+          placeholder="Search items..."
           className="w-64 px-3 py-1.5 pr-8 text-sm bg-gray-800 border border-gray-600 rounded text-gray-100 placeholder-gray-500 focus:outline-none focus:border-amber-500"
         />
-        {query && (
+        {query ? (
           <button
             onClick={() => {
               onQueryChange("");
@@ -123,6 +126,10 @@ const SearchBar = forwardRef<SearchBarHandle, SearchBarProps>(function SearchBar
           >
             x
           </button>
+        ) : (
+          <kbd className="absolute right-2 top-1/2 -translate-y-1/2 px-1.5 py-0.5 text-[10px] bg-gray-700 border border-gray-600 rounded text-gray-400 font-mono pointer-events-none">
+            /
+          </kbd>
         )}
         {showSuggestions && (
           <div
@@ -146,6 +153,7 @@ const SearchBar = forwardRef<SearchBarHandle, SearchBarProps>(function SearchBar
                   src={`/images/${name.toLowerCase().replace(/[' ]/g, "-").replace(/--+/g, "-")}.png`}
                   alt=""
                   className="w-5 h-5 object-contain"
+                  onError={(e) => { e.currentTarget.style.display = "none"; }}
                 />
                 {name}
               </button>
@@ -153,6 +161,7 @@ const SearchBar = forwardRef<SearchBarHandle, SearchBarProps>(function SearchBar
           </div>
         )}
       </div>
+      {children}
     </div>
   );
 });

@@ -15,9 +15,11 @@ export interface CraftingSummary {
 export function calculateCrafting(
   targetName: string,
   count: number,
-  items: CraftingItem[]
+  items: CraftingItem[],
+  resourceSaverBonus: number = 0
 ): CraftingSummary {
   const itemMap = new Map(items.map((i) => [i.name, i]));
+  const multiplier = 1 + resourceSaverBonus;
 
   function toId(name: string): string {
     const item = itemMap.get(name);
@@ -40,11 +42,17 @@ export function calculateCrafting(
       return;
     }
 
-    craftTotals.set(name, (craftTotals.get(name) ?? 0) + qty);
+    // With resource saver, each craft has a chance to duplicate,
+    // so we need fewer craft actions to produce the required qty
+    const actualCrafts = resourceSaverBonus > 0
+      ? Math.ceil(qty / multiplier)
+      : qty;
 
-    // Resolve ingredients depth-first (dependencies before dependents)
+    craftTotals.set(name, (craftTotals.get(name) ?? 0) + actualCrafts);
+
+    // Resolve ingredients based on actual crafts needed (bonus compounds)
     for (const [ingName, ingQty] of Object.entries(item!.recipe)) {
-      resolve(ingName, ingQty * qty);
+      resolve(ingName, ingQty * actualCrafts);
     }
 
     // Add step only once (we accumulate totals in craftTotals)

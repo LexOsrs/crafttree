@@ -7,6 +7,8 @@ import SearchBar from "./components/SearchBar";
 import type { SearchBarHandle } from "./components/SearchBar";
 import CraftingPanel from "./components/CraftingPanel";
 import HelpModal from "./components/HelpModal";
+import SettingsMenu, { computeBonus } from "./components/SettingsMenu";
+import type { Perks } from "./components/SettingsMenu";
 
 const craftingItems = items as unknown as CraftingItem[];
 const itemNames = craftingItems.map((i) => i.name).sort();
@@ -16,12 +18,31 @@ function getHashQuery(): string {
   return hash ? decodeURIComponent(hash) : "";
 }
 
+const PERKS_KEY = "crafttree-perks";
+const DEFAULT_PERKS: Perks = { rs1: false, rs2: false, rs3: false };
+
+function loadPerks(): Perks {
+  try {
+    const stored = localStorage.getItem(PERKS_KEY);
+    if (stored) return { ...DEFAULT_PERKS, ...JSON.parse(stored) };
+  } catch {}
+  return DEFAULT_PERKS;
+}
+
 export default function App() {
   const [searchQuery, setSearchQuery] = useState(getHashQuery);
   const [panelItem, setPanelItem] = useState<string | null>(null);
   const [craftCount, setCraftCount] = useState(1);
   const [showHelp, setShowHelp] = useState(false);
+  const [perks, setPerks] = useState<Perks>(loadPerks);
   const searchRef = useRef<SearchBarHandle>(null);
+
+  const resourceSaverBonus = computeBonus(perks);
+
+  const handlePerksChange = useCallback((newPerks: Perks) => {
+    setPerks(newPerks);
+    localStorage.setItem(PERKS_KEY, JSON.stringify(newPerks));
+  }, []);
 
   const handleNodeSelect = useCallback((name: string | null) => {
     setPanelItem(name);
@@ -90,7 +111,9 @@ export default function App() {
           query={searchQuery}
           onQueryChange={setSearchQuery}
           itemNames={itemNames}
-        />
+        >
+          <SettingsMenu perks={perks} onPerksChange={handlePerksChange} />
+        </SearchBar>
         <CraftingGraph
           items={craftingItems}
           searchQuery={searchQuery}
@@ -105,6 +128,7 @@ export default function App() {
             onClose={() => setPanelItem(null)}
             onNavigate={handleNavigate}
             items={craftingItems}
+            resourceSaverBonus={resourceSaverBonus}
           />
         )}
       </ReactFlowProvider>
