@@ -113,7 +113,7 @@ const SearchBar = forwardRef<SearchBarHandle, SearchBarProps>(function SearchBar
           onFocus={() => setFocused(true)}
           onKeyDown={handleKeyDown}
           placeholder="Search items..."
-          className="w-64 px-3 py-1.5 pr-8 text-sm bg-gray-800 border border-gray-600 rounded text-gray-100 placeholder-gray-500 focus:outline-none focus:border-amber-500"
+          className="w-40 sm:w-64 px-3 py-1.5 pr-8 text-sm bg-gray-800 border border-gray-600 rounded text-gray-100 placeholder-gray-500 focus:outline-none focus:border-amber-500"
         />
         {inputText ? (
           <button
@@ -127,7 +127,7 @@ const SearchBar = forwardRef<SearchBarHandle, SearchBarProps>(function SearchBar
             x
           </button>
         ) : (
-          <kbd className="absolute right-2 top-1/2 -translate-y-1/2 px-1.5 py-0.5 text-[10px] bg-gray-700 border border-gray-600 rounded text-gray-400 font-mono pointer-events-none">
+          <kbd className="hidden sm:inline-block absolute right-2 top-1/2 -translate-y-1/2 px-1.5 py-0.5 text-[10px] bg-gray-700 border border-gray-600 rounded text-gray-400 font-mono pointer-events-none">
             /
           </kbd>
         )}

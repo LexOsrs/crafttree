@@ -106,7 +106,7 @@ export default function App() {
   }, [showHelp]);
 
   return (
-    <div className="w-full h-screen relative">
+    <div className="w-full h-dvh relative">
       <ReactFlowProvider>
         <SearchBar
           ref={searchRef}
@@ -137,7 +137,7 @@ export default function App() {
         <SettingsMenu perks={perks} onPerksChange={handlePerksChange} />
         <button
           onClick={() => setShowHelp(true)}
-          className="w-8 h-8 flex items-center justify-center rounded-full bg-gray-800 border border-gray-600 text-gray-400 hover:text-gray-200 hover:border-gray-400 text-sm font-mono transition-colors"
+          className="w-10 h-10 sm:w-8 sm:h-8 flex items-center justify-center rounded-full bg-gray-800 border border-gray-600 text-gray-400 hover:text-gray-200 hover:border-gray-400 text-sm font-mono transition-colors"
         >
           ?
         </button>

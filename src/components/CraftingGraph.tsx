@@ -262,6 +262,7 @@ function CraftingGraphInner({
       onNodeClick={onNodeClick}
       onNodeDoubleClick={onNodeDoubleClick}
       onPaneClick={onPaneClick}
+      zoomOnDoubleClick={false}
       fitView
       minZoom={0.05}
       maxZoom={2}

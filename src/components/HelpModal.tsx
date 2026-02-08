@@ -9,7 +9,7 @@ export default function HelpModal({ onClose }: HelpModalProps) {
       onClick={onClose}
     >
       <div
-        className="bg-gray-900 border border-gray-600 rounded-lg shadow-2xl w-[420px] max-h-[80vh] overflow-y-auto"
+        className="bg-gray-900 border border-gray-600 rounded-lg shadow-2xl w-[calc(100vw-2rem)] sm:w-[420px] max-h-[80vh] overflow-y-auto"
         onClick={(e) => e.stopPropagation()}
       >
         <div className="flex items-center justify-between p-4 border-b border-gray-700">

@@ -54,7 +54,7 @@ export default function SettingsMenu({ perks, onPerksChange }: SettingsMenuProps
     <div ref={menuRef} className="relative">
       <button
         onClick={() => setOpen(!open)}
-        className="w-8 h-8 flex items-center justify-center rounded-full bg-gray-800 border border-gray-600 text-gray-400 hover:text-gray-200 hover:border-gray-400 text-sm transition-colors"
+        className="w-10 h-10 sm:w-8 sm:h-8 flex items-center justify-center rounded-full bg-gray-800 border border-gray-600 text-gray-400 hover:text-gray-200 hover:border-gray-400 text-sm transition-colors"
         title="Settings"
       >
         <svg

@@ -35,7 +35,11 @@ export default function CraftingPanel({
   const hasSteps = summary.steps.length > 0;
 
   return (
-    <div className="absolute right-0 top-0 bottom-0 w-80 z-20 bg-gray-900/95 backdrop-blur border-l border-gray-700 flex flex-col">
+    <div className="absolute inset-x-0 bottom-0 max-h-[50vh] sm:max-h-none sm:inset-x-auto sm:right-0 sm:top-0 sm:bottom-0 sm:w-80 z-20 bg-gray-900/95 backdrop-blur border-t sm:border-t-0 sm:border-l border-gray-700 flex flex-col">
+      {/* Drag handle (mobile) */}
+      <div className="sm:hidden flex justify-center py-1.5">
+        <div className="w-10 h-1 rounded-full bg-gray-600" />
+      </div>
       {/* Header */}
       <div className="flex items-center gap-3 p-3 border-b border-gray-700">
         <img
