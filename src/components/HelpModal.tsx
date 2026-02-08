@@ -57,15 +57,21 @@ export default function HelpModal({ onClose }: HelpModalProps) {
             </h3>
             <div className="space-y-2">
               <div className="flex items-center gap-3">
-                <div className="w-10 h-10 rounded-lg border border-amber-500/60 bg-gray-800 shrink-0" />
+                <div className="w-10 h-10 rounded-lg border border-gray-600 bg-gray-800 shrink-0" />
                 <span className="text-gray-400">
-                  Solid amber border — craftable item (has a recipe)
+                  Solid border — craftable item (has a recipe)
                 </span>
               </div>
               <div className="flex items-center gap-3">
-                <div className="w-10 h-10 rounded-lg border border-dashed border-gray-600 bg-gray-900/80 shrink-0" />
+                <div className="w-10 h-10 rounded-lg border border-dashed border-gray-700 bg-gray-900/80 shrink-0" />
                 <span className="text-gray-400">
                   Dashed border — raw material (no recipe)
+                </span>
+              </div>
+              <div className="flex items-center gap-3">
+                <div className="w-10 h-10 rounded-lg border border-amber-400 bg-gray-700 shrink-0" />
+                <span className="text-gray-400">
+                  Amber border — search match
                 </span>
               </div>
             </div>
@@ -81,6 +87,20 @@ export default function HelpModal({ onClose }: HelpModalProps) {
               the graph to its full crafting tree — all ingredients above and
               all products below. The crafting panel opens automatically for
               craftable items.
+            </p>
+          </section>
+
+          {/* Perks */}
+          <section>
+            <h3 className="text-[10px] uppercase tracking-wider text-gray-500 mb-2">
+              Perks
+            </h3>
+            <p className="text-gray-400 leading-relaxed">
+              Click the gear icon in the top bar to toggle Resource Saver
+              perks. Each perk gives a chance to duplicate items during
+              crafting, reducing the total materials needed. The bonus
+              compounds through the crafting tree. Your selection is saved
+              automatically.
             </p>
           </section>
         </div>
