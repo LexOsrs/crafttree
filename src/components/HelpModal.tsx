@@ -96,7 +96,7 @@ export default function HelpModal({ onClose }: HelpModalProps) {
               Perks
             </h3>
             <p className="text-gray-400 leading-relaxed">
-              Click the gear icon in the top bar to toggle Resource Saver
+              Click the gear icon in the bottom-left to toggle Resource Saver
               perks. Each perk gives a chance to duplicate items during
               crafting, reducing the total materials needed. The bonus
               compounds through the crafting tree. Your selection is saved
