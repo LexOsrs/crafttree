@@ -80,6 +80,8 @@ export default function App() {
     if (match) {
       setPanelItem(match.name);
       setCraftCount(1);
+    } else {
+      setPanelItem(null);
     }
   }, [searchQuery]);
 
@@ -111,9 +113,7 @@ export default function App() {
           query={searchQuery}
           onQueryChange={setSearchQuery}
           itemNames={itemNames}
-        >
-          <SettingsMenu perks={perks} onPerksChange={handlePerksChange} />
-        </SearchBar>
+        />
         <CraftingGraph
           items={craftingItems}
           searchQuery={searchQuery}
@@ -133,12 +133,15 @@ export default function App() {
         )}
       </ReactFlowProvider>
       {showHelp && <HelpModal onClose={() => setShowHelp(false)} />}
-      <button
-        onClick={() => setShowHelp(true)}
-        className="absolute bottom-4 left-4 z-10 w-8 h-8 flex items-center justify-center rounded-full bg-gray-800 border border-gray-600 text-gray-400 hover:text-gray-200 hover:border-gray-400 text-sm font-mono transition-colors"
-      >
-        ?
-      </button>
+      <div className="absolute bottom-4 left-4 z-10 flex flex-col gap-2">
+        <SettingsMenu perks={perks} onPerksChange={handlePerksChange} />
+        <button
+          onClick={() => setShowHelp(true)}
+          className="w-8 h-8 flex items-center justify-center rounded-full bg-gray-800 border border-gray-600 text-gray-400 hover:text-gray-200 hover:border-gray-400 text-sm font-mono transition-colors"
+        >
+          ?
+        </button>
+      </div>
     </div>
   );
 }

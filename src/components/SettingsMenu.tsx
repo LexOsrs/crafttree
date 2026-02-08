@@ -51,21 +51,17 @@ export default function SettingsMenu({ perks, onPerksChange }: SettingsMenuProps
   const anyActive = bonus > 0;
 
   return (
-    <div ref={menuRef} className="relative ml-auto">
+    <div ref={menuRef} className="relative">
       <button
         onClick={() => setOpen(!open)}
-        className={`w-7 h-7 flex items-center justify-center rounded text-sm transition-colors ${
-          anyActive
-            ? "text-amber-400 hover:text-amber-300"
-            : "text-gray-400 hover:text-gray-200"
-        }`}
+        className="w-8 h-8 flex items-center justify-center rounded-full bg-gray-800 border border-gray-600 text-gray-400 hover:text-gray-200 hover:border-gray-400 text-sm transition-colors"
         title="Settings"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 20 20"
           fill="currentColor"
-          className="w-4 h-4"
+          className="w-3.5 h-3.5"
         >
           <path
             fillRule="evenodd"
@@ -75,7 +71,7 @@ export default function SettingsMenu({ perks, onPerksChange }: SettingsMenuProps
         </svg>
       </button>
       {open && (
-        <div className="absolute right-0 top-full mt-1 w-56 bg-gray-800 border border-gray-600 rounded shadow-lg p-3 space-y-2">
+        <div className="absolute left-0 bottom-full mb-1 w-56 bg-gray-800 border border-gray-600 rounded shadow-lg p-3 space-y-2">
           <div className="text-[10px] uppercase tracking-wider text-gray-500 mb-1">
             Perks
           </div>

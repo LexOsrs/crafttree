@@ -8,21 +8,24 @@ interface SearchBarProps {
   query: string;
   onQueryChange: (query: string) => void;
   itemNames: string[];
-  children?: React.ReactNode;
 }
 
 const SearchBar = forwardRef<SearchBarHandle, SearchBarProps>(function SearchBar({
   query,
   onQueryChange,
   itemNames,
-  children,
 }, ref) {
+  const [inputText, setInputText] = useState(query);
   const [focused, setFocused] = useState(false);
-  const [selected, setSelected] = useState(false);
   const [activeIndex, setActiveIndex] = useState(-1);
   const wrapperRef = useRef<HTMLDivElement>(null);
   const listRef = useRef<HTMLDivElement>(null);
   const inputRef = useRef<HTMLInputElement>(null);
+
+  // Sync input text when committed query changes externally (navigate, hash change)
+  useEffect(() => {
+    setInputText(query);
+  }, [query]);
 
   useImperativeHandle(ref, () => ({
     focus: () => {
@@ -32,8 +35,8 @@ const SearchBar = forwardRef<SearchBarHandle, SearchBarProps>(function SearchBar
   }));
 
   const suggestions = useMemo(() => {
-    if (!query.trim() || selected) return [];
-    const q = query.toLowerCase();
+    if (!inputText.trim() || inputText === query) return [];
+    const q = inputText.toLowerCase();
     return itemNames
       .filter((name) => name.toLowerCase().includes(q))
       .sort((a, b) => {
@@ -44,12 +47,12 @@ const SearchBar = forwardRef<SearchBarHandle, SearchBarProps>(function SearchBar
         return a.localeCompare(b);
       })
       .slice(0, 8);
-  }, [query, selected, itemNames]);
+  }, [inputText, query, itemNames]);
 
   const showSuggestions = focused && suggestions.length > 0;
 
-  function selectItem(name: string) {
-    setSelected(true);
+  function commit(name: string) {
+    setInputText(name);
     onQueryChange(name);
     setActiveIndex(-1);
   }
@@ -70,7 +73,7 @@ const SearchBar = forwardRef<SearchBarHandle, SearchBarProps>(function SearchBar
       setActiveIndex((prev) => Math.max(prev - 1, -1));
     } else if (e.key === "Enter" && suggestions.length > 0) {
       e.preventDefault();
-      selectItem(suggestions[Math.max(activeIndex, 0)]);
+      commit(suggestions[Math.max(activeIndex, 0)]);
     }
   }
 
@@ -105,21 +108,18 @@ const SearchBar = forwardRef<SearchBarHandle, SearchBarProps>(function SearchBar
         <input
           ref={inputRef}
           type="text"
-          value={query}
-          onChange={(e) => {
-            onQueryChange(e.target.value);
-            setSelected(false);
-          }}
+          value={inputText}
+          onChange={(e) => setInputText(e.target.value)}
           onFocus={() => setFocused(true)}
           onKeyDown={handleKeyDown}
           placeholder="Search items..."
           className="w-64 px-3 py-1.5 pr-8 text-sm bg-gray-800 border border-gray-600 rounded text-gray-100 placeholder-gray-500 focus:outline-none focus:border-amber-500"
         />
-        {query ? (
+        {inputText ? (
           <button
             onClick={() => {
+              setInputText("");
               onQueryChange("");
-              setSelected(false);
               inputRef.current?.focus();
             }}
             className="absolute right-2 top-1/2 -translate-y-1/2 text-gray-500 hover:text-gray-300 text-sm leading-none"
@@ -141,7 +141,7 @@ const SearchBar = forwardRef<SearchBarHandle, SearchBarProps>(function SearchBar
                 key={name}
                 onMouseDown={(e) => {
                   e.preventDefault();
-                  selectItem(name);
+                  commit(name);
                 }}
                 className={`w-full text-left px-3 py-1.5 text-sm flex items-center gap-2 ${
                   i === activeIndex
@@ -161,7 +161,6 @@ const SearchBar = forwardRef<SearchBarHandle, SearchBarProps>(function SearchBar
           </div>
         )}
       </div>
-      {children}
     </div>
   );
 });
