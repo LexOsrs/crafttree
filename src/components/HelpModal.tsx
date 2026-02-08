@@ -103,6 +103,10 @@ export default function HelpModal({ onClose }: HelpModalProps) {
               automatically.
             </p>
           </section>
+
+          <p className="text-[10px] text-gray-600 pt-2 border-t border-gray-700/50 leading-relaxed">
+            This is a fan-made tool and is not affiliated with or endorsed by FarmRPG.
+          </p>
         </div>
       </div>
     </div>
