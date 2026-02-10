@@ -58,6 +58,7 @@ export default function CraftingPanel({
               type="number"
               min={1}
               value={count}
+              onFocus={(e) => { const t = e.target; requestAnimationFrame(() => t.select()); }}
               onChange={(e) =>
                 onCountChange(Math.max(1, parseInt(e.target.value) || 1))
               }
@@ -112,7 +113,7 @@ export default function CraftingPanel({
                       onClick={() => onNavigate(step.name)}
                       className="text-xs text-gray-100 font-medium hover:text-amber-400 transition-colors text-left"
                     >
-                      {step.quantity}x {step.name}
+                      {step.quantity.toLocaleString()}x {step.name}
                     </button>
                   </div>
                   <div className="ml-6 flex flex-wrap gap-x-3 gap-y-0.5">
@@ -122,7 +123,7 @@ export default function CraftingPanel({
                         onClick={() => onNavigate(ing.name)}
                         className="text-[10px] text-gray-400 hover:text-amber-400 transition-colors"
                       >
-                        {ing.quantity} {ing.name}
+                        {ing.quantity.toLocaleString()} {ing.name}
                       </button>
                     ))}
                   </div>
