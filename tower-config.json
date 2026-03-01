@@ -1,0 +1,16 @@
+{
+    "free": ["Iron", "Nails"],
+    "passive": {
+        "Stone": "2000 per 10m",
+        "Straw": "1500 per 10m",
+        "Wood": "5000 per hr",
+        "Board": "5000 per hr",
+        "Coal": "1000 per hr",
+        "Steel": "600 per hr",
+        "Antler": "5000 per day",
+        "Lemon": "5000 per day",
+        "Orange": "5000 per day",
+        "Apple": "5000 per day"
+    },
+    "inventory_limit": 5000
+}

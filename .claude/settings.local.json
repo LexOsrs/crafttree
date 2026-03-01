@@ -14,7 +14,9 @@
       "Bash(node -e:*)",
       "Bash(npm uninstall:*)",
       "Bash(du:*)",
-      "Bash(sips -g pixelWidth -g pixelHeight:*)"
+      "Bash(sips -g pixelWidth -g pixelHeight:*)",
+      "Bash(pip3 install:*)",
+      "Bash(uv run:*)"
     ]
   }
 }

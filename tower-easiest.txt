@@ -1,0 +1,166 @@
+Easiest Tower Items to GM/MM
+============================
+
+Craftable items from Tower Levels 200-310, ranked by difficulty. Score
+accounts for material rarity — lower = easier. Raw materials (fish etc)
+are listed separately at the bottom since difficulty is just time spent.
+
+
+EASIEST — Score < 3 (simple recipes, common/free materials)
+------------------------------------------------------------
+
+ #  Item                      Lvl  Stg  Score  Materials (per 1 craft)
+ 1  Mushroom Paste            220    1    0.3   3x Mushroom
+ 2  Iron Ring                 203    1    0.5   2x Iron, 1x Stone
+ 3  Iron Cup                  227    1    0.5   3x Iron, 1x Stone
+ 4  Steel Wire                222    1    1.0   10x Iron, 1x Carbon Sphere, 1x Stone
+ 5  Leather                   231    1    1.0   2x Hide
+ 6  Horseshoe                 233    1    1.0   5x Iron, 7x Nails, 2x Stone
+ 7  Unpolished Shimmer Stone  259    1    1.0   1x Emberstone, 1x Sandstone
+ 8  Lemon Quartz Ring         284    2    1.3   2x Iron, 1x Lemon Quartz, 3x Mushroom, 1x Stone
+ 9  Aquamarine Ring           286    2    1.3   2x Iron, 1x Aquamarine, 3x Mushroom, 1x Stone
+10  Twine                     202    1    1.5   2x Straw, 1x Wood
+11  White Parchment           235    1    1.5   3x Feathers
+12  Ruby                      242    1    1.5   2x Unpolished Ruby, 1x Stone
+13  Black Powder              243    1    1.5   3x Coal
+14  Shimmer Topaz             246    1    1.5   3x Shimmer Quartz
+15  Jade                      247    1    1.5   2x Unpolished Jade, 1x Stone
+16  Garnet                    247    1    1.5   2x Unpolished Garnet, 1x Stone
+17  Magicite                  288    1    1.5   3x Prism Shard
+18  Green Parchment           297    1    1.5   3x Fern Leaf
+19  Cloth                     306    1    1.5   3x Scrap Cloth
+20  Awl                       249    2    1.5   5x Iron, 2x Stone, 1x Wood
+21  Amethyst Necklace         285    2    1.5   4x Iron, 1x Amethyst, 2x Stone
+22  Emerald                   238    1    2.0   2x Unpolished Emerald, 2x Stone
+23  Bamboo Rope               308    1    2.0   4x Bamboo
+24  Shimmer Stone             227    2    2.0   2x Emberstone, 2x Sandstone
+25  Wooden Button             250    3    2.0   5x Iron, 2x Stone, 2x Wood
+26  Pearl Necklace            284    2    2.1   2x Iron, 1x Pearl, 1x Stone, 2x Straw, 1x Wood
+27  Board                     201    1    2.5   5x Wood
+28  Nailed Board              241    2    2.5   1x Nails, 5x Wood
+29  Fancy Pipe                241    2    2.5   7x Iron, 3x Stone, 2x Wood
+30  Coin Purse                293    2    2.5   2x Iron, 4x Hide, 1x Stone
+31  Emerald Ring              283    2    2.8   2x Iron, 2x Unpolished Emerald, 3x Mushroom, 3x Stone
+32  Garnet Ring               257    2    2.3   2x Iron, 2x Unpolished Garnet, 3x Mushroom, 2x Stone
+33  Ruby Ring                 287    2    2.3   2x Iron, 2x Unpolished Ruby, 3x Mushroom, 2x Stone
+34  Shimmer Ring              294    2    2.3   2x Iron, 3x Shimmer Quartz, 3x Mushroom, 1x Stone
+
+
+MODERATE — Score 3-10 (a few uncommon materials or larger quantities)
+---------------------------------------------------------------------
+
+ #  Item                      Lvl  Stg  Score  Materials (per 1 craft)
+35  Broom                     244    2    3.0   1x Straw, 5x Wood
+36  Hammer                    289    2    2.8   1x Iron, 3x Mushroom, 5x Wood
+37  Leather Diary             292    2    2.8   3x Feathers, 2x Hide, 3x Mushroom
+38  Sand                      212    2    3.5   2x Hide, 5x Sandstone
+39  Horn Canteen              297    2    3.5   4x Iron, 1x Horn, 2x Stone, 2x Straw, 2x Wood
+40  Sewing Needle             300    3    3.5   5x Iron, 1x Bone, 2x Stone, 2x Straw, 2x Wood
+41  Bottle Rocket             279    2    4.0   3x Coal, 2x Feathers, 3x Wood
+42  Wooden Spear              286    2    4.0   1x Arrowhead, 4x Straw, 3x Wood
+43  Rope                      206    2    4.5   6x Straw, 3x Wood
+44  Glass Orb                 265    3    4.5   4x Emberstone, 4x Sandstone, 1x Stone
+45  Steel                     251    4    5.0   10x Iron, 1x Carbon Sphere, 4x Emberstone, 4x Sandstone, 1x Stone
+46  Glass Bottle              269    4    5.0   4x Emberstone, 4x Sandstone, 2x Stone
+47  Crossbow                  277    2    5.0   26x Iron, 2x Carbon Sphere, 1x Arrowhead, 3x Oak, 4x Stone
+48  Wooden Bow                291    2    5.5   2x Iron, 1x Fern Leaf, 4x Straw, 6x Wood
+49  Yarn                      236    2    6.0   8x Straw, 4x Wood
+50  Red Dye                   296    5    6.0   4x Emberstone, 4x Sandstone, 2x Stone, 2x Striped Feather
+51  Sturdy Sword              299    5    6.3   12x Iron, 1x Carbon Sphere, 4x Emberstone, 2x Hide, 3x Mushroom, 4x Sandstone, 1x Stone
+52  Blue Dye                  281    5    6.5   3x Blue Feathers, 4x Emberstone, 4x Sandstone, 2x Stone
+53  Brown Dye                 304    5    6.5   4x Emberstone, 3x Mudcap, 4x Sandstone, 2x Stone
+54  Yellow Dye                305    5    7.0   4x Emberstone, 4x Sandstone, 2x Stone, 4x Swamp Thistle
+55  Magnifying Glass          285    4    7.5   5x Iron, 4x Emberstone, 4x Sandstone, 2x Stone, 5x Wood
+56  White Dye                 307    5    7.5   4x Emberstone, 5x Mist Lily, 4x Sandstone, 2x Stone
+57  Wrench                    298    5    7.5   10x Iron, 1x Carbon Sphere, 9x Emberstone, 4x Sandstone, 1x Stone
+58  Orange Juice              239    5    8.0   4x Emberstone, 6x Orange, 4x Sandstone, 2x Stone
+59  Lemonade                  242    5    8.0   4x Emberstone, 6x Lemon, 4x Sandstone, 2x Stone
+60  Green Dye                 280    5    8.0   4x Emberstone, 6x Fern Leaf, 4x Sandstone, 2x Stone
+61  Axe                       289    2    3.3   1x Iron, 2x Nails, 3x Mushroom, 1x Stone, 5x Wood
+62  Shovel                    289    2    3.3   2x Iron, 3x Mushroom, 1x Stone, 5x Wood
+63  Pickaxe                   294    2    3.3   2x Iron, 3x Mushroom, 1x Stone, 5x Wood
+64  Essence of Slime          298    4    8.8   3x Iron, 4x Emberstone, 3x Mushroom, 4x Sandstone, 2x Slimestone, 2x Stone, 5x Wood
+65  Fishing Net               211    3    9.5   4x Iron, 1x Antler, 12x Straw, 6x Wood
+66  Fancy Guitar              295    2    9.4   64x Iron, 6x Carbon Sphere, 9x Mushroom, 5x Oak, 6x Stone
+
+
+HARDER — Score 10-30 (bulk materials or multiple uncommon ingredients)
+----------------------------------------------------------------------
+
+ #  Item                      Lvl  Stg  Score  Key bottlenecks
+67  Wooden Plank              267    2   10.0   20x Wood
+68  Sturdy Shield             239    3   10.0   20x Wood, 6x Iron
+69  Wooden Shield             248    3   10.0   20x Wood
+70  Explosive                 292    2   11.0   6x Coal, 15x Wood
+71  Wizard Hat                300    2   11.5   10x Purple Flower, 6x Straw, 4x Hide
+72  Crown of Clover           306    2   12.0   20x 3-leaf Clover, 2x 4-leaf Clover, 1x Carbon Sphere
+73  Looking Glass             278    4   12.0   15x Wood, 4x Emberstone, 4x Sandstone
+74  Scissors                  290    5   12.0   8x Emberstone, 8x Sandstone, 2x Carbon Sphere
+75  Bucket                    243    2   12.5   25x Wood
+76  Orange Scarf              307    3   12.5   16x Straw, 8x Wood, 1x Orange Dye
+77  Leather Belt              304    6   13.3   6x Emberstone, 6x Hide, 1x Carbon Sphere
+78  Pitchfork                 290    5   13.8   9x Emberstone, 8x Sandstone, 2x Carbon Sphere
+79  Ladder                    250    2   15.0   30x Wood
+80  Jade Charm                299    5   15.0   8x Emberstone, 8x Sandstone, 10x Stone, 2x Carbon Sphere, 2x Unpolished Jade
+81  Hourglass                 298    5   17.1   13x Sandstone, 8x Emberstone, 6x Wood, 2x Hide
+82  Green Shield              291    6   18.0   20x Wood, 6x Fern Leaf, 4x Emberstone, 4x Sandstone
+83  Basic Pillow              301    2   18.5   25x Feathers, 6x Scrap Cloth
+84  Glass Jar                 287    5   19.0   16x Emberstone, 16x Sandstone, 1x Shimmer Quartz, 1x Carbon Sphere
+85  Fancy Pan Flute           295    6   19.5   14x Wood, 10x Straw, 4x Emberstone, 3x Blue Feathers, 2x Hide
+86  Green Scarf               293    6   20.0   16x Straw, 8x Wood, 6x Fern Leaf, 4x Emberstone, 4x Sandstone
+87  Veggie Juice              308    5   21.6   15x Beet, 7x each of 5 crops, 4x Emberstone, 4x Sandstone
+88  Chum                      249    3   23.0   25x Wood, 10x Worms, 7x Grubs, 4x Minnows
+89  Wooden Barrel             273    2   25.0   50x Wood
+90  Bamboo Trellis            309    2   25.0   20x Bamboo, 20x Straw, 10x Wood
+91  Yellow Shirt              306    6   25.5   30x Scrap Cloth, 4x Swamp Thistle, 4x Emberstone, 4x Sandstone
+92  Butter Churn              277    3   27.5   55x Wood
+93  Salt                      294    3   27.8   50x Salt Rock
+
+
+HARDEST — Score 30+ (massive quantities or rare materials)
+-----------------------------------------------------------
+
+ #  Item                      Lvl  Stg  Score  Key bottlenecks
+ 94 Wagon Wheel               282    2   30.0   60x Wood
+ 95 Wooden Table              275    3   30.0   60x Wood
+ 96 Fancy Drum                295    3   34.1   15x Oak, 32x Straw, 4x Hide
+ 97 Silk                      309    7   56.0   75x Wood, 6x Machine Part, 10x Emberstone, 3x Caterpillar, 2x Spider
+ 98 Wooden Box                248    3   60.0   120x Wood
+ 99 Sturdy Box                260    3   60.0   120x Wood
+100 Treasure Chest            271    3   60.0   120x Wood
+101 Corn Oil                  301    7   62.5   75x Wood, 8x Corn, 6x Machine Part, 14x Emberstone
+102 Gazebo                    310    3   62.8   120x Oak, 120x Nails
+103 Oak Table                 304    6   64.9   80x Oak, 26x Wood, 8x Emberstone, 8x Sandstone
+104 Tie Dye Scarf             310    6   74.0   48x Straw, 24x Wood, 20x Emberstone, 20x Sandstone, many dye ingredients
+105 Canoe                     305    3   75.5   100x Oak, 10x Blue Gel, 15x Mushroom
+106 Red Trunk                 299    6  127.0   120x Wood, 48x Emberstone, 48x Sandstone, 8x Carbon Sphere, 8x Striped Feather
+107 Large Net                 250    4  250.0   300x Straw, 150x Wood, 150x Iron, 25x Antler, 25x Stone
+
+
+RAW MATERIALS (no recipe — just collect/fish)
+==============================================
+
+These have no crafting recipe. Listed by tower level.
+
+ 204  Skipjack              213  Frosteye              228  Pearl
+ 205  Purple Butterfly Fish 214  Crowfish              229  Blue Crab, Sea Catfish
+ 207  Crab                  215  Torch Fish            230  Plumbfish, Bluegill
+ 208  Mushroom              216  Mackerel              231  Jellyfish
+ 209  Clam Shell            217  Green Barracuda       232  Blue Tiger Fish, Spiral Shell
+ 210  Conch Shell           218  Bullfish              233  Serpent Eel
+ 212  Sand (craftable)      219  Drum                  234  Crappie, Ruby Coral
+                            221  Starfish, Green Jelly 235  Blue Shell
+ 236  Redgill               252  Seeker                270  Fish Bones
+ 237  Puffer, Seahorse      253  Shrimp                272  Mussel
+ 238  Fluorifish            254  Largemouth Bass       274  Trout
+ 240  Marlin, Ruby Fish     255  Glassback             275  Peppers
+ 244  Globber               256  Small Prawn           276  Catfish, Peas
+ 245  Blue Catfish, Carp    258  Sea Crest             278  Mulberry Snapper
+ 246  Flarefin              261  Yellow Perch          279  MIAB
+                            262  Stone Jelly           281  Flier
+ 283  Carrot                263  Ice Shark             288  Giant Squid
+ 290  Potato                264  Jumbo Fish            291  Octopus
+ 296  Beet                  266  Orcafish              300  Water Lily
+ 301  Cotton                268  Speckled Grouper      302  Slimeback, Splatfish, Magenta Growth
+ 303  Boghead Snapper, Bog Barnacle, Slime Egg Shell   307  Crab Claw
+ 308  Glass Eye Urchin

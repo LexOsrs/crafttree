@@ -1,0 +1,122 @@
+Tower Levels 200-300: Mega Mastery Requirements
+================================================
+
+Level | Mega Masteries Needed
+------+----------------------------------------------
+  201 | Board
+  202 | Twine
+  203 | Iron Ring
+  204 | Skipjack
+  205 | Purple Butterfly Fish
+  206 | Rope
+  207 | Crab
+  208 | Mushroom
+  209 | Clam Shell
+  210 | Conch Shell
+  211 | Fishing Net
+  212 | Sand
+  213 | Frosteye
+  214 | Crowfish
+  215 | Torch Fish
+  216 | Mackerel
+  217 | Green Barracuda
+  218 | Bullfish
+  219 | Drum
+  220 | Mushroom Paste
+  221 | Starfish, Green Jellyfish
+  222 | Swordfish, Steel Wire
+  223 | Bone Fish, Sunfish
+  224 | Flamejack, Blue Sea Bass
+  225 | Barracuda, Clownfish
+  226 | Red Starfish, Stingray
+  227 | Shimmer Stone, Iron Cup
+  228 | Green Chromis, Pearl
+  229 | Blue Crab, Sea Catfish
+  230 | Plumbfish, Bluegill
+  231 | Leather, Jellyfish
+  232 | Blue Tiger Fish, Spiral Shell
+  233 | Horseshoe, Serpent Eel
+  234 | Crappie, Ruby Coral
+  235 | Blue Shell, White Parchment
+  236 | Redgill, Yarn
+  237 | Puffer, Seahorse
+  238 | Emerald, Fluorifish
+  239 | Sturdy Shield, Orange Juice
+  240 | Marlin, Ruby Fish
+  241 | Nailed Board, Fancy Pipe
+  242 | Lemonade, Ruby
+  243 | Black Powder, Bucket
+  244 | Globber, Broom
+  245 | Blue Catfish, Carp
+  246 | Shimmer Topaz, Flarefin
+  247 | Jade, Garnet
+  248 | Wooden Box, Wooden Shield
+  249 | Awl, Chum
+  250 | Ladder, Wooden Button, Large Net
+  251 | Steel
+  252 | Seeker
+  253 | Shrimp
+  254 | Largemouth Bass
+  255 | Glassback
+  256 | Small Prawn
+  257 | Garnet Ring
+  258 | Sea Crest
+  259 | Unpolished Shimmer Stone
+  260 | Sturdy Box
+  261 | Yellow Perch
+  262 | Stone Jelly
+  263 | Ice Shark
+  264 | Jumbo Fish
+  265 | Glass Orb
+  266 | Orcafish
+  267 | Wooden Plank
+  268 | Speckled Grouper
+  269 | Glass Bottle
+  270 | Fish Bones
+  271 | Treasure Chest
+  272 | Mussel
+  273 | Wooden Barrel
+  274 | Trout
+  275 | Wooden Table, Peppers
+  276 | Catfish, Peas
+  277 | Butter Churn, Crossbow
+  278 | Mulberry Snapper, Looking Glass
+  279 | MIAB, Bottle Rocket
+  280 | Green Dye, Lantern
+  281 | Flier, Blue Dye
+  282 | Wagon Wheel, Wooden Sword
+  283 | Carrot, Emerald Ring
+  284 | Lemon Quartz Ring, Pearl Necklace
+  285 | Amethyst Necklace, Magnifying Glass
+  286 | Wooden Spear, Aquamarine Ring
+  287 | Ruby Ring, Glass Jar
+  288 | Giant Squid, Magicite
+  289 | Hammer, Axe, Shovel
+  290 | Scissors, Potato, Pitchfork
+  291 | Octopus, Green Shield, Wooden Bow
+  292 | Explosive, Leather Diary, Green Twine
+  293 | Coin Purse, Blue Purse, Green Scarf
+  294 | Shimmer Ring, Salt, Pickaxe
+  295 | Fancy Guitar, Fancy Pan Flute, Fancy Drum
+  296 | Red Dye, Beet, Leather Bag
+  297 | Horn Canteen, Mystic Ring, Green Parchment
+  298 | Hourglass, Essence of Slime, Wrench
+  299 | Jade Charm, Sturdy Sword, Red Trunk
+  300 | Wizard Hat, Sewing Needle, Water Lily
+
+
+Tower Levels 301+: Grand Mastery + Mega Mastery Requirements
+=============================================================
+
+Level | Grand Masteries                          | Mega Masteries
+------+------------------------------------------+--------------------------------------
+  301 | Corn Oil, Cotton, Basic Pillow           |
+  302 |                                          | Slimeback, Splatfish, Magenta Growth
+  303 |                                          | Boghead Snapper, Bog Barnacle, Slime Egg Shell
+  304 | Leather Belt, Brown Dye, Oak Table       |
+  305 | Yellow Dye, Canoe, Gold Ruby Ring        |
+  306 | Crown of Clover, Cloth, Yellow Shirt     |
+  307 | Orange Scarf, Crab Claw, White Dye       |
+  308 | Veggie Juice, Bamboo Rope                | Glass Eye Urchin
+  309 | Tin Scraps, Bamboo Trellis, Silk         |
+  310 | Tie Dye Scarf, Gazebo, Gold Garnet Ring  |
