@@ -1,0 +1,115 @@
+{
+    "componentChunkName": "component---src-templates-item-tsx",
+    "path": "/i/shamrock-milk/",
+    "result": {
+        "data": {
+            "farmrpg": {
+                "items": [
+                    {
+                        "__typename": "FarmRPG_Item",
+                        "id": 1457,
+                        "name": "Shamrock Milk",
+                        "image": "/img/items/shamrock_milk.png",
+                        "type": "item",
+                        "description": "Luck +10",
+                        "manualFishingOnly": false,
+                        "canBuy": false,
+                        "canMail": false,
+                        "canCraft": true,
+                        "canCook": false,
+                        "canFleaMarket": false,
+                        "craftingLevel": 85,
+                        "cookingLevel": 0,
+                        "buyPrice": 0,
+                        "fleaMarketPrice": 0,
+                        "fleaMarketRotate": false,
+                        "baseYieldMinutes": 0,
+                        "locksmithGrabBag": false,
+                        "locksmithGold": 0,
+                        "requiredForQuests": [],
+                        "rewardForQuests": [],
+                        "petItems": [],
+                        "dropRates": [],
+                        "dropRatesItems": [],
+                        "quizRewards": [],
+                        "npcItems": [],
+                        "npcRewards": [],
+                        "passwordItems": [],
+                        "wishingWellInputItems": [],
+                        "wishingWellOutputItems": [],
+                        "recipeItems": [
+                            {
+                                "quantity": 1,
+                                "item": {
+                                    "__typename": "FarmRPG_Item",
+                                    "id": 85,
+                                    "name": "Milk",
+                                    "image": "/img/items/8382.PNG"
+                                }
+                            },
+                            {
+                                "quantity": 50,
+                                "item": {
+                                    "__typename": "FarmRPG_Item",
+                                    "id": 187,
+                                    "name": "3-leaf Clover",
+                                    "image": "/img/items/8250.PNG"
+                                }
+                            },
+                            {
+                                "quantity": 10,
+                                "item": {
+                                    "__typename": "FarmRPG_Item",
+                                    "id": 188,
+                                    "name": "4-leaf Clover",
+                                    "image": "/img/items/fourleaf.png"
+                                }
+                            },
+                            {
+                                "quantity": 2,
+                                "item": {
+                                    "__typename": "FarmRPG_Item",
+                                    "id": 1299,
+                                    "name": "White Sugar",
+                                    "image": "/img/items/sugar-white.png"
+                                }
+                            }
+                        ],
+                        "recipeIngredientItems": [],
+                        "locksmithItems": [],
+                        "locksmithOutputItems": [
+                            {
+                                "quantityMax": 4,
+                                "quantityMin": 4,
+                                "item": {
+                                    "__typename": "FarmRPG_Item",
+                                    "id": 1456,
+                                    "name": "Spring Basket 03",
+                                    "image": "/img/items/springbasket.png"
+                                }
+                            }
+                        ],
+                        "cookingRecipeItem": null,
+                        "cookingRecipeCookable": null,
+                        "locksmithKey": null,
+                        "locksmithKeyItems": [],
+                        "manualProductions": [],
+                        "exchangeCenterInputs": [],
+                        "exchangeCenterOutputs": [],
+                        "cardsTrades": [],
+                        "towerRewards": [],
+                        "skillLevelRewards": [],
+                        "communityCenterOutputs": [],
+                        "templeRewardItems": []
+                    }
+                ]
+            }
+        },
+        "pageContext": {
+            "id": 1457,
+            "name": "Shamrock Milk"
+        }
+    },
+    "staticQueryHashes": [],
+    "slicesMap": {}
+}

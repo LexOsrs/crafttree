@@ -1,0 +1,102 @@
+{
+    "componentChunkName": "component---src-templates-item-tsx",
+    "path": "/i/piece-09/",
+    "result": {
+        "data": {
+            "farmrpg": {
+                "items": [
+                    {
+                        "__typename": "FarmRPG_Item",
+                        "id": 765,
+                        "name": "Piece 09",
+                        "image": "/img/items/piece09.png?1",
+                        "type": "item",
+                        "description": "A piece to a puzzle...",
+                        "manualFishingOnly": false,
+                        "canBuy": false,
+                        "canMail": true,
+                        "canCraft": false,
+                        "canCook": false,
+                        "craftingLevel": 1,
+                        "cookingLevel": 1,
+                        "buyPrice": 0,
+                        "fleaMarketPrice": 0,
+                        "fleaMarketRotate": false,
+                        "baseYieldMinutes": 0,
+                        "locksmithGrabBag": false,
+                        "locksmithGold": 0,
+                        "requiredForQuests": [],
+                        "rewardForQuests": [
+                            {
+                                "quantity": 1,
+                                "quest": {
+                                    "__typename": "FarmRPG_Quest",
+                                    "id": 3318637,
+                                    "name": "Corn of Interest Part 15",
+                                    "image": "/img/items/missing.png",
+                                    "endDate": null,
+                                    "isHidden": false
+                                }
+                            },
+                            {
+                                "quantity": 1,
+                                "quest": {
+                                    "__typename": "FarmRPG_Quest",
+                                    "id": 3321098,
+                                    "name": "Corn of Interest Part 31",
+                                    "image": "/img/items/missing.png",
+                                    "endDate": null,
+                                    "isHidden": false
+                                }
+                            }
+                        ],
+                        "petItems": [],
+                        "dropRates": [],
+                        "dropRatesItems": [],
+                        "quizRewards": [],
+                        "npcItems": [],
+                        "npcRewards": [],
+                        "passwordItems": [],
+                        "wishingWellInputItems": [],
+                        "wishingWellOutputItems": [],
+                        "recipeItems": [],
+                        "recipeIngredientItems": [
+                            {
+                                "quantity": 1,
+                                "item": {
+                                    "__typename": "FarmRPG_Item",
+                                    "id": 1352,
+                                    "name": "Swamp Puzzle",
+                                    "image": "/img/items/puzzle3.png",
+                                    "cookingLevel": 0,
+                                    "canCraft": true,
+                                    "canCook": false
+                                }
+                            }
+                        ],
+                        "locksmithItems": [],
+                        "locksmithOutputItems": [],
+                        "cookingRecipeItem": null,
+                        "cookingRecipeCookable": null,
+                        "locksmithKey": null,
+                        "locksmithKeyItems": [],
+                        "manualProductions": [],
+                        "exchangeCenterInputs": [],
+                        "exchangeCenterOutputs": [],
+                        "cardsTrades": [],
+                        "towerRewards": [],
+                        "skillLevelRewards": [],
+                        "communityCenterOutputs": [],
+                        "templeRewardItems": []
+                    }
+                ]
+            }
+        },
+        "pageContext": {
+            "id": 765,
+            "name": "Piece 09"
+        }
+    },
+    "staticQueryHashes": [],
+    "slicesMap": {}
+}

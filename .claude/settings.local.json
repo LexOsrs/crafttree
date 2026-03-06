@@ -14,7 +14,10 @@
       "Bash(node -e:*)",
       "Bash(npm uninstall:*)",
       "Bash(du:*)",
-      "Bash(sips -g pixelWidth -g pixelHeight:*)"
+      "Bash(sips -g pixelWidth -g pixelHeight:*)",
+      "Bash(uv run:*)",
+      "Bash(git checkout:*)",
+      "Bash(printf Fish Bones\\\\nHeart Necklace\\\\nValentines Card\\\\n:*)"
     ]
   }
 }
