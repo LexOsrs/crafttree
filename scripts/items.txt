@@ -1,0 +1,261 @@
+Acorn Butter
+Amber Cane
+Amethyst Necklace
+Apple Cider
+Aquacite
+Aquamarine Ring
+Arnold Palmer
+Awl
+Axe
+Bamboo Chair
+Bamboo Fence
+Bamboo Flute
+Bamboo Rope
+Bamboo Trellis
+Barbed Wire
+Basic Pillow
+Belt Drive
+Black Bag
+Black Cloak
+Black Dye
+Black Powder
+Black Purse
+Black Scarf
+Black Shield
+Black Shirt
+Black Twine
+Block of Wood
+Blue Butterfly
+Blue Diary
+Blue Dye
+Blue Parchment
+Blue Purse
+Blue Shirt
+Blue Twine
+Board
+Bone Pickaxe
+Bottle Rocket
+Bouquet of Flowers
+Broom
+Brown Bag
+Brown Cloak
+Brown Dye
+Brown Twine
+Bucket
+Butter
+Butter Churn
+Cannon
+Canoe
+Chum
+Cloth
+Coin Purse
+Compass
+Control Box
+Cooking Pot
+Corn Husk Doll
+Corn Oil
+Crossbow
+Crown of Clover
+Crystal Pickaxe
+Emerald
+Emerald Ring
+Energy Coil
+Engine
+Essence of Slime
+Explosive
+Fancy Chair
+Fancy Clock
+Fancy Drum
+Fancy Guitar
+Fancy Pan Flute
+Fancy Pillow
+Fancy Pipe
+Fancy Sword
+Fancy Table
+Fancy Violin
+Fire Ant Farm
+Fish Bones
+Fishing Net
+Flarite
+Flying Machine
+Flywheel
+Frost Shield
+Fruit Punch
+Gainite
+Garnet
+Garnet Ring
+Gazebo
+Glass Bottle
+Glass Jar
+Glass Orb
+Glowing Lantern
+Gold Aquamarine Ring
+Gold Diamond Ring
+Gold Emerald Ring
+Gold Garnet Ring
+Gold Jade Ring
+Gold Lemon Quartz Ring
+Gold Ruby Ring
+Grand Piano
+Grape Juice
+Green Butterfly
+Green Cloak
+Green Diary
+Green Dye
+Green Parchment
+Green Scarf
+Green Shield
+Green Shirt
+Green Top Hat
+Green Twine
+Hammer
+Handsaw
+Heart Container
+Heart Necklace
+Horn Canteen
+Horseshoe
+Hourglass
+Iced Tea
+Inferno Sphere
+Iron Cup
+Iron Ring
+Jade Charm
+Kill Switch
+Ladder
+Lantern
+Large Net
+Lava Sphere
+Leather
+Leather Bag
+Leather Belt
+Leather Diary
+Leather Helmet
+Leather Waterskin
+Lemon Quartz Ring
+Lemonade
+Linked Lantern
+Looking Glass
+Machine Press
+Magicite
+Magna Core
+Magnifying Glass
+Magus Hat
+Mayonnaise
+Metal Spool
+Mushroom Paste
+Mystic Ring
+Nailed Board
+Oak Table
+Orange Butterfly
+Orange Dye
+Orange Juice
+Orange Scarf
+Orange Shirt
+Orange Twine
+Pair of Boots
+Pair of Gold Boots
+Peach Juice
+Pear Grease
+Pearl Necklace
+Pickaxe
+Pie Pan
+Pine Shelf
+Pitchfork
+Polished Boot
+Potato Battery
+Power Monitor
+Propeller Hat
+Purple Bag
+Purple Butterfly
+Purple Diary
+Purple Dye
+Purple Parchment
+Purple Shirt
+Purple Twine
+Pyrite
+Re'taw Pail
+Red Brick
+Red Butterfly
+Red Diary
+Red Dye
+Red Parchment
+Red Scarf
+Red Shield
+Red Shirt
+Red Trunk
+Red Twine
+Reinforced Helmet
+Rope
+Ruby
+Ruby Ring
+Rucksack
+Sail Cloth
+Salt
+Sand
+Scissors
+Seashell Necklace
+Sewing Needle
+Shamrock Milk
+Shimmer Ring
+Shimmer Stone
+Shimmer Topaz
+Ship in a Bottle
+Ship Mast
+Shovel
+Silk
+Snow Shoes
+Spiky Bracelet
+Spool of Copper
+Spoon
+Steel
+Steel Buckle
+Steel Pickaxe
+Steel Plate
+Steel Vise
+Steel Wire
+Step Ladder
+Strong Paste
+Sturdy Bow
+Sturdy Box
+Sturdy Pickaxe
+Sturdy Shield
+Sturdy Sword
+Sugar Cube
+Sunflower Oil
+Swamp Puzzle
+Tie Dye Scarf
+Tin Scraps
+Treasure Chest
+Twine
+Unpolished Shimmer Stone
+Valentines Card
+Veggie Juice
+Wagon Wheel
+White Cloak
+White Dye
+White Parchment
+White Purse
+White Scarf
+White Shirt
+White Twine
+Wine
+Wizard Hat
+Wooden Barrel
+Wooden Bow
+Wooden Box
+Wooden Button
+Wooden Plank
+Wooden Shield
+Wooden Spear
+Wooden Sword
+Wooden Table
+Wrench
+Y73841 Detector
+Yarn
+Yellow Bag
+Yellow Butterfly
+Yellow Dye
+Yellow Purse
+Yellow Scarf
+Yellow Shirt
+Yellow Twine

@@ -1,0 +1,79 @@
+{
+    "componentChunkName": "component---src-templates-item-tsx",
+    "path": "/i/unpolished-flarite/",
+    "result": {
+        "data": {
+            "farmrpg": {
+                "items": [
+                    {
+                        "__typename": "FarmRPG_Item",
+                        "id": 926,
+                        "name": "Unpolished Flarite",
+                        "image": "/img/items/uflarite.png",
+                        "type": "item",
+                        "description": "Crystalized Fire",
+                        "manualFishingOnly": false,
+                        "canBuy": false,
+                        "canMail": false,
+                        "canCraft": false,
+                        "canCook": false,
+                        "craftingLevel": 0,
+                        "cookingLevel": 0,
+                        "buyPrice": 0,
+                        "fleaMarketPrice": 0,
+                        "fleaMarketRotate": false,
+                        "baseYieldMinutes": 0,
+                        "locksmithGrabBag": false,
+                        "locksmithGold": 0,
+                        "requiredForQuests": [],
+                        "rewardForQuests": [],
+                        "petItems": [],
+                        "dropRates": [],
+                        "dropRatesItems": [],
+                        "quizRewards": [],
+                        "npcItems": [],
+                        "npcRewards": [],
+                        "passwordItems": [],
+                        "wishingWellInputItems": [],
+                        "wishingWellOutputItems": [],
+                        "recipeItems": [],
+                        "recipeIngredientItems": [
+                            {
+                                "quantity": 2,
+                                "item": {
+                                    "__typename": "FarmRPG_Item",
+                                    "id": 927,
+                                    "name": "Flarite",
+                                    "image": "/img/items/flarite.png",
+                                    "cookingLevel": 0,
+                                    "canCraft": true,
+                                    "canCook": false
+                                }
+                            }
+                        ],
+                        "locksmithItems": [],
+                        "locksmithOutputItems": [],
+                        "cookingRecipeItem": null,
+                        "cookingRecipeCookable": null,
+                        "locksmithKey": null,
+                        "locksmithKeyItems": [],
+                        "manualProductions": [],
+                        "exchangeCenterInputs": [],
+                        "exchangeCenterOutputs": [],
+                        "cardsTrades": [],
+                        "towerRewards": [],
+                        "skillLevelRewards": [],
+                        "communityCenterOutputs": [],
+                        "templeRewardItems": []
+                    }
+                ]
+            }
+        },
+        "pageContext": {
+            "id": 926,
+            "name": "Unpolished Flarite"
+        }
+    },
+    "staticQueryHashes": [],
+    "slicesMap": {}
+}

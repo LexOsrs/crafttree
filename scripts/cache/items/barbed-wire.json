@@ -1,0 +1,130 @@
+{
+    "componentChunkName": "component---src-templates-item-tsx",
+    "path": "/i/barbed-wire/",
+    "result": {
+        "data": {
+            "farmrpg": {
+                "items": [
+                    {
+                        "__typename": "FarmRPG_Item",
+                        "id": 1211,
+                        "name": "Barbed Wire",
+                        "image": "/img/items/barbedwire.png",
+                        "type": "item",
+                        "description": "Who made Barb mad?",
+                        "manualFishingOnly": false,
+                        "canBuy": false,
+                        "canMail": false,
+                        "canCraft": true,
+                        "canCook": false,
+                        "craftingLevel": 70,
+                        "cookingLevel": 0,
+                        "buyPrice": 0,
+                        "fleaMarketPrice": 0,
+                        "fleaMarketRotate": false,
+                        "baseYieldMinutes": 0,
+                        "locksmithGrabBag": false,
+                        "locksmithGold": 0,
+                        "requiredForQuests": [
+                            {
+                                "quantity": 5000,
+                                "quest": {
+                                    "__typename": "FarmRPG_Quest",
+                                    "id": 7522717,
+                                    "name": "Monster Hunter V",
+                                    "image": "/img/items/npc_beast.png",
+                                    "endDate": null,
+                                    "isHidden": false
+                                }
+                            },
+                            {
+                                "quantity": 5000,
+                                "quest": {
+                                    "__typename": "FarmRPG_Quest",
+                                    "id": 7522714,
+                                    "name": "Monster Hunter II",
+                                    "image": "/img/items/npc_beast.png",
+                                    "endDate": null,
+                                    "isHidden": false
+                                }
+                            },
+                            {
+                                "quantity": 5000,
+                                "quest": {
+                                    "__typename": "FarmRPG_Quest",
+                                    "id": 7522713,
+                                    "name": "Monster Hunter I",
+                                    "image": "/img/items/npc_beast.png",
+                                    "endDate": null,
+                                    "isHidden": false
+                                }
+                            },
+                            {
+                                "quantity": 5000,
+                                "quest": {
+                                    "__typename": "FarmRPG_Quest",
+                                    "id": 7522716,
+                                    "name": "Monster Hunter IV",
+                                    "image": "/img/items/npc_beast.png",
+                                    "endDate": null,
+                                    "isHidden": false
+                                }
+                            }
+                        ],
+                        "rewardForQuests": [],
+                        "petItems": [],
+                        "dropRates": [],
+                        "dropRatesItems": [],
+                        "quizRewards": [],
+                        "npcItems": [],
+                        "npcRewards": [],
+                        "passwordItems": [],
+                        "wishingWellInputItems": [],
+                        "wishingWellOutputItems": [],
+                        "recipeItems": [
+                            {
+                                "quantity": 5,
+                                "item": {
+                                    "__typename": "FarmRPG_Item",
+                                    "id": 321,
+                                    "name": "Thorns",
+                                    "image": "/img/items/ForestIcons_15_t.png"
+                                }
+                            },
+                            {
+                                "quantity": 1,
+                                "item": {
+                                    "__typename": "FarmRPG_Item",
+                                    "id": 392,
+                                    "name": "Steel Wire",
+                                    "image": "/img/items/wire.png"
+                                }
+                            }
+                        ],
+                        "recipeIngredientItems": [],
+                        "locksmithItems": [],
+                        "locksmithOutputItems": [],
+                        "cookingRecipeItem": null,
+                        "cookingRecipeCookable": null,
+                        "locksmithKey": null,
+                        "locksmithKeyItems": [],
+                        "manualProductions": [],
+                        "exchangeCenterInputs": [],
+                        "exchangeCenterOutputs": [],
+                        "cardsTrades": [],
+                        "towerRewards": [],
+                        "skillLevelRewards": [],
+                        "communityCenterOutputs": [],
+                        "templeRewardItems": []
+                    }
+                ]
+            }
+        },
+        "pageContext": {
+            "id": 1211,
+            "name": "Barbed Wire"
+        }
+    },
+    "staticQueryHashes": [],
+    "slicesMap": {}
+}

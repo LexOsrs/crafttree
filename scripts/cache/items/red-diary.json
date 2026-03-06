@@ -1,0 +1,94 @@
+{
+    "componentChunkName": "component---src-templates-item-tsx",
+    "path": "/i/red-diary/",
+    "result": {
+        "data": {
+            "farmrpg": {
+                "items": [
+                    {
+                        "__typename": "FarmRPG_Item",
+                        "id": 898,
+                        "name": "Red Diary",
+                        "image": "/img/items/reddiary.png",
+                        "type": "item",
+                        "description": "Ruby-red revelations recorded relentlessly",
+                        "manualFishingOnly": false,
+                        "canBuy": false,
+                        "canMail": false,
+                        "canCraft": true,
+                        "canCook": false,
+                        "craftingLevel": 74,
+                        "cookingLevel": 0,
+                        "buyPrice": 0,
+                        "fleaMarketPrice": 0,
+                        "fleaMarketRotate": false,
+                        "baseYieldMinutes": 0,
+                        "locksmithGrabBag": false,
+                        "locksmithGold": 0,
+                        "requiredForQuests": [],
+                        "rewardForQuests": [],
+                        "petItems": [],
+                        "dropRates": [],
+                        "dropRatesItems": [],
+                        "quizRewards": [],
+                        "npcItems": [],
+                        "npcRewards": [],
+                        "passwordItems": [],
+                        "wishingWellInputItems": [],
+                        "wishingWellOutputItems": [],
+                        "recipeItems": [
+                            {
+                                "quantity": 1,
+                                "item": {
+                                    "__typename": "FarmRPG_Item",
+                                    "id": 75,
+                                    "name": "Mushroom Paste",
+                                    "image": "/img/items/5691.png"
+                                }
+                            },
+                            {
+                                "quantity": 1,
+                                "item": {
+                                    "__typename": "FarmRPG_Item",
+                                    "id": 897,
+                                    "name": "Red Parchment",
+                                    "image": "/img/items/redparchment.png"
+                                }
+                            },
+                            {
+                                "quantity": 1,
+                                "item": {
+                                    "__typename": "FarmRPG_Item",
+                                    "id": 81,
+                                    "name": "White Parchment",
+                                    "image": "/img/items/whiteparchment.png"
+                                }
+                            }
+                        ],
+                        "recipeIngredientItems": [],
+                        "locksmithItems": [],
+                        "locksmithOutputItems": [],
+                        "cookingRecipeItem": null,
+                        "cookingRecipeCookable": null,
+                        "locksmithKey": null,
+                        "locksmithKeyItems": [],
+                        "manualProductions": [],
+                        "exchangeCenterInputs": [],
+                        "exchangeCenterOutputs": [],
+                        "cardsTrades": [],
+                        "towerRewards": [],
+                        "skillLevelRewards": [],
+                        "communityCenterOutputs": [],
+                        "templeRewardItems": []
+                    }
+                ]
+            }
+        },
+        "pageContext": {
+            "id": 898,
+            "name": "Red Diary"
+        }
+    },
+    "staticQueryHashes": [],
+    "slicesMap": {}
+}

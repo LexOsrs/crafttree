@@ -1,0 +1,215 @@
+{
+    "componentChunkName": "component---src-templates-item-tsx",
+    "path": "/i/heart-container/",
+    "result": {
+        "data": {
+            "farmrpg": {
+                "items": [
+                    {
+                        "__typename": "FarmRPG_Item",
+                        "id": 671,
+                        "name": "Heart Container",
+                        "image": "/img/items/heartcontainer.png?1",
+                        "type": "item",
+                        "description": "It's dangerous to go alone",
+                        "manualFishingOnly": false,
+                        "canBuy": false,
+                        "canMail": true,
+                        "canCraft": true,
+                        "canCook": false,
+                        "craftingLevel": 99,
+                        "cookingLevel": 1,
+                        "buyPrice": 0,
+                        "fleaMarketPrice": 0,
+                        "fleaMarketRotate": false,
+                        "baseYieldMinutes": 0,
+                        "locksmithGrabBag": false,
+                        "locksmithGold": 0,
+                        "requiredForQuests": [
+                            {
+                                "quantity": 10,
+                                "quest": {
+                                    "__typename": "FarmRPG_Quest",
+                                    "id": 7553572,
+                                    "name": "Pirates Start Arriving XIX",
+                                    "image": "/img/items/captainlogan.png",
+                                    "endDate": null,
+                                    "isHidden": false
+                                }
+                            },
+                            {
+                                "quantity": 10,
+                                "quest": {
+                                    "__typename": "FarmRPG_Quest",
+                                    "id": 7553573,
+                                    "name": "Problems Still Abound XX",
+                                    "image": "/img/items/a_047.png",
+                                    "endDate": null,
+                                    "isHidden": false
+                                }
+                            },
+                            {
+                                "quantity": 1,
+                                "quest": {
+                                    "__typename": "FarmRPG_Quest",
+                                    "id": 7522717,
+                                    "name": "Monster Hunter V",
+                                    "image": "/img/items/npc_beast.png",
+                                    "endDate": null,
+                                    "isHidden": false
+                                }
+                            },
+                            {
+                                "quantity": 1,
+                                "quest": {
+                                    "__typename": "FarmRPG_Quest",
+                                    "id": 7553586,
+                                    "name": "Pretty Abrupt Save XXIX",
+                                    "image": "/img/items/buddy.png",
+                                    "endDate": null,
+                                    "isHidden": false
+                                }
+                            }
+                        ],
+                        "rewardForQuests": [
+                            {
+                                "quantity": 2,
+                                "quest": {
+                                    "__typename": "FarmRPG_Quest",
+                                    "id": 2426004,
+                                    "name": "Breaking The Ice Even Icier IV",
+                                    "image": "/img/items/captainlogan.png",
+                                    "endDate": null,
+                                    "isHidden": false
+                                }
+                            },
+                            {
+                                "quantity": 2,
+                                "quest": {
+                                    "__typename": "FarmRPG_Quest",
+                                    "id": 7512021,
+                                    "name": "Distant Illusions VI",
+                                    "image": "/img/items/buddy.png",
+                                    "endDate": null,
+                                    "isHidden": false
+                                }
+                            },
+                            {
+                                "quantity": 1,
+                                "quest": {
+                                    "__typename": "FarmRPG_Quest",
+                                    "id": 4719083,
+                                    "name": "I Hate To Bug You VII",
+                                    "image": "/img/items/missing.png",
+                                    "endDate": null,
+                                    "isHidden": false
+                                }
+                            },
+                            {
+                                "quantity": 4,
+                                "quest": {
+                                    "__typename": "FarmRPG_Quest",
+                                    "id": 9277991,
+                                    "name": "Pirates Start Arriving XV",
+                                    "image": "/img/items/a_034.png",
+                                    "endDate": null,
+                                    "isHidden": false
+                                }
+                            },
+                            {
+                                "quantity": 1,
+                                "quest": {
+                                    "__typename": "FarmRPG_Quest",
+                                    "id": 7517701,
+                                    "name": "Archeology Requires Knowhow XV",
+                                    "image": "/img/items/a_088.png",
+                                    "endDate": null,
+                                    "isHidden": false
+                                }
+                            },
+                            {
+                                "quantity": 1,
+                                "quest": {
+                                    "__typename": "FarmRPG_Quest",
+                                    "id": 7476995,
+                                    "name": "Sunblock IX",
+                                    "image": "/img/items/a_024.png",
+                                    "endDate": "2025-07-01T04:59:59+00:00",
+                                    "isHidden": false
+                                }
+                            },
+                            {
+                                "quantity": 4,
+                                "quest": {
+                                    "__typename": "FarmRPG_Quest",
+                                    "id": 7515442,
+                                    "name": "Another Lot Of Trees VII",
+                                    "image": "/img/items/a_047.png",
+                                    "endDate": "2026-01-04T05:59:59+00:00",
+                                    "isHidden": false
+                                }
+                            }
+                        ],
+                        "petItems": [],
+                        "dropRates": [],
+                        "dropRatesItems": [],
+                        "quizRewards": [],
+                        "npcItems": [],
+                        "npcRewards": [],
+                        "passwordItems": [],
+                        "wishingWellInputItems": [],
+                        "wishingWellOutputItems": [],
+                        "recipeItems": [
+                            {
+                                "quantity": 4,
+                                "item": {
+                                    "__typename": "FarmRPG_Item",
+                                    "id": 253,
+                                    "name": "Piece of Heart",
+                                    "image": "/img/items/poh.png"
+                                }
+                            }
+                        ],
+                        "recipeIngredientItems": [],
+                        "locksmithItems": [],
+                        "locksmithOutputItems": [
+                            {
+                                "quantityMax": 3,
+                                "quantityMin": 1,
+                                "item": {
+                                    "__typename": "FarmRPG_Item",
+                                    "id": 1148,
+                                    "name": "Friendship Bag 01",
+                                    "image": "/img/items/friendshipbag.png"
+                                }
+                            }
+                        ],
+                        "cookingRecipeItem": null,
+                        "cookingRecipeCookable": null,
+                        "locksmithKey": null,
+                        "locksmithKeyItems": [],
+                        "manualProductions": [],
+                        "exchangeCenterInputs": [],
+                        "exchangeCenterOutputs": [],
+                        "cardsTrades": [],
+                        "towerRewards": [
+                            {
+                                "level": 250,
+                                "itemQuantity": 10
+                            }
+                        ],
+                        "skillLevelRewards": [],
+                        "communityCenterOutputs": [],
+                        "templeRewardItems": []
+                    }
+                ]
+            }
+        },
+        "pageContext": {
+            "id": 671,
+            "name": "Heart Container"
+        }
+    },
+    "staticQueryHashes": [],
+    "slicesMap": {}
+}

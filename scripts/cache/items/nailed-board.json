@@ -1,0 +1,98 @@
+{
+    "componentChunkName": "component---src-templates-item-tsx",
+    "path": "/i/nailed-board/",
+    "result": {
+        "data": {
+            "farmrpg": {
+                "items": [
+                    {
+                        "__typename": "FarmRPG_Item",
+                        "id": 842,
+                        "name": "Nailed Board",
+                        "image": "/img/items/finp_607.png",
+                        "type": "item",
+                        "description": "A board with a nail in it",
+                        "manualFishingOnly": false,
+                        "canBuy": false,
+                        "canMail": false,
+                        "canCraft": true,
+                        "canCook": false,
+                        "craftingLevel": 1,
+                        "cookingLevel": 1,
+                        "buyPrice": 0,
+                        "fleaMarketPrice": 0,
+                        "fleaMarketRotate": false,
+                        "baseYieldMinutes": 0,
+                        "locksmithGrabBag": false,
+                        "locksmithGold": 0,
+                        "requiredForQuests": [],
+                        "rewardForQuests": [],
+                        "petItems": [],
+                        "dropRates": [],
+                        "dropRatesItems": [],
+                        "quizRewards": [],
+                        "npcItems": [],
+                        "npcRewards": [],
+                        "passwordItems": [],
+                        "wishingWellInputItems": [],
+                        "wishingWellOutputItems": [],
+                        "recipeItems": [
+                            {
+                                "quantity": 1,
+                                "item": {
+                                    "__typename": "FarmRPG_Item",
+                                    "id": 21,
+                                    "name": "Board",
+                                    "image": "/img/items/5885.png"
+                                }
+                            },
+                            {
+                                "quantity": 1,
+                                "item": {
+                                    "__typename": "FarmRPG_Item",
+                                    "id": 38,
+                                    "name": "Nails",
+                                    "image": "/img/items/5860.png"
+                                }
+                            }
+                        ],
+                        "recipeIngredientItems": [
+                            {
+                                "quantity": 10,
+                                "item": {
+                                    "__typename": "FarmRPG_Item",
+                                    "id": 885,
+                                    "name": "Flying Machine",
+                                    "image": "/img/items/147.png",
+                                    "cookingLevel": 1,
+                                    "canCraft": true,
+                                    "canCook": false
+                                }
+                            }
+                        ],
+                        "locksmithItems": [],
+                        "locksmithOutputItems": [],
+                        "cookingRecipeItem": null,
+                        "cookingRecipeCookable": null,
+                        "locksmithKey": null,
+                        "locksmithKeyItems": [],
+                        "manualProductions": [],
+                        "exchangeCenterInputs": [],
+                        "exchangeCenterOutputs": [],
+                        "cardsTrades": [],
+                        "towerRewards": [],
+                        "skillLevelRewards": [],
+                        "communityCenterOutputs": [],
+                        "templeRewardItems": []
+                    }
+                ]
+            }
+        },
+        "pageContext": {
+            "id": 842,
+            "name": "Nailed Board"
+        }
+    },
+    "staticQueryHashes": [],
+    "slicesMap": {}
+}

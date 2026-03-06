@@ -1,0 +1,135 @@
+{
+    "componentChunkName": "component---src-templates-item-tsx",
+    "path": "/i/spiky-bracelet/",
+    "result": {
+        "data": {
+            "farmrpg": {
+                "items": [
+                    {
+                        "__typename": "FarmRPG_Item",
+                        "id": 1334,
+                        "name": "Spiky Bracelet",
+                        "image": "/img/items/5175.png",
+                        "type": "item",
+                        "description": "Fashionable defensive gear",
+                        "manualFishingOnly": false,
+                        "canBuy": false,
+                        "canMail": false,
+                        "canCraft": true,
+                        "canCook": false,
+                        "craftingLevel": 70,
+                        "cookingLevel": 0,
+                        "buyPrice": 0,
+                        "fleaMarketPrice": 0,
+                        "fleaMarketRotate": false,
+                        "baseYieldMinutes": 0,
+                        "locksmithGrabBag": false,
+                        "locksmithGold": 0,
+                        "requiredForQuests": [
+                            {
+                                "quantity": 2500,
+                                "quest": {
+                                    "__typename": "FarmRPG_Quest",
+                                    "id": 7552600,
+                                    "name": "Home For The Holidays V",
+                                    "image": "/img/items/npc_horse.png",
+                                    "endDate": "2026-01-04T05:59:59+00:00",
+                                    "isHidden": false
+                                }
+                            },
+                            {
+                                "quantity": 10000,
+                                "quest": {
+                                    "__typename": "FarmRPG_Quest",
+                                    "id": 7553586,
+                                    "name": "Pretty Abrupt Save XXIX",
+                                    "image": "/img/items/buddy.png",
+                                    "endDate": null,
+                                    "isHidden": false
+                                }
+                            }
+                        ],
+                        "rewardForQuests": [],
+                        "petItems": [],
+                        "dropRates": [],
+                        "dropRatesItems": [],
+                        "quizRewards": [],
+                        "npcItems": [],
+                        "npcRewards": [],
+                        "passwordItems": [],
+                        "wishingWellInputItems": [],
+                        "wishingWellOutputItems": [],
+                        "recipeItems": [
+                            {
+                                "quantity": 4,
+                                "item": {
+                                    "__typename": "FarmRPG_Item",
+                                    "id": 75,
+                                    "name": "Mushroom Paste",
+                                    "image": "/img/items/5691.png"
+                                }
+                            },
+                            {
+                                "quantity": 4,
+                                "item": {
+                                    "__typename": "FarmRPG_Item",
+                                    "id": 110,
+                                    "name": "Leather",
+                                    "image": "/img/items/5987.PNG"
+                                }
+                            },
+                            {
+                                "quantity": 12,
+                                "item": {
+                                    "__typename": "FarmRPG_Item",
+                                    "id": 599,
+                                    "name": "Onyx Scorpion",
+                                    "image": "/img/items/4514b.png"
+                                }
+                            },
+                            {
+                                "quantity": 6,
+                                "item": {
+                                    "__typename": "FarmRPG_Item",
+                                    "id": 611,
+                                    "name": "Monster Skull",
+                                    "image": "/img/items/8617.png"
+                                }
+                            },
+                            {
+                                "quantity": 1,
+                                "item": {
+                                    "__typename": "FarmRPG_Item",
+                                    "id": 1129,
+                                    "name": "Sewing Needle",
+                                    "image": "/img/items/needle.png"
+                                }
+                            }
+                        ],
+                        "recipeIngredientItems": [],
+                        "locksmithItems": [],
+                        "locksmithOutputItems": [],
+                        "cookingRecipeItem": null,
+                        "cookingRecipeCookable": null,
+                        "locksmithKey": null,
+                        "locksmithKeyItems": [],
+                        "manualProductions": [],
+                        "exchangeCenterInputs": [],
+                        "exchangeCenterOutputs": [],
+                        "cardsTrades": [],
+                        "towerRewards": [],
+                        "skillLevelRewards": [],
+                        "communityCenterOutputs": [],
+                        "templeRewardItems": []
+                    }
+                ]
+            }
+        },
+        "pageContext": {
+            "id": 1334,
+            "name": "Spiky Bracelet"
+        }
+    },
+    "staticQueryHashes": [],
+    "slicesMap": {}
+}

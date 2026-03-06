@@ -1,0 +1,167 @@
+{
+    "componentChunkName": "component---src-templates-item-tsx",
+    "path": "/i/wooden-bow/",
+    "result": {
+        "data": {
+            "farmrpg": {
+                "items": [
+                    {
+                        "__typename": "FarmRPG_Item",
+                        "id": 455,
+                        "name": "Wooden Bow",
+                        "image": "/img/items/4764.png",
+                        "type": "item",
+                        "description": "Semi-accurate, not very solid",
+                        "manualFishingOnly": false,
+                        "canBuy": false,
+                        "canMail": false,
+                        "canCraft": true,
+                        "canCook": false,
+                        "craftingLevel": 30,
+                        "cookingLevel": 1,
+                        "buyPrice": 0,
+                        "fleaMarketPrice": 0,
+                        "fleaMarketRotate": false,
+                        "baseYieldMinutes": 0,
+                        "locksmithGrabBag": false,
+                        "locksmithGold": 0,
+                        "requiredForQuests": [
+                            {
+                                "quantity": 500,
+                                "quest": {
+                                    "__typename": "FarmRPG_Quest",
+                                    "id": 2332127,
+                                    "name": "Strange Companions XXX",
+                                    "image": "/img/items/a_011.png",
+                                    "endDate": null,
+                                    "isHidden": false
+                                }
+                            },
+                            {
+                                "quantity": 8000,
+                                "quest": {
+                                    "__typename": "FarmRPG_Quest",
+                                    "id": 9277984,
+                                    "name": "Pirates Start Arriving VIII",
+                                    "image": "/img/items/a_034.png",
+                                    "endDate": null,
+                                    "isHidden": false
+                                }
+                            },
+                            {
+                                "quantity": 800,
+                                "quest": {
+                                    "__typename": "FarmRPG_Quest",
+                                    "id": 5887008,
+                                    "name": "Peculiar Endings VII",
+                                    "image": "/img/items/a_098.png",
+                                    "endDate": null,
+                                    "isHidden": false
+                                }
+                            },
+                            {
+                                "quantity": 5000,
+                                "quest": {
+                                    "__typename": "FarmRPG_Quest",
+                                    "id": 7522716,
+                                    "name": "Monster Hunter IV",
+                                    "image": "/img/items/npc_beast.png",
+                                    "endDate": null,
+                                    "isHidden": false
+                                }
+                            }
+                        ],
+                        "rewardForQuests": [],
+                        "petItems": [],
+                        "dropRates": [],
+                        "dropRatesItems": [],
+                        "quizRewards": [],
+                        "npcItems": [],
+                        "npcRewards": [],
+                        "passwordItems": [],
+                        "wishingWellInputItems": [],
+                        "wishingWellOutputItems": [
+                            {
+                                "chance": 0.3333333333333333,
+                                "inputItem": {
+                                    "__typename": "FarmRPG_Item",
+                                    "id": 458,
+                                    "name": "Gold Catfish",
+                                    "image": "/img/items/goldcatfish.png"
+                                }
+                            },
+                            {
+                                "chance": 0.5,
+                                "inputItem": {
+                                    "__typename": "FarmRPG_Item",
+                                    "id": 492,
+                                    "name": "Essence of Slime",
+                                    "image": "/img/items/essense.png"
+                                }
+                            }
+                        ],
+                        "recipeItems": [
+                            {
+                                "quantity": 1,
+                                "item": {
+                                    "__typename": "FarmRPG_Item",
+                                    "id": 52,
+                                    "name": "Fern Leaf",
+                                    "image": "/img/items/fern.png"
+                                }
+                            },
+                            {
+                                "quantity": 2,
+                                "item": {
+                                    "__typename": "FarmRPG_Item",
+                                    "id": 22,
+                                    "name": "Iron",
+                                    "image": "/img/items/5779.PNG"
+                                }
+                            },
+                            {
+                                "quantity": 2,
+                                "item": {
+                                    "__typename": "FarmRPG_Item",
+                                    "id": 163,
+                                    "name": "Twine",
+                                    "image": "/img/items/6172-1.png"
+                                }
+                            },
+                            {
+                                "quantity": 4,
+                                "item": {
+                                    "__typename": "FarmRPG_Item",
+                                    "id": 35,
+                                    "name": "Wood",
+                                    "image": "/img/items/6143.PNG"
+                                }
+                            }
+                        ],
+                        "recipeIngredientItems": [],
+                        "locksmithItems": [],
+                        "locksmithOutputItems": [],
+                        "cookingRecipeItem": null,
+                        "cookingRecipeCookable": null,
+                        "locksmithKey": null,
+                        "locksmithKeyItems": [],
+                        "manualProductions": [],
+                        "exchangeCenterInputs": [],
+                        "exchangeCenterOutputs": [],
+                        "cardsTrades": [],
+                        "towerRewards": [],
+                        "skillLevelRewards": [],
+                        "communityCenterOutputs": [],
+                        "templeRewardItems": []
+                    }
+                ]
+            }
+        },
+        "pageContext": {
+            "id": 455,
+            "name": "Wooden Bow"
+        }
+    },
+    "staticQueryHashes": [],
+    "slicesMap": {}
+}
