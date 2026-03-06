@@ -2,6 +2,8 @@
 
 Interactive crafting tree visualizer for FarmRPG. Fan-made, not affiliated with FarmRPG.
 
+Built with React 19, TypeScript, Vite, and Tailwind CSS v4. Uses [ReactFlow](https://reactflow.dev/) for the node graph. Item data and images sourced from [buddy.farm](https://buddy.farm). Data scripts are Python, run via [uv](https://docs.astral.sh/uv/).
+
 ## Development
 
 ```
