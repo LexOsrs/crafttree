@@ -34,14 +34,17 @@ const SearchBar = forwardRef<SearchBarHandle, SearchBarProps>(function SearchBar
     },
   }));
 
+  const fold = (s: string) =>
+    s.toLowerCase().normalize("NFD").replace(/\p{Diacritic}/gu, "");
+
   const suggestions = useMemo(() => {
     if (!inputText.trim() || inputText === query) return [];
-    const q = inputText.toLowerCase();
+    const q = fold(inputText);
     return itemNames
-      .filter((name) => name.toLowerCase().includes(q))
+      .filter((name) => fold(name).includes(q))
       .sort((a, b) => {
-        const aStartsWith = a.toLowerCase().startsWith(q);
-        const bStartsWith = b.toLowerCase().startsWith(q);
+        const aStartsWith = fold(a).startsWith(q);
+        const bStartsWith = fold(b).startsWith(q);
         if (aStartsWith && !bStartsWith) return -1;
         if (!aStartsWith && bStartsWith) return 1;
         return a.localeCompare(b);
@@ -150,7 +153,7 @@ const SearchBar = forwardRef<SearchBarHandle, SearchBarProps>(function SearchBar
                 }`}
               >
                 <img
-                  src={`/images/${name.toLowerCase().replace(/[' ]/g, "-").replace(/--+/g, "-")}.png`}
+                  src={`/images/${name.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "")}.png`}
                   alt=""
                   className="w-5 h-5 object-contain"
                   onError={(e) => { e.currentTarget.style.display = "none"; }}
