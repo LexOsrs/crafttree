@@ -11,7 +11,7 @@ import WhatsNewModal from "./components/WhatsNewModal";
 import SettingsMenu, { computeBonus } from "./components/SettingsMenu";
 import type { Perks } from "./components/SettingsMenu";
 import { LATEST_CHANGELOG_DATE } from "./data/changelog";
-import { TowerIndicatorContext } from "./towerIndicatorContext";
+import { TowerIndicatorContext, TOWER_LEVEL_MIN, TOWER_LEVEL_MAX } from "./towerIndicatorContext";
 
 const craftingItems = items as unknown as CraftingItem[];
 const itemNames = craftingItems.map((i) => i.name).sort();
@@ -23,7 +23,13 @@ function getHashQuery(): string {
 
 const PERKS_KEY = "crafttree-perks";
 const CHANGELOG_SEEN_KEY = "crafttree-changelog-seen";
-const DEFAULT_PERKS: Perks = { rs1: false, rs2: false, rs3: false, showTowerIndicators: false };
+const DEFAULT_PERKS: Perks = {
+  rs1: false,
+  rs2: false,
+  rs3: false,
+  towerLevelMin: TOWER_LEVEL_MIN,
+  towerLevelMax: TOWER_LEVEL_MAX,
+};
 
 function loadPerks(): Perks {
   try {
@@ -133,7 +139,7 @@ export default function App() {
 
   return (
     <div className="w-full h-dvh relative">
-      <TowerIndicatorContext.Provider value={perks.showTowerIndicators}>
+      <TowerIndicatorContext.Provider value={{ min: perks.towerLevelMin, max: perks.towerLevelMax }}>
       <ReactFlowProvider>
         <SearchBar
           ref={searchRef}

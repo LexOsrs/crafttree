@@ -1,10 +1,12 @@
 import { useState, useRef, useEffect } from "react";
+import { TOWER_LEVEL_MIN, TOWER_LEVEL_MAX } from "../towerIndicatorContext";
 
 export interface Perks {
   rs1: boolean;
   rs2: boolean;
   rs3: boolean;
-  showTowerIndicators: boolean;
+  towerLevelMin: number;
+  towerLevelMax: number;
 }
 
 interface SettingsMenuProps {
@@ -100,23 +102,47 @@ export default function SettingsMenu({ perks, onPerksChange }: SettingsMenuProps
           <div className="text-[10px] uppercase tracking-wider text-gray-500 pt-2 mt-2 border-t border-gray-700">
             Indicators
           </div>
-          <label className="flex items-center gap-2 cursor-pointer text-xs text-gray-300 hover:text-gray-100">
-            <input
-              type="checkbox"
-              checked={perks.showTowerIndicators}
-              onChange={() =>
-                onPerksChange({
-                  ...perks,
-                  showTowerIndicators: !perks.showTowerIndicators,
-                })
-              }
-              className="rounded border-gray-600 bg-gray-700 text-amber-500 focus:ring-amber-500 focus:ring-offset-0"
-            />
-            <span className="flex items-center gap-1.5">
-              <span className="w-2 h-2 rounded-full bg-cyan-400" />
-              Show tower items
-            </span>
-          </label>
+          <div className="space-y-1.5">
+            <div className="flex items-center justify-between text-xs text-gray-300">
+              <span className="flex items-center gap-1.5">
+                <span className="w-2 h-2 rounded-full bg-cyan-400" />
+                Tower levels
+              </span>
+              <span className="font-mono text-[10px] text-gray-400">
+                {perks.towerLevelMin} – {perks.towerLevelMax}
+              </span>
+            </div>
+            <div className="range-dual flex items-center">
+              <div className="absolute inset-x-1.5 h-1 rounded-full bg-gray-700" />
+              <div
+                className="absolute h-1 rounded-full bg-cyan-400/60"
+                style={{
+                  left: `${((perks.towerLevelMin - TOWER_LEVEL_MIN) / (TOWER_LEVEL_MAX - TOWER_LEVEL_MIN)) * 100}%`,
+                  right: `${100 - ((perks.towerLevelMax - TOWER_LEVEL_MIN) / (TOWER_LEVEL_MAX - TOWER_LEVEL_MIN)) * 100}%`,
+                }}
+              />
+              <input
+                type="range"
+                min={TOWER_LEVEL_MIN}
+                max={TOWER_LEVEL_MAX}
+                value={perks.towerLevelMin}
+                onChange={(e) => {
+                  const v = Math.min(parseInt(e.target.value), perks.towerLevelMax);
+                  onPerksChange({ ...perks, towerLevelMin: v });
+                }}
+              />
+              <input
+                type="range"
+                min={TOWER_LEVEL_MIN}
+                max={TOWER_LEVEL_MAX}
+                value={perks.towerLevelMax}
+                onChange={(e) => {
+                  const v = Math.max(parseInt(e.target.value), perks.towerLevelMin);
+                  onPerksChange({ ...perks, towerLevelMax: v });
+                }}
+              />
+            </div>
+          </div>
         </div>
       )}
     </div>

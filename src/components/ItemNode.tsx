@@ -7,7 +7,11 @@ import { TowerIndicatorContext } from "../towerIndicatorContext";
 type ItemNodeProps = NodeProps & { data: ItemNodeData };
 
 export default function ItemNode({ data }: ItemNodeProps) {
-  const showTower = useContext(TowerIndicatorContext);
+  const towerRange = useContext(TowerIndicatorContext);
+  const showTower =
+    data.towerLevel != null &&
+    data.towerLevel >= towerRange.min &&
+    data.towerLevel <= towerRange.max;
   const base = "relative flex flex-col items-center justify-center gap-1 rounded-lg border px-0.5 py-0.5 w-[80px] h-[80px] transition-all duration-200 cursor-pointer overflow-hidden";
 
   let style: string;
@@ -23,16 +27,17 @@ export default function ItemNode({ data }: ItemNodeProps) {
     style = "bg-gray-900/80 border-gray-700 border-dashed text-gray-400";
   }
 
-  const dim = data.highlight === "dimmed";
-  const towerColor = data.towerType === "grand" ? "bg-violet-400" : "bg-cyan-400";
+  const towerColor = data.towerType === "grand" ? "text-violet-400" : "text-cyan-400";
 
   return (
     <div className={`${base} ${style}`}>
-      {showTower && data.towerLevel != null && (
-        <div
-          className={`absolute top-1 right-1 w-2 h-2 rounded-full ${towerColor} ${dim ? "opacity-25" : ""}`}
+      {showTower && (
+        <span
+          className={`absolute top-0.5 right-1 text-[10px] font-mono font-semibold leading-none ${towerColor}`}
           title={`Tower Lv ${data.towerLevel} (${data.towerType === "grand" ? "Grand" : "Mega"} Mastery)`}
-        />
+        >
+          {data.towerLevel}
+        </span>
       )}
       {data.hasParents && (
         <Handle

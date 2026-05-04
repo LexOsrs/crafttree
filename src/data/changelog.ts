@@ -9,7 +9,7 @@ export const CHANGELOG: ChangelogEntry[] = [
     date: "2026-05-04",
     changes: [
       "Added 45 new craftable items, including bamboo furniture, dyed clothing, and gold gemstone rings",
-      "Tower indicators: toggle in Settings to highlight items required to climb the in-game Tower. Click any tower item to see its required level and mastery type",
+      "Tower indicators: each tower item now shows its required level in cyan (Mega Mastery) or violet (Grand Mastery). Use the level range slider in Settings to filter to the levels you care about",
       "Search now matches accented names — typing 'pinata' finds Piñata Whop Stick",
       "Cleaned up 73 raw fishing/material items that aren't part of any craft tree",
       "What's New panel added (this one)",
