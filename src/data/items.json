@@ -131,11 +131,6 @@
         }
     },
     {
-        "name": "Barracuda",
-        "id": "barracuda",
-        "recipe": {}
-    },
-    {
         "name": "Basic Pillow",
         "id": "basic-pillow",
         "recipe": {
@@ -253,16 +248,6 @@
         }
     },
     {
-        "name": "Blue Catfish",
-        "id": "blue-catfish",
-        "recipe": {}
-    },
-    {
-        "name": "Blue Crab",
-        "id": "blue-crab",
-        "recipe": {}
-    },
-    {
         "name": "Blue Diary",
         "id": "blue-diary",
         "recipe": {
@@ -304,11 +289,6 @@
         }
     },
     {
-        "name": "Blue Sea Bass",
-        "id": "blue-sea-bass",
-        "recipe": {}
-    },
-    {
         "name": "Blue Shell",
         "id": "blue-shell",
         "recipe": {}
@@ -323,11 +303,6 @@
         }
     },
     {
-        "name": "Blue Tiger Fish",
-        "id": "blue-tiger-fish",
-        "recipe": {}
-    },
-    {
         "name": "Blue Twine",
         "id": "blue-twine",
         "recipe": {
@@ -336,31 +311,11 @@
         }
     },
     {
-        "name": "Bluegill",
-        "id": "bluegill",
-        "recipe": {}
-    },
-    {
         "name": "Board",
         "id": "board",
         "recipe": {
             "Wood": 5
         }
-    },
-    {
-        "name": "Bog Barnacle",
-        "id": "bog-barnacle",
-        "recipe": {}
-    },
-    {
-        "name": "Boghead Snapper",
-        "id": "boghead-snapper",
-        "recipe": {}
-    },
-    {
-        "name": "Bone Fish",
-        "id": "bone-fish",
-        "recipe": {}
     },
     {
         "name": "Bone Pickaxe",
@@ -444,11 +399,6 @@
         }
     },
     {
-        "name": "Bullfish",
-        "id": "bullfish",
-        "recipe": {}
-    },
-    {
         "name": "Butter",
         "id": "butter",
         "recipe": {
@@ -491,18 +441,8 @@
         }
     },
     {
-        "name": "Carp",
-        "id": "carp",
-        "recipe": {}
-    },
-    {
         "name": "Carrot",
         "id": "carrot",
-        "recipe": {}
-    },
-    {
-        "name": "Catfish",
-        "id": "catfish",
         "recipe": {}
     },
     {
@@ -526,11 +466,6 @@
         "recipe": {
             "Scrap Cloth": 3
         }
-    },
-    {
-        "name": "Clownfish",
-        "id": "clownfish",
-        "recipe": {}
     },
     {
         "name": "Coin Purse",
@@ -604,21 +539,6 @@
         "recipe": {}
     },
     {
-        "name": "Crab",
-        "id": "crab",
-        "recipe": {}
-    },
-    {
-        "name": "Crab Claw",
-        "id": "crab-claw",
-        "recipe": {}
-    },
-    {
-        "name": "Crappie",
-        "id": "crappie",
-        "recipe": {}
-    },
-    {
         "name": "Crossbow",
         "id": "crossbow",
         "recipe": {
@@ -628,11 +548,6 @@
             "Steel Wire": 2,
             "Oak": 3
         }
-    },
-    {
-        "name": "Crowfish",
-        "id": "crowfish",
-        "recipe": {}
     },
     {
         "name": "Crown of Clover",
@@ -653,11 +568,6 @@
             "Fairy Crystal": 1,
             "Lapis Lazuli": 1
         }
-    },
-    {
-        "name": "Drum",
-        "id": "drum",
-        "recipe": {}
     },
     {
         "name": "Emerald",
@@ -861,31 +771,11 @@
         }
     },
     {
-        "name": "Flamejack",
-        "id": "flamejack",
-        "recipe": {}
-    },
-    {
-        "name": "Flarefin",
-        "id": "flarefin",
-        "recipe": {}
-    },
-    {
         "name": "Flarite",
         "id": "flarite",
         "recipe": {
             "Unpolished Flarite": 2
         }
-    },
-    {
-        "name": "Flier",
-        "id": "flier",
-        "recipe": {}
-    },
-    {
-        "name": "Fluorifish",
-        "id": "fluorifish",
-        "recipe": {}
     },
     {
         "name": "Flying Machine",
@@ -922,11 +812,6 @@
             "Red Shield": 1,
             "Frost Snapper Shell": 1
         }
-    },
-    {
-        "name": "Frosteye",
-        "id": "frosteye",
-        "recipe": {}
     },
     {
         "name": "Fruit Punch",
@@ -978,22 +863,12 @@
         }
     },
     {
-        "name": "Giant Squid",
-        "id": "giant-squid",
-        "recipe": {}
-    },
-    {
         "name": "Glass Bottle",
         "id": "glass-bottle",
         "recipe": {
             "Stone": 1,
             "Glass Orb": 1
         }
-    },
-    {
-        "name": "Glass Eye Urchin",
-        "id": "glass-eye-urchin",
-        "recipe": {}
     },
     {
         "name": "Glass Jar",
@@ -1011,16 +886,6 @@
             "Shimmer Stone": 2,
             "Stone": 1
         }
-    },
-    {
-        "name": "Glassback",
-        "id": "glassback",
-        "recipe": {}
-    },
-    {
-        "name": "Globber",
-        "id": "globber",
-        "recipe": {}
     },
     {
         "name": "Glowing Lantern",
@@ -1088,6 +953,11 @@
         }
     },
     {
+        "name": "Gold Ring",
+        "id": "gold-ring",
+        "recipe": {}
+    },
+    {
         "name": "Gold Ruby Ring",
         "id": "gold-ruby-ring",
         "recipe": {
@@ -1122,11 +992,6 @@
         }
     },
     {
-        "name": "Green Barracuda",
-        "id": "green-barracuda",
-        "recipe": {}
-    },
-    {
         "name": "Green Butterfly",
         "id": "green-butterfly",
         "recipe": {
@@ -1135,11 +1000,6 @@
             "Caterpillar": 1,
             "Silk": 3
         }
-    },
-    {
-        "name": "Green Chromis",
-        "id": "green-chromis",
-        "recipe": {}
     },
     {
         "name": "Green Cloak",
@@ -1167,11 +1027,6 @@
             "Fern Leaf": 6,
             "Glass Bottle": 1
         }
-    },
-    {
-        "name": "Green Jellyfish",
-        "id": "green-jellyfish",
-        "recipe": {}
     },
     {
         "name": "Green Parchment",
@@ -1280,11 +1135,6 @@
         }
     },
     {
-        "name": "Ice Shark",
-        "id": "ice-shark",
-        "recipe": {}
-    },
-    {
         "name": "Iced Tea",
         "id": "iced-tea",
         "recipe": {
@@ -1343,16 +1193,6 @@
         }
     },
     {
-        "name": "Jellyfish",
-        "id": "jellyfish",
-        "recipe": {}
-    },
-    {
-        "name": "Jumbo Fish",
-        "id": "jumbo-fish",
-        "recipe": {}
-    },
-    {
         "name": "Kill Switch",
         "id": "kill-switch",
         "recipe": {
@@ -1389,11 +1229,6 @@
             "Iron Ring": 25,
             "Fishing Net": 25
         }
-    },
-    {
-        "name": "Largemouth Bass",
-        "id": "largemouth-bass",
-        "recipe": {}
     },
     {
         "name": "Lava Sphere",
@@ -1514,16 +1349,6 @@
         }
     },
     {
-        "name": "Mackerel",
-        "id": "mackerel",
-        "recipe": {}
-    },
-    {
-        "name": "Magenta Growth",
-        "id": "magenta-growth",
-        "recipe": {}
-    },
-    {
         "name": "Magicite",
         "id": "magicite",
         "recipe": {
@@ -1564,11 +1389,6 @@
         }
     },
     {
-        "name": "Marlin",
-        "id": "marlin",
-        "recipe": {}
-    },
-    {
         "name": "Mayonnaise",
         "id": "mayonnaise",
         "recipe": {
@@ -1589,11 +1409,6 @@
         }
     },
     {
-        "name": "MIAB",
-        "id": "miab",
-        "recipe": {}
-    },
-    {
         "name": "Milk Carton",
         "id": "milk-carton",
         "recipe": {
@@ -1601,11 +1416,6 @@
             "Milk": 1,
             "Blue Dye": 1
         }
-    },
-    {
-        "name": "Mulberry Snapper",
-        "id": "mulberry-snapper",
-        "recipe": {}
     },
     {
         "name": "Mushroom",
@@ -1618,11 +1428,6 @@
         "recipe": {
             "Mushroom": 3
         }
-    },
-    {
-        "name": "Mussel",
-        "id": "mussel",
-        "recipe": {}
     },
     {
         "name": "Mystic Ring",
@@ -1651,11 +1456,6 @@
             "Handsaw": 1,
             "Nails": 24
         }
-    },
-    {
-        "name": "Octopus",
-        "id": "octopus",
-        "recipe": {}
     },
     {
         "name": "Orange Butterfly",
@@ -1707,11 +1507,6 @@
             "Twine": 1,
             "Orange Dye": 1
         }
-    },
-    {
-        "name": "Orcafish",
-        "id": "orcafish",
-        "recipe": {}
     },
     {
         "name": "Pair of Boots",
@@ -1820,11 +1615,6 @@
         }
     },
     {
-        "name": "Plumbfish",
-        "id": "plumbfish",
-        "recipe": {}
-    },
-    {
         "name": "Polished Boot",
         "id": "polished-boot",
         "recipe": {
@@ -1873,11 +1663,6 @@
         }
     },
     {
-        "name": "Puffer",
-        "id": "puffer",
-        "recipe": {}
-    },
-    {
         "name": "Purple Bag",
         "id": "purple-bag",
         "recipe": {
@@ -1894,11 +1679,6 @@
             "Purple Dye": 1,
             "Silk": 3
         }
-    },
-    {
-        "name": "Purple Butterfly Fish",
-        "id": "purple-butterfly-fish",
-        "recipe": {}
     },
     {
         "name": "Purple Diary",
@@ -2029,11 +1809,6 @@
         }
     },
     {
-        "name": "Red Starfish",
-        "id": "red-starfish",
-        "recipe": {}
-    },
-    {
         "name": "Red Trunk",
         "id": "red-trunk",
         "recipe": {
@@ -2051,11 +1826,6 @@
             "Red Dye": 1,
             "Twine": 1
         }
-    },
-    {
-        "name": "Redgill",
-        "id": "redgill",
-        "recipe": {}
     },
     {
         "name": "Reinforced Helmet",
@@ -2080,16 +1850,6 @@
             "Stone": 1,
             "Unpolished Ruby": 2
         }
-    },
-    {
-        "name": "Ruby Coral",
-        "id": "ruby-coral",
-        "recipe": {}
-    },
-    {
-        "name": "Ruby Fish",
-        "id": "ruby-fish",
-        "recipe": {}
     },
     {
         "name": "Ruby Ring",
@@ -2152,21 +1912,6 @@
         }
     },
     {
-        "name": "Sea Catfish",
-        "id": "sea-catfish",
-        "recipe": {}
-    },
-    {
-        "name": "Sea Crest",
-        "id": "sea-crest",
-        "recipe": {}
-    },
-    {
-        "name": "Seahorse",
-        "id": "seahorse",
-        "recipe": {}
-    },
-    {
         "name": "Seashell Necklace",
         "id": "seashell-necklace",
         "recipe": {
@@ -2179,16 +1924,6 @@
             "Yarn": 4,
             "Spiked Shell": 1
         }
-    },
-    {
-        "name": "Seeker",
-        "id": "seeker",
-        "recipe": {}
-    },
-    {
-        "name": "Serpent Eel",
-        "id": "serpent-eel",
-        "recipe": {}
     },
     {
         "name": "Sewing Needle",
@@ -2261,11 +1996,6 @@
         }
     },
     {
-        "name": "Shrimp",
-        "id": "shrimp",
-        "recipe": {}
-    },
-    {
         "name": "Silk",
         "id": "silk",
         "recipe": {
@@ -2273,26 +2003,6 @@
             "Spider": 2,
             "Machine Press": 1
         }
-    },
-    {
-        "name": "Skipjack",
-        "id": "skipjack",
-        "recipe": {}
-    },
-    {
-        "name": "Slime Egg Shell",
-        "id": "slime-egg-shell",
-        "recipe": {}
-    },
-    {
-        "name": "Slimeback",
-        "id": "slimeback",
-        "recipe": {}
-    },
-    {
-        "name": "Small Prawn",
-        "id": "small-prawn",
-        "recipe": {}
     },
     {
         "name": "Snow Shoes",
@@ -2306,8 +2016,8 @@
         }
     },
     {
-        "name": "Speckled Grouper",
-        "id": "speckled-grouper",
+        "name": "Spiked Shell",
+        "id": "spiked-shell",
         "recipe": {}
     },
     {
@@ -2320,16 +2030,6 @@
             "Monster Skull": 6,
             "Sewing Needle": 1
         }
-    },
-    {
-        "name": "Spiral Shell",
-        "id": "spiral-shell",
-        "recipe": {}
-    },
-    {
-        "name": "Splatfish",
-        "id": "splatfish",
-        "recipe": {}
     },
     {
         "name": "Spool of Copper",
@@ -2347,11 +2047,6 @@
             "Twine": 1,
             "Axe": 1
         }
-    },
-    {
-        "name": "Starfish",
-        "id": "starfish",
-        "recipe": {}
     },
     {
         "name": "Steel",
@@ -2421,16 +2116,6 @@
         }
     },
     {
-        "name": "Stingray",
-        "id": "stingray",
-        "recipe": {}
-    },
-    {
-        "name": "Stone Jelly",
-        "id": "stone-jelly",
-        "recipe": {}
-    },
-    {
         "name": "Strong Paste",
         "id": "strong-paste",
         "recipe": {
@@ -2498,8 +2183,8 @@
         }
     },
     {
-        "name": "Sunfish",
-        "id": "sunfish",
+        "name": "Sunflower",
+        "id": "sunflower",
         "recipe": {}
     },
     {
@@ -2530,11 +2215,6 @@
         }
     },
     {
-        "name": "Swordfish",
-        "id": "swordfish",
-        "recipe": {}
-    },
-    {
         "name": "Tie Dye Scarf",
         "id": "tie-dye-scarf",
         "recipe": {
@@ -2556,11 +2236,6 @@
         }
     },
     {
-        "name": "Torch Fish",
-        "id": "torch-fish",
-        "recipe": {}
-    },
-    {
         "name": "Treasure Chest",
         "id": "treasure-chest",
         "recipe": {
@@ -2568,11 +2243,6 @@
             "Wooden Plank": 6,
             "Nails": 22
         }
-    },
-    {
-        "name": "Trout",
-        "id": "trout",
-        "recipe": {}
     },
     {
         "name": "Twine",
@@ -2624,11 +2294,6 @@
             "Board": 12,
             "Nails": 14
         }
-    },
-    {
-        "name": "Water Lily",
-        "id": "water-lily",
-        "recipe": {}
     },
     {
         "name": "White Cloak",
@@ -2837,11 +2502,6 @@
             "Glass Bottle": 1,
             "Swamp Thistle": 4
         }
-    },
-    {
-        "name": "Yellow Perch",
-        "id": "yellow-perch",
-        "recipe": {}
     },
     {
         "name": "Yellow Purse",

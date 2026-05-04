@@ -4,6 +4,7 @@ export interface Perks {
   rs1: boolean;
   rs2: boolean;
   rs3: boolean;
+  showTowerIndicators: boolean;
 }
 
 interface SettingsMenuProps {
@@ -96,6 +97,26 @@ export default function SettingsMenu({ perks, onPerksChange }: SettingsMenuProps
               Total bonus: +{Math.round(bonus * 100)}%
             </div>
           )}
+          <div className="text-[10px] uppercase tracking-wider text-gray-500 pt-2 mt-2 border-t border-gray-700">
+            Indicators
+          </div>
+          <label className="flex items-center gap-2 cursor-pointer text-xs text-gray-300 hover:text-gray-100">
+            <input
+              type="checkbox"
+              checked={perks.showTowerIndicators}
+              onChange={() =>
+                onPerksChange({
+                  ...perks,
+                  showTowerIndicators: !perks.showTowerIndicators,
+                })
+              }
+              className="rounded border-gray-600 bg-gray-700 text-amber-500 focus:ring-amber-500 focus:ring-offset-0"
+            />
+            <span className="flex items-center gap-1.5">
+              <span className="w-2 h-2 rounded-full bg-cyan-400" />
+              Show tower items
+            </span>
+          </label>
         </div>
       )}
     </div>

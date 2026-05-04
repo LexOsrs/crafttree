@@ -1,11 +1,14 @@
+import { useContext } from "react";
 import { Handle, Position } from "@xyflow/react";
 import type { NodeProps } from "@xyflow/react";
 import type { ItemNodeData } from "../utils/graphBuilder";
+import { TowerIndicatorContext } from "../towerIndicatorContext";
 
 type ItemNodeProps = NodeProps & { data: ItemNodeData };
 
 export default function ItemNode({ data }: ItemNodeProps) {
-  const base = "flex flex-col items-center justify-center gap-1 rounded-lg border px-0.5 py-0.5 w-[80px] h-[80px] transition-all duration-200 cursor-pointer overflow-hidden";
+  const showTower = useContext(TowerIndicatorContext);
+  const base = "relative flex flex-col items-center justify-center gap-1 rounded-lg border px-0.5 py-0.5 w-[80px] h-[80px] transition-all duration-200 cursor-pointer overflow-hidden";
 
   let style: string;
   if (data.searchMatch) {
@@ -20,8 +23,17 @@ export default function ItemNode({ data }: ItemNodeProps) {
     style = "bg-gray-900/80 border-gray-700 border-dashed text-gray-400";
   }
 
+  const dim = data.highlight === "dimmed";
+  const towerColor = data.towerType === "grand" ? "bg-violet-400" : "bg-cyan-400";
+
   return (
     <div className={`${base} ${style}`}>
+      {showTower && data.towerLevel != null && (
+        <div
+          className={`absolute top-1 right-1 w-2 h-2 rounded-full ${towerColor} ${dim ? "opacity-25" : ""}`}
+          title={`Tower Lv ${data.towerLevel} (${data.towerType === "grand" ? "Grand" : "Mega"} Mastery)`}
+        />
+      )}
       {data.hasParents && (
         <Handle
           type="target"

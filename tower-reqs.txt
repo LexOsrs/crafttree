@@ -1,0 +1,239 @@
+Levels 200-300 require specific mega masterys to progress to the next level.
+
+Tower Level	Mega Masteries Needed
+201
+Board Board
+202
+Twine Twine
+203
+Iron Ring Iron Ring
+204
+SkipJack Skipjack
+205
+Purple Butterfly Fish Purple Butterfly Fish
+206
+Rope Rope
+207
+Crab Crab
+208
+Mushroom Mushroom
+209
+Clam Shell Clam Shell
+210
+Conch Shell Conch Shell
+211
+Fishing Net Fishing Net
+212
+Sand Sand
+213
+Frosteye Frosteye
+214
+Crowfish Crowfish
+215
+Torch Fish Torch Fish
+216
+Mackerel Mackerel
+217
+Green Barracuda Green Barracuda
+218
+Bullfish Bullfish
+219
+Drum Drum
+220
+Mushroom Paste Mushroom Paste
+221
+Starfish Starfish & Green Jellyfish Green Jellyfish
+222
+Swordfish Swordfish & Steel Wire Steel Wire
+223
+Bone Fish Bone Fish & Sunfish Sunfish
+224
+Flamejack Flamejack & Blue Sea Bass Blue Sea Bass
+225
+Barracuda Barracuda & Clownfish Clownfish
+226
+Red Starfish Red Starfish & Stingray Stingray
+227
+Shimmer Stone Shimmer Stone & Iron Cup Iron Cup
+228
+Green Chromis Green Chromis & Pearl Pearl
+229
+Blue Crab Blue Crab & Sea Catfish Sea Catfish
+230
+Plumbfish Plumbfish & Bluegill Bluegill
+231
+Leather Leather & Jellyfish Jellyfish
+232
+Blue Tiger Fish Blue Tiger Fish & Spiral Shell Spiral Shell
+233
+Horseshoe Horseshoe & Serpent Eel Serpent Eel
+234
+Crappie Crappie & Ruby Coral Ruby Coral
+235
+Blue Shell Blue Shell & White Parchment White Parchment
+236
+Redgill Redgill & Yarn Yarn
+237
+Puffer Puffer & Seahorse Seahorse
+238
+Emerald Emerald & Fluorifish Fluorifish
+239
+Sturdy Shield Sturdy Shield & Orange Juice Orange Juice
+240
+Marlin Marlin & Ruby Fish Ruby Fish
+241
+Nailed Board Nailed Board & Fancy Pipe Fancy Pipe
+242
+Lemonade Lemonade & Ruby Ruby
+243
+Black Powder Black Powder & Bucket Bucket
+244
+Globber Globber & Broom Broom
+245
+Blue Catfish Blue Catfish & Carp Carp
+246
+Shimmer Topaz Shimmer Topaz & Flarefin Flarefin
+247
+Jade Jade & Garnet Garnet
+248
+Wooden Box Wooden Box & Wooden Shield Wooden Shield
+249
+Awl Awl & Chum Chum
+250
+Ladder Ladder, Wooden Button Wooden Button & Large Net Large Net
+251
+Steel Steel
+252
+Seeker Seeker
+253
+Shrimp Shrimp
+254
+Largemouth Bass Largemouth Bass
+255
+Glassback Glassback
+256
+Small Prawn Small Prawn
+257
+Garnet Ring Garnet Ring
+258
+Sea Crest Sea Crest
+259
+Unpolished Shimmer Stone Unpolished Shimmer Stone
+260
+Sturdy Box Sturdy Box
+261
+Yellow Perch Yellow Perch
+262
+Stone Jelly Stone Jelly
+263
+Ice Shark Ice Shark
+264
+Jumbo Fish Jumbo Fish
+265
+Glass Orb Glass Orb
+266
+Orcafish Orcafish
+267
+Wooden Plank Wooden Plank
+268
+Speckled Grouper Speckled Grouper
+269
+Glass Bottle Glass Bottle
+270
+Fish Bones Fish Bones
+271
+Treasure Chest Treasure Chest
+272
+Mussel Mussel
+273
+Wooden Barrel Wooden Barrel
+274
+Trout Trout
+275
+Wooden Table Wooden Table Peppers Peppers
+276
+Catfish Catfish Peas Peas
+277
+Butter Churn Butter Churn Crossbow Crossbow
+278
+Mulberry Snapper Mulberry Snapper Looking Glass Looking Glass
+279
+MIAB MIAB Bottle Rocket Bottle Rocket
+280
+Green Dye Green Dye Lantern Lantern
+281
+Flier Flier Blue Dye Blue Dye
+282
+Wagon Wheel Wagon Wheel Wooden Sword Wooden Sword
+283
+Carrot Carrot Emerald Ring Emerald Ring
+284
+Lemon Quartz Ring Lemon Quartz Ring Pearl Necklace Pearl Necklace
+285
+Amethyst Necklace Amethyst Necklace Magnifying Glass Magnifying Glass
+286
+Wooden Spear Wooden Spear Aquamarine Ring Aquamarine Ring
+287
+Ruby Ring Ruby Ring Glass Jar Glass Jar
+288
+Giant Squid Giant Squid Magicite Magicite
+289
+Hammer Hammer Axe Axe Shovel Shovel
+290
+Scissors Scissors Potato Potato Pitchfork Pitchfork
+291
+Octopus Octopus Green Shield Green Shield Wooden Bow Wooden Bow
+292
+Explosive Explosive Leather Diary Leather Diary Green Twine Green Twine
+293
+Coin Purse Coin Purse Blue Purse Blue Purse Green Scarf Green Scarf
+294
+Shimmer Ring Shimmer Ring Salt Salt Pickaxe Pickaxe
+295
+Fancy Guitar Fancy Guitar Fancy Pan Flute Fancy Pan Flute Fancy Drum Fancy Drum
+296
+Red Dye Red Dye Beet Beet Leather Bag Leather Bag
+297
+Horn Canteen Horn Canteen Mystic Ring Mystic Ring Green Parchment Green Parchment
+298
+Hourglass Hourglass Essence Of Slime Essence of Slime Wrench Wrench
+299
+Jade Charm Jade Charm Sturdy Sword Sturdy Sword Red Trunk Red Trunk
+300
+Wizard Hat Wizard Hat Sewing Needle Sewing Needle Water Lily Water Lily
+
+
+After T300, a combination of GMs and MMs are needed.
+
+Level	GMs Required	MMs Required
+301	Corn Oil Cotton Basic Pillow	
+302		Slimeback Splatfish Magenta Growth
+303		Boghead Snapper Bog Barnacle Slime Egg Shell
+304	Leather Belt Brown Dye Oak Table	
+305	Yellow Dye Canoe Gold Ruby Ring	
+306	Crown of Clover Cloth Yellow Shirt	
+307	Orange Scarf Crab Claw White Dye	
+308	Veggie Juice Bamboo Rope	Glass Eye Urchin
+309	Tin Scraps Bamboo Trellis Silk	
+310	Tie Dye Scarf Gazebo Gold Garnet Ring	
+311	Bamboo Chair Barbed Wire	
+312	Yellow Scarf Fire Ant Farm	
+313	Step Ladder Orange Shirt	
+314	Energy Coil Black Dye	
+315	Reinforced Helmet Gold Lemon Quartz Ring Steel Vise	
+316	Yellow Bag Leather Helmet	
+317	Gold Aquamarine Ring Handsaw	
+318	Yellow Butterfly Acorn Butter	
+319	Strong Paste	Spoon
+320	Corn Husk Doll	Blubberfish Reaver Claw
+321		Green Diary Sturdy Bow
+322	Power Monitor Bamboo Fence	
+323	Spiked Shell Black Scarf	
+324	Spool of Copper	Red Twine
+325		Cloth Gold Ring Tin Scraps
+326	Red Shirt Black Shirt	
+327	Propeller Hat	Blue Twine
+328	Wine	Sunflower
+329	Pair of Boots Black Twine	
+330	Red Diary White Twine Magus Hat	
+
