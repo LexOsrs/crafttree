@@ -6,13 +6,14 @@ export interface ChangelogEntry {
 // Most recent first. Date is YYYY-MM-DD.
 export const CHANGELOG: ChangelogEntry[] = [
   {
-    date: "2026-05-04",
+    date: "2026-05-05",
     changes: [
-      "Added 45 new craftable items, including bamboo furniture, dyed clothing, and gold gemstone rings",
       "Tower indicators: each tower item now shows its required level in cyan (Mega Mastery) or violet (Grand Mastery). Use the level range slider in Settings to filter to the levels you care about",
+      "What's New panel (this one)",
+      "Feedback link in the help menu — message me on Discord with bugs or ideas",
       "Search now matches accented names — typing 'pinata' finds Piñata Whop Stick",
-      "Cleaned up 73 raw fishing/material items that aren't part of any craft tree",
-      "What's New panel added (this one)",
+      "New craftables: Blue Milk, Jade, Milk Carton, Piñata Whop Stick",
+      "Removed retired event items (Green Top Hat, Shamrock Milk) since they can't be crafted any more",
     ],
   },
 ];
