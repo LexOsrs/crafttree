@@ -2,7 +2,7 @@
 
 Interactive crafting tree visualizer for FarmRPG. Fan-made, not affiliated with FarmRPG.
 
-Built with React 19, TypeScript, Vite, and Tailwind CSS v4. Uses [ReactFlow](https://reactflow.dev/) for the node graph. Item data and images sourced from [buddy.farm](https://buddy.farm). Data scripts are Python, run via [uv](https://docs.astral.sh/uv/).
+Built with React 19, TypeScript, Vite, and Tailwind CSS v4. Uses [ReactFlow](https://reactflow.dev/) for the node graph. Item data and images sourced from [buddy.farm](https://buddy.farm).
 
 ## Development
 
@@ -19,43 +19,35 @@ Item recipes and images are fetched from the [buddy.farm](https://buddy.farm) AP
 
 ### 1. Get the current list of craftable items
 
-Open the FarmRPG crafting page in your browser and run this in the console:
+Open `https://farmrpg.com/#!/craftitems.php` in your browser and run this in the console:
 
 ```js
-copy(
-  Array.from(document.querySelectorAll('.item-title strong'))
-    .filter(el => /\(\d[\d,]*\)$/.test(el.textContent.trim()))
-    .map(el => el.textContent.trim().replace(/\s*\(\d[\d,]*\)$/, ''))
-    .sort()
-    .join('\n')
-)
+copy(JSON.stringify(
+  [...document.querySelectorAll('li[class^="level"] .item-title strong')]
+    .map(s => s.textContent.trim()).filter(Boolean),
+  null, 2
+));
 ```
 
-Then merge the new items into `scripts/items.txt`:
-
-```
-uv run scripts/merge_items.py
-```
-
-Paste when prompted. This adds new items without removing existing ones (some items are seasonal and may not always appear in the crafting page).
-
-You can also just edit `scripts/items.txt` by hand — one item per line, sorted alphabetically.
+Paste the output into `scraped.txt` at the repo root (gitignored).
 
 ### 2. Fetch data and images
 
 ```
-uv run scripts/get_items.py
+node scripts/fetch-items.js
 ```
 
 This will:
-- Fetch item data from buddy.farm for any new items (cached in `scripts/cache/items/`)
+- Fetch any names from `scraped.txt` not already in `src/data/items.json`
 - Download missing images to `public/images/`
-- Write `src/data/items.json` with all recipes
+- Skip items that already exist (idempotent — safe to re-run)
 
-### 3. Verify
+## Updating tower data
+
+`src/data/tower.ts` (which items are required at which Tower level) is generated from `tower-reqs.txt` via:
 
 ```
-uv run scripts/check_data.py
+node scripts/gen-tower.js
 ```
 
-Reports missing images, orphaned images, and recipe consistency.
+Greedy-matches against `items.json`; logs anything unmatched so it can be added.

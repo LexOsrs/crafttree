@@ -104,6 +104,24 @@ export default function HelpModal({ onClose }: HelpModalProps) {
             </p>
           </section>
 
+          <section className="pt-2 border-t border-gray-700/50">
+            <h3 className="text-[10px] uppercase tracking-wider text-gray-500 mb-2">
+              Feedback
+            </h3>
+            <p className="text-gray-400 leading-relaxed">
+              Found a bug or have an idea? Message me on{" "}
+              <a
+                href="discord://-/channels/@me/289875087752953857"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-amber-400 hover:text-amber-300 underline"
+              >
+                Discord
+              </a>
+              .
+            </p>
+          </section>
+
           <p className="text-[10px] text-gray-600 pt-2 border-t border-gray-700/50 leading-relaxed">
             This is a fan-made tool and is not affiliated with or endorsed by FarmRPG.
           </p>

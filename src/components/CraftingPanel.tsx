@@ -1,6 +1,7 @@
 import { useMemo } from "react";
 import type { CraftingItem } from "../types";
 import { calculateCrafting } from "../utils/craftingCalculator";
+import { TOWER_REQUIREMENTS } from "../data/tower";
 
 interface CraftingPanelProps {
   itemName: string;
@@ -33,6 +34,7 @@ export default function CraftingPanel({
 
   const itemId = toId(itemName, items);
   const hasSteps = summary.steps.length > 0;
+  const tower = TOWER_REQUIREMENTS[itemName];
 
   return (
     <div className="absolute inset-x-0 bottom-0 max-h-[50vh] sm:max-h-none sm:inset-x-auto sm:right-0 sm:top-0 sm:bottom-0 sm:w-80 z-20 bg-gray-900/95 backdrop-blur border-t sm:border-t-0 sm:border-l border-gray-700 flex flex-col">
@@ -78,6 +80,20 @@ export default function CraftingPanel({
           x
         </button>
       </div>
+
+      {tower && (
+        <div className="px-3 py-2 border-b border-gray-700/50 flex items-center gap-2">
+          <span
+            className={`w-2 h-2 rounded-full ${tower.type === "grand" ? "bg-violet-400" : "bg-cyan-400"}`}
+          />
+          <span className="text-xs text-gray-300">
+            Tower Lv {tower.level}
+          </span>
+          <span className="text-[10px] text-gray-500">
+            {tower.type === "grand" ? "Grand Mastery" : "Mega Mastery"}
+          </span>
+        </div>
+      )}
 
       {/* Content */}
       <div className="flex-1 overflow-y-auto">

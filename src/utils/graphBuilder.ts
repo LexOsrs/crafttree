@@ -1,5 +1,6 @@
 import type { Node, Edge } from "@xyflow/react";
 import type { CraftingItem } from "../types";
+import { TOWER_REQUIREMENTS } from "../data/tower";
 
 export type HighlightState = "none" | "highlighted" | "dimmed";
 
@@ -11,6 +12,8 @@ export interface ItemNodeData {
   searchMatch: boolean;
   hasParents: boolean;
   hasChildren: boolean;
+  towerLevel?: number;
+  towerType?: "mega" | "grand";
   [key: string]: unknown;
 }
 
@@ -200,20 +203,25 @@ export function buildGraph(items: CraftingItem[]): {
     hasChildrenSet.add(edge.source);
   }
 
-  const nodes: Node<ItemNodeData>[] = Array.from(allNames).map((name) => ({
-    id: name,
-    type: "itemNode",
-    position: { x: 0, y: 0 },
-    data: {
-      label: name,
-      id: toId(name),
-      isCraftable: craftableNames.has(name),
-      highlight: "none" as HighlightState,
-      searchMatch: false,
-      hasParents: hasParentsSet.has(name),
-      hasChildren: hasChildrenSet.has(name),
-    },
-  }));
+  const nodes: Node<ItemNodeData>[] = Array.from(allNames).map((name) => {
+    const tower = TOWER_REQUIREMENTS[name];
+    return {
+      id: name,
+      type: "itemNode",
+      position: { x: 0, y: 0 },
+      data: {
+        label: name,
+        id: toId(name),
+        isCraftable: craftableNames.has(name),
+        highlight: "none" as HighlightState,
+        searchMatch: false,
+        hasParents: hasParentsSet.has(name),
+        hasChildren: hasChildrenSet.has(name),
+        towerLevel: tower?.level,
+        towerType: tower?.type,
+      },
+    };
+  });
 
   return { nodes: layoutNodes(nodes, edges), edges };
 }

@@ -12,6 +12,13 @@ dist
 dist-ssr
 *.local
 
+# Claude Code local state
+.claude/settings.local.json
+.claude/scheduled_tasks.lock
+
+# Scraper input
+scraped.txt
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
