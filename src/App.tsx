@@ -27,6 +27,7 @@ const DEFAULT_PERKS: Perks = {
   rs1: false,
   rs2: false,
   rs3: false,
+  showTowerIndicators: false,
   towerLevelMin: TOWER_LEVEL_MIN,
   towerLevelMax: TOWER_LEVEL_MAX,
 };
@@ -139,7 +140,12 @@ export default function App() {
 
   return (
     <div className="w-full h-dvh relative">
-      <TowerIndicatorContext.Provider value={{ min: perks.towerLevelMin, max: perks.towerLevelMax }}>
+      <TowerIndicatorContext.Provider
+        value={{
+          min: perks.showTowerIndicators ? perks.towerLevelMin : 0,
+          max: perks.showTowerIndicators ? perks.towerLevelMax : 0,
+        }}
+      >
       <ReactFlowProvider>
         <SearchBar
           ref={searchRef}
