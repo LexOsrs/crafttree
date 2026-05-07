@@ -14,7 +14,13 @@ import { LATEST_CHANGELOG_DATE } from "./data/changelog";
 import { TowerIndicatorContext, TOWER_LEVEL_MIN, TOWER_LEVEL_MAX } from "./towerIndicatorContext";
 
 const craftingItems = items as unknown as CraftingItem[];
-const itemNames = craftingItems.map((i) => i.name).sort();
+const itemNames = (() => {
+  const names = new Set(craftingItems.map((i) => i.name));
+  for (const item of craftingItems) {
+    for (const ingredient of Object.keys(item.recipe)) names.add(ingredient);
+  }
+  return [...names].sort();
+})();
 
 function getHashQuery(): string {
   const hash = window.location.hash.slice(1);
