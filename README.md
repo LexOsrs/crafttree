@@ -4,6 +4,16 @@ Interactive crafting tree visualizer for FarmRPG. Fan-made, not affiliated with 
 
 Built with React 19, TypeScript, Vite, and Tailwind CSS v4. Uses [ReactFlow](https://reactflow.dev/) for the node graph. Item data and images sourced from [buddy.farm](https://buddy.farm).
 
+## Features
+
+- Visual crafting tree — click any item to see its full ingredient breakdown
+- **Tower indicators** — items required to climb the Tower show their required level, coloured by milestone (cyan = Mega Mastery, violet = Grand Mastery). Filter to a level range in Settings
+- **Resource Saver perk** — toggle perks in Settings to see reduced material counts propagated through the whole tree
+- **Search** — finds craftable items and ingredient-only items (e.g. Spider); matches accented names (e.g. typing "pinata" finds Piñata Whop Stick)
+- **Crafting panel** — shows step-by-step crafting order and total raw materials needed
+- Mobile-friendly: responsive layout with a bottom-sheet panel on small screens
+- **What's New** panel and in-app feedback link (Discord)
+
 ## Development
 
 ```
