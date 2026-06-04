@@ -2271,6 +2271,17 @@
         }
     },
     {
+        "name": "Valve",
+        "id": "valve",
+        "recipe": {
+            "Steel": 1,
+            "Cogwheel": 1,
+            "Hammer": 1,
+            "Red Dye": 1,
+            "Broken Pipe": 1
+        }
+    },
+    {
         "name": "Veggie Juice",
         "id": "veggie-juice",
         "recipe": {

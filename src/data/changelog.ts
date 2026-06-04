@@ -6,6 +6,10 @@ export interface ChangelogEntry {
 // Most recent first. Date is YYYY-MM-DD.
 export const CHANGELOG: ChangelogEntry[] = [
   {
+    date: "2026-06-04",
+    changes: ["New craftable: Valve"],
+  },
+  {
     date: "2026-05-07",
     changes: [
       "Search now also finds ingredient-only items like Spider that don't have a recipe of their own",
