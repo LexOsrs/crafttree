@@ -9,7 +9,6 @@ export const CHANGELOG: ChangelogEntry[] = [
     date: "2026-06-13",
     changes: [
       "Tower levels 331–340 added, including new items Runestone 04 and Seaweed",
-      "Tower level range slider now updates automatically when new levels are added",
     ],
   },
   {
