@@ -1,4 +1,5 @@
 import { createContext } from "react";
+import { TOWER_REQUIREMENTS } from "./data/tower";
 
 export interface TowerIndicatorRange {
   min: number;
@@ -7,5 +8,6 @@ export interface TowerIndicatorRange {
 
 export const TowerIndicatorContext = createContext<TowerIndicatorRange>({ min: 0, max: 0 });
 
-export const TOWER_LEVEL_MIN = 201;
-export const TOWER_LEVEL_MAX = 330;
+const levels = Object.values(TOWER_REQUIREMENTS).map((r) => r.level);
+export const TOWER_LEVEL_MIN = Math.min(...levels);
+export const TOWER_LEVEL_MAX = Math.max(...levels);
