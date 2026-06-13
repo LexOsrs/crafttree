@@ -235,5 +235,15 @@ Level	GMs Required	MMs Required
 327	Propeller Hat	Blue Twine
 328	Wine	Sunflower
 329	Pair of Boots Black Twine	
-330	Red Diary White Twine Magus Hat	
+330	Red Diary White Twine Magus Hat
+331	Runestone 04 Orange Twine
+332	Kill Switch	Linked Lantern
+333	Brown Cloak Glowing Lantern
+334	Grand Piano	Oak Table
+335	Red Brick	Iced Tea Leather Belt
+336	Yellow Twine Black Bag	Seaweed
+337	White Scarf Orange Dye	Purple Twine
+338	Frost Shield Mayonnaise	Orange Scarf
+339	Black Purse Fancy Violin Brown Bag
+340	White Purse	Yellow Dye Purple Diary
 

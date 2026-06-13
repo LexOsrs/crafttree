@@ -1877,6 +1877,11 @@
         }
     },
     {
+        "name": "Runestone 04",
+        "id": "runestone-04",
+        "recipe": {}
+    },
+    {
         "name": "Sail Cloth",
         "id": "sail-cloth",
         "recipe": {
@@ -1924,6 +1929,11 @@
             "Yarn": 4,
             "Spiked Shell": 1
         }
+    },
+    {
+        "name": "Seaweed",
+        "id": "seaweed",
+        "recipe": {}
     },
     {
         "name": "Sewing Needle",
