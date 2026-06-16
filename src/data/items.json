@@ -2015,6 +2015,16 @@
         }
     },
     {
+        "name": "Small Bolt",
+        "id": "small-bolt",
+        "recipe": {
+            "Coal": 5,
+            "Emberstone": 1,
+            "Hammer": 1,
+            "Scrap Metal": 3
+        }
+    },
+    {
         "name": "Snow Shoes",
         "id": "snow-shoes",
         "recipe": {
