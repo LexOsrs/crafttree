@@ -18,6 +18,29 @@ html, body, #root {
   pointer-events: none !important;
 }
 
+.styled-scroll::-webkit-scrollbar {
+  width: 4px;
+}
+.styled-scroll::-webkit-scrollbar-track {
+  background: transparent;
+}
+.styled-scroll::-webkit-scrollbar-thumb {
+  background: #4b5563;
+  border-radius: 9999px;
+}
+.styled-scroll::-webkit-scrollbar-thumb:hover {
+  background: #6b7280;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
 /* Dual-handle range slider: two transparent range inputs share one track. */
 .range-dual {
   position: relative;
