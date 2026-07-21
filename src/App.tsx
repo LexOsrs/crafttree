@@ -1,7 +1,7 @@
 import { useState, useCallback, useEffect, useRef } from "react";
 import { ReactFlowProvider } from "@xyflow/react";
 import items from "./data/items.json";
-import type { CraftingItem } from "./types";
+import type { CraftingItem, ProductionConfig } from "./types";
 import CraftingGraph from "./components/CraftingGraph";
 import SearchBar from "./components/SearchBar";
 import type { SearchBarHandle } from "./components/SearchBar";
@@ -28,6 +28,7 @@ function getHashQuery(): string {
 }
 
 const PERKS_KEY = "crafttree-perks";
+const PRODUCTION_KEY = "crafttree-production";
 const CHANGELOG_SEEN_KEY = "crafttree-changelog-seen";
 const DEFAULT_PERKS: Perks = {
   rs1: false,
@@ -54,6 +55,16 @@ function loadChangelogSeen(): string {
   }
 }
 
+const DEFAULT_PRODUCTION: ProductionConfig = { pulses: {}, inventoryCap: 0, ironDepot: false, antlerSnare: false };
+
+function loadProduction(): ProductionConfig {
+  try {
+    const stored = localStorage.getItem(PRODUCTION_KEY);
+    if (stored) return { ...DEFAULT_PRODUCTION, ...JSON.parse(stored) };
+  } catch {}
+  return DEFAULT_PRODUCTION;
+}
+
 export default function App() {
   const [searchQuery, setSearchQuery] = useState(getHashQuery);
   const [panelItem, setPanelItem] = useState<string | null>(null);
@@ -62,6 +73,7 @@ export default function App() {
   const [showWhatsNew, setShowWhatsNew] = useState(false);
   const [changelogSeen, setChangelogSeen] = useState<string>(loadChangelogSeen);
   const [perks, setPerks] = useState<Perks>(loadPerks);
+  const [productionConfig, setProductionConfig] = useState<ProductionConfig>(loadProduction);
   const hasUnseenChangelog = changelogSeen < LATEST_CHANGELOG_DATE;
 
   const openWhatsNew = useCallback(() => {
@@ -80,6 +92,11 @@ export default function App() {
   const handlePerksChange = useCallback((newPerks: Perks) => {
     setPerks(newPerks);
     localStorage.setItem(PERKS_KEY, JSON.stringify(newPerks));
+  }, []);
+
+  const handleProductionChange = useCallback((config: ProductionConfig) => {
+    setProductionConfig(config);
+    localStorage.setItem(PRODUCTION_KEY, JSON.stringify(config));
   }, []);
 
   const handleNodeSelect = useCallback((name: string | null) => {
@@ -174,13 +191,19 @@ export default function App() {
             onNavigate={handleNavigate}
             items={craftingItems}
             resourceSaverBonus={resourceSaverBonus}
+            productionConfig={productionConfig}
           />
         )}
       </ReactFlowProvider>
       {showHelp && <HelpModal onClose={() => setShowHelp(false)} />}
       {showWhatsNew && <WhatsNewModal onClose={() => setShowWhatsNew(false)} />}
       <div className="absolute bottom-4 left-4 z-10 flex flex-col gap-2">
-        <SettingsMenu perks={perks} onPerksChange={handlePerksChange} />
+        <SettingsMenu
+          perks={perks}
+          onPerksChange={handlePerksChange}
+          productionConfig={productionConfig}
+          onProductionChange={handleProductionChange}
+        />
         <button
           onClick={openWhatsNew}
           title="What's new"

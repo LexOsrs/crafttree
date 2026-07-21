@@ -7,7 +7,10 @@ export interface ChangelogEntry {
 export const CHANGELOG: ChangelogEntry[] = [
   {
     date: "2026-07-21",
-    changes: ["New craftables: Wood Planer, Pine Shavings"],
+    changes: [
+      "New craftables: Wood Planer, Pine Shavings",
+      "New: Production rates - configure your building outputs in Settings to see passive crafting rate and max offline time on any item",
+    ],
   },
   {
     date: "2026-06-15",
@@ -33,9 +36,9 @@ export const CHANGELOG: ChangelogEntry[] = [
     date: "2026-05-05",
     changes: [
       "Tower indicators: each tower item now shows its required level in cyan (Mega Mastery) or violet (Grand Mastery). Use the level range slider in Settings to filter to the levels you care about",
-      "What's New panel — you're looking at it",
-      "Feedback link in the help menu — message me on Discord with bugs or ideas",
-      "Search now matches accented names — typing 'pinata' finds Piñata Whop Stick",
+      "What's New panel - you're looking at it",
+      "Feedback link in the help menu - message me on Discord with bugs or ideas",
+      "Search now matches accented names - typing 'pinata' finds Piñata Whop Stick",
       "New craftables: Blue Milk, Jade, Milk Carton, Piñata Whop Stick",
       "Removed retired event items (Green Top Hat, Shamrock Milk) since they can't be crafted any more",
     ],

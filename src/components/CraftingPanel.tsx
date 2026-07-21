@@ -1,6 +1,7 @@
 import { useMemo } from "react";
-import type { CraftingItem } from "../types";
+import type { CraftingItem, ProductionConfig } from "../types";
 import { calculateCrafting } from "../utils/craftingCalculator";
+import { computeProduction, formatRate, formatHours } from "../utils/productionCalculator";
 import { TOWER_REQUIREMENTS } from "../data/tower";
 
 interface CraftingPanelProps {
@@ -11,6 +12,7 @@ interface CraftingPanelProps {
   onNavigate: (name: string) => void;
   items: CraftingItem[];
   resourceSaverBonus?: number;
+  productionConfig?: ProductionConfig;
 }
 
 function toId(name: string, items: CraftingItem[]): string {
@@ -26,10 +28,16 @@ export default function CraftingPanel({
   onNavigate,
   items,
   resourceSaverBonus = 0,
+  productionConfig,
 }: CraftingPanelProps) {
   const summary = useMemo(
     () => calculateCrafting(itemName, count, items, resourceSaverBonus),
     [itemName, count, items, resourceSaverBonus]
+  );
+
+  const production = useMemo(
+    () => productionConfig ? computeProduction(itemName, productionConfig, items, resourceSaverBonus) : null,
+    [itemName, productionConfig, items, resourceSaverBonus]
   );
 
   const itemId = toId(itemName, items);
@@ -96,7 +104,7 @@ export default function CraftingPanel({
       )}
 
       {/* Content */}
-      <div className="flex-1 overflow-y-auto">
+      <div className="flex-1 overflow-y-auto styled-scroll">
         {/* Crafting Steps */}
         {hasSteps && (
           <div className="p-3">
@@ -178,6 +186,40 @@ export default function CraftingPanel({
             ))}
           </div>
         </div>
+
+        {/* Production Rate */}
+        {production && (
+          <div className="p-3 border-t border-gray-700/50">
+            <div className="text-[10px] uppercase tracking-wider text-gray-500 mb-2">
+              Production
+            </div>
+            <div className="space-y-1">
+              <div className="flex items-center justify-between text-xs">
+                <span className="text-gray-400">Rate</span>
+                <span className="text-gray-100 font-mono">{formatRate(production.ratePerHour)}</span>
+              </div>
+              {isFinite(production.maxOfflineHours) && (
+                <div className="flex items-center justify-between text-xs">
+                  <span className="text-gray-400">Max offline</span>
+                  <span className="text-gray-100 font-mono">{formatHours(production.maxOfflineHours)}</span>
+                </div>
+              )}
+            </div>
+            {production.producedItems.length > 0 && (
+              <div className="mt-2">
+                <div className="text-[10px] text-gray-600 mb-1">from</div>
+                <div className="space-y-0.5">
+                  {production.producedItems.map((p) => (
+                    <div key={p.itemName} className="flex items-center justify-between text-xs">
+                      <span className="text-gray-400">{p.itemName}</span>
+                      <span className="text-gray-500 font-mono">{formatRate(p.ratePerHour)}</span>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            )}
+          </div>
+        )}
       </div>
     </div>
   );

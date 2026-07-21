@@ -14,7 +14,7 @@ export default function HelpModal({ onClose }: HelpModalProps) {
       >
         <div className="flex items-center justify-between p-4 border-b border-gray-700">
           <span className="text-sm font-medium text-gray-100">
-            CraftTree — How to Use
+            CraftTree - How to Use
           </span>
           <button
             onClick={onClose}
@@ -59,19 +59,19 @@ export default function HelpModal({ onClose }: HelpModalProps) {
               <div className="flex items-center gap-3">
                 <div className="w-10 h-10 rounded-lg border border-gray-600 bg-gray-800 shrink-0" />
                 <span className="text-gray-400">
-                  Solid border — craftable item (has a recipe)
+                  Solid border - craftable item (has a recipe)
                 </span>
               </div>
               <div className="flex items-center gap-3">
                 <div className="w-10 h-10 rounded-lg border border-dashed border-gray-700 bg-gray-900/80 shrink-0" />
                 <span className="text-gray-400">
-                  Dashed border — raw material (no recipe)
+                  Dashed border - raw material (no recipe)
                 </span>
               </div>
               <div className="flex items-center gap-3">
                 <div className="w-10 h-10 rounded-lg border border-amber-400 bg-gray-700 shrink-0" />
                 <span className="text-gray-400">
-                  Amber border — search match
+                  Amber border - search match
                 </span>
               </div>
             </div>
@@ -84,7 +84,7 @@ export default function HelpModal({ onClose }: HelpModalProps) {
             </h3>
             <p className="text-gray-400 leading-relaxed">
               Type to see autocomplete suggestions. Select an item to filter
-              the graph to its full crafting tree — all ingredients above and
+              the graph to its full crafting tree - all ingredients above and
               all products below. The crafting panel opens automatically for
               craftable items.
             </p>
@@ -104,12 +104,27 @@ export default function HelpModal({ onClose }: HelpModalProps) {
             </p>
           </section>
 
+          {/* Production */}
+          <section>
+            <h3 className="text-[10px] uppercase tracking-wider text-gray-500 mb-2">
+              Production Rates
+            </h3>
+            <p className="text-gray-400 leading-relaxed">
+              Open Settings and expand the Production section. Enter your
+              inventory cap and how much each building produces per cycle
+              (hourly, every 10 min, or daily). When you select a craftable
+              item, the panel shows its passive production rate per hour and
+              how long you can be offline before your inventory fills.
+              Resource Saver perks are factored in automatically.
+            </p>
+          </section>
+
           <section className="pt-2 border-t border-gray-700/50">
             <h3 className="text-[10px] uppercase tracking-wider text-gray-500 mb-2">
               Feedback
             </h3>
             <p className="text-gray-400 leading-relaxed">
-              Found a bug or have an idea? Message me on{" "}
+              Found a bug, have an idea, or just want to say hi? I'd love to hear from you - message me on{" "}
               <a
                 href="discord://-/channels/@me/289875087752953857"
                 target="_blank"
