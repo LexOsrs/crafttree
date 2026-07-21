@@ -6,6 +6,10 @@ export interface ChangelogEntry {
 // Most recent first. Date is YYYY-MM-DD.
 export const CHANGELOG: ChangelogEntry[] = [
   {
+    date: "2026-07-21",
+    changes: ["New craftables: Wood Planer, Pine Shavings"],
+  },
+  {
     date: "2026-06-15",
     changes: ["New craftable: Small Bolt"],
   },

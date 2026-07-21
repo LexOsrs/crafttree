@@ -1595,6 +1595,15 @@
         }
     },
     {
+        "name": "Pine Shavings",
+        "id": "pine-shavings",
+        "recipe": {
+            "Emberstone": 1,
+            "Pine Board": 1,
+            "Wood Planer": 1
+        }
+    },
+    {
         "name": "Pine Shelf",
         "id": "pine-shelf",
         "recipe": {
@@ -2399,6 +2408,17 @@
             "Purple Flower": 10,
             "Leather": 2,
             "Twine": 3
+        }
+    },
+    {
+        "name": "Wood Planer",
+        "id": "wood-planer",
+        "recipe": {
+            "Iron": 1,
+            "Wood": 2,
+            "Steel": 1,
+            "Moonstone": 1,
+            "Small Bolt": 3
         }
     },
     {
