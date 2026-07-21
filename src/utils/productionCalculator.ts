@@ -54,7 +54,8 @@ export function computeProduction(
       const effective = config.inventoryCap > 0
         ? Math.min(pulseSize, config.inventoryCap)
         : pulseSize;
-      produced = effective * building.pulsesPerHour;
+      const antlerBonus = config.antlerSnare && itemName === "Antler" ? 1.1 : 1;
+      produced = effective * building.pulsesPerHour * antlerBonus;
     }
 
     const item = findItem(itemName, items);

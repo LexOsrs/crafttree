@@ -15,6 +15,7 @@ export const BUILDINGS: Building[] = [
   { name: "Trout / Bait Farm", items: ["Trout", "Grubs", "Minnows"],    pulsesPerHour: 1 / 24 },
   { name: "Chicken Coop",      items: ["Feathers", "Eggs"],              pulsesPerHour: 1 / 24 },
   { name: "Cows",              items: ["Milk"],                          pulsesPerHour: 1 / 24 },
+  { name: "Raptor Pen",        items: ["Antler"],                        pulsesPerHour: 1 / 24 },
 ];
 
 export const ITEM_TO_BUILDING = new Map<string, Building>(

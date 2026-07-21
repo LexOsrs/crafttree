@@ -55,7 +55,7 @@ function loadChangelogSeen(): string {
   }
 }
 
-const DEFAULT_PRODUCTION: ProductionConfig = { pulses: {}, inventoryCap: 0, ironDepot: false };
+const DEFAULT_PRODUCTION: ProductionConfig = { pulses: {}, inventoryCap: 0, ironDepot: false, antlerSnare: false };
 
 function loadProduction(): ProductionConfig {
   try {

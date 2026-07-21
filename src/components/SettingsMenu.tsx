@@ -270,7 +270,7 @@ export default function SettingsMenu({ perks, onPerksChange, productionConfig, o
                   />
                 </div>
 
-                {/* Iron Depot */}
+                {/* Production perks */}
                 <label className="flex items-center gap-2 cursor-pointer text-xs text-gray-300 hover:text-gray-100">
                   <input
                     type="checkbox"
@@ -281,6 +281,17 @@ export default function SettingsMenu({ perks, onPerksChange, productionConfig, o
                     className="rounded border-gray-600 bg-gray-700 text-amber-500 focus:ring-amber-500 focus:ring-offset-0"
                   />
                   Iron Depot <span className="text-gray-500">(Iron + Nails: ∞)</span>
+                </label>
+                <label className="flex items-center gap-2 cursor-pointer text-xs text-gray-300 hover:text-gray-100">
+                  <input
+                    type="checkbox"
+                    checked={productionConfig.antlerSnare ?? false}
+                    onChange={() =>
+                      onProductionChange({ ...productionConfig, antlerSnare: !productionConfig.antlerSnare })
+                    }
+                    className="rounded border-gray-600 bg-gray-700 text-amber-500 focus:ring-amber-500 focus:ring-offset-0"
+                  />
+                  Antler Snare <span className="text-gray-500">(+10% antlers)</span>
                 </label>
 
                 {/* Buildings */}
