@@ -117,7 +117,7 @@ export function formatRate(r: number): string {
 }
 
 export function formatHours(h: number): string {
-  if (!isFinite(h) || h < 0) return "—";
+  if (!isFinite(h) || h < 0) return "-";
   if (h < 1 / 60) return "< 1 min";
   if (h < 1) return `${Math.round(h * 60)} min`;
   if (h < 24) return `${h.toFixed(1)} hrs`;
